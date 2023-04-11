@@ -18,6 +18,9 @@ class LoginForm extends Model
     public $rememberMe = true;
 
     private $_user = false;
+    //This is a private property that is used to cache the User object returned from the database during the login process.
+
+
 
 
     /**
@@ -52,6 +55,7 @@ class LoginForm extends Model
             }
         }
     }
+    //This method checks if the username and password entered by the user are correct. It does this by retrieving the User object corresponding to the entered username from the database and checking if the password matches the one stored in the database. If the username or password is incorrect, an error message is added to the $attribute input field.
 
     /**
      * Logs in a user using the provided username and password.

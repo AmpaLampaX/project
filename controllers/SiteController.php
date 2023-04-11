@@ -1,15 +1,13 @@
 <?php
 
 namespace app\controllers;
-
-use app\models\EntryForm;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
-use app\models\ContactForm;
+
 
 class SiteController extends Controller
 {
@@ -100,24 +98,6 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays contact page.
-     *
-     * @return Response|string
-     */
-    public function actionContact()
-    {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
-    }
-
-    /**
      * Displays about page.
      *
      * @return string
@@ -135,24 +115,5 @@ class SiteController extends Controller
         return $this->render('forum');
     }
    
-    public function actionSay($message = 'Hello')
-    {
-        return $this->render('say', ['message' => $message]);
-    }
-    public function actionEntry()
-    {
-        $model = new EntryForm();
-
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            // valid data received in $model
-
-            // do something meaningful here about $model ...
-
-            return $this->render('entry-confirm', ['model' => $model]);
-        } else {
-            // either the page is initially displayed or there is some validation error
-            return $this->render('entry', ['model' => $model]);
-        }
-    }
 
 }

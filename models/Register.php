@@ -7,18 +7,14 @@ use Yii;
 /**
  * This is the model class for table "register".
  *
- * @property int $ID
- * @property int $Name
+ * @property string $id
+ * @property string $Name
  * @property int $Contact_nm
- * @property int $email
- * @property int $password
+ * @property string $email
+ * @property string $password
  */
 class Register extends \yii\db\ActiveRecord
 {
-    public static function primaryKey()
-    {
-        return ['ID'];
-    }
     /**
      * {@inheritdoc}
      */
@@ -33,8 +29,10 @@ class Register extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['ID', 'Name', 'Contact_nm', 'email', 'password'], 'required'],
-            [['ID', 'Name', 'Contact_nm', 'email', 'password'], 'integer'],
+            [['id', 'Name', 'Contact_nm', 'email', 'password'], 'required'],
+            [['Contact_nm'], 'integer'],
+            [['id', 'Name', 'email', 'password'], 'string', 'max' => 11],
+            [['id'], 'unique'],
         ];
     }
 
@@ -44,7 +42,7 @@ class Register extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'ID' => 'ID',
+            'id' => 'ID',
             'Name' => 'Name',
             'Contact_nm' => 'Contact Nm',
             'email' => 'Email',

@@ -49,14 +49,14 @@ class RegisterController extends Controller
 
     /**
      * Displays a single Register model.
-     * @param string $ID ID
+     * @param string $id ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($ID)
+    public function actionView($id)
     {
         return $this->render('view', [
-            'model' => $this->findModel($ID),
+            'model' => $this->findModel($id),
         ]);
     }
 
@@ -71,7 +71,7 @@ class RegisterController extends Controller
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
-                return $this->redirect(['view', 'ID' => $model->ID]);
+                return $this->redirect(['view', 'id' => $model->id]);
             }
         } else {
             $model->loadDefaultValues();
@@ -85,16 +85,16 @@ class RegisterController extends Controller
     /**
      * Updates an existing Register model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param string $ID ID
+     * @param string $id ID
      * @return string|\yii\web\Response
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($ID)
+    public function actionUpdate($id)
     {
-        $model = $this->findModel($ID);
+        $model = $this->findModel($id);
 
         if ($this->request->isPost && $model->load($this->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'ID' => $model->ID]);
+            return $this->redirect(['view', 'id' => $model->id]);
         }
 
         return $this->render('update', [
@@ -105,13 +105,13 @@ class RegisterController extends Controller
     /**
      * Deletes an existing Register model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param string $ID ID
+     * @param string $id ID
      * @return \yii\web\Response
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($ID)
+    public function actionDelete($id)
     {
-        $this->findModel($ID)->delete();
+        $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
     }
@@ -119,13 +119,13 @@ class RegisterController extends Controller
     /**
      * Finds the Register model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param string $ID ID
+     * @param string $id ID
      * @return Register the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($ID)
+    protected function findModel($id)
     {
-        if (($model = Register::findOne(['ID' => $ID])) !== null) {
+        if (($model = Register::findOne(['id' => $id])) !== null) {
             return $model;
         }
 

@@ -43,7 +43,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Opportunities', 'url' => ['/site/opportunities']],
             ['label' => 'Forum', 'url' => ['/site/forum']],
-            ['label' => 'Entry', 'url' => ['/site/entry']],
+            // this code is used to display a "Login" link if the user is a guest and a "Logout" link if the user is not a guest
             Yii::$app->user->isGuest
                 ? ['label' => 'Login', 'url' => ['/site/login']]
                 : '<li class="nav-item">'
