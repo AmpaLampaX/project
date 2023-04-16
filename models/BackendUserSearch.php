@@ -4,12 +4,12 @@ namespace app\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Register;
+use app\models\BackendUser;
 
 /**
- * RegisterSearch represents the model behind the search form of `app\models\Register`.
+ * BackendUserSearch represents the model behind the search form of `app\models\BackendUser`.
  */
-class RegisterSearch extends Register
+class BackendUserSearch extends BackendUser
 {
     /**
      * {@inheritdoc}
@@ -17,7 +17,8 @@ class RegisterSearch extends Register
     public function rules()
     {
         return [
-            [['id', 'Name', 'Contact_nm', 'email', 'password'], 'integer'],
+            [['id', 'firstName', 'lastName', 'username', 'email', 'password', 'authKey'], 'safe'],
+            [['contactNumber'], 'integer'],
         ];
     }
 
@@ -39,7 +40,7 @@ class RegisterSearch extends Register
      */
     public function search($params)
     {
-        $query = Register::find();
+        $query = BackendUser::find();
 
         // add conditions that should always apply here
 
@@ -57,12 +58,16 @@ class RegisterSearch extends Register
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'id' => $this->id,
-            'Name' => $this->Name,
-            'Contact_nm' => $this->Contact_nm,
-            'email' => $this->email,
-            'password' => $this->password,
+            'contactNumber' => $this->contactNumber,
         ]);
+
+        $query->andFilterWhere(['like', 'id', $this->id])
+            ->andFilterWhere(['like', 'firstName', $this->firstName])
+            ->andFilterWhere(['like', 'lastName', $this->lastName])
+            ->andFilterWhere(['like', 'username', $this->username])
+            ->andFilterWhere(['like', 'email', $this->email])
+            ->andFilterWhere(['like', 'password', $this->password])
+            ->andFilterWhere(['like', 'authKey', $this->authKey]);
 
         return $dataProvider;
     }

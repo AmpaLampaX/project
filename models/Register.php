@@ -7,11 +7,11 @@ use Yii;
 /**
  * This is the model class for table "register".
  *
- * @property string $id
- * @property string $Name
+ * @property int $id
+ * @property int $Name
  * @property int $Contact_nm
- * @property string $email
- * @property string $password
+ * @property int $email
+ * @property int $password
  */
 class Register extends \yii\db\ActiveRecord
 {
@@ -30,9 +30,7 @@ class Register extends \yii\db\ActiveRecord
     {
         return [
             [['id', 'Name', 'Contact_nm', 'email', 'password'], 'required'],
-            [['Contact_nm'], 'integer'],
-            [['id', 'Name', 'email', 'password'], 'string', 'max' => 11],
-            [['id'], 'unique'],
+            [['id', 'Name', 'Contact_nm', 'email', 'password'], 'integer'],
         ];
     }
 

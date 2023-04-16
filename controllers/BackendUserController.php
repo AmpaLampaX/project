@@ -2,16 +2,16 @@
 
 namespace app\controllers;
 
-use app\models\Register;
-use app\models\RegisterSearch;
+use app\models\BackendUser;
+use app\models\BackendUserSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * RegisterController implements the CRUD actions for Register model.
+ * BackendUserController implements the CRUD actions for BackendUser model.
  */
-class RegisterController extends Controller
+class BackendUserController extends Controller
 {
     /**
      * @inheritDoc
@@ -32,13 +32,13 @@ class RegisterController extends Controller
     }
 
     /**
-     * Lists all Register models.
+     * Lists all BackendUser models.
      *
      * @return string
      */
     public function actionIndex()
     {
-        $searchModel = new RegisterSearch();
+        $searchModel = new BackendUserSearch();
         $dataProvider = $searchModel->search($this->request->queryParams);
 
         return $this->render('index', [
@@ -48,8 +48,8 @@ class RegisterController extends Controller
     }
 
     /**
-     * Displays a single Register model.
-     * @param int $id ID
+     * Displays a single BackendUser model.
+     * @param string $id ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
      */
@@ -61,13 +61,13 @@ class RegisterController extends Controller
     }
 
     /**
-     * Creates a new Register model.
+     * Creates a new BackendUser model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
     public function actionCreate()
     {
-        $model = new Register();
+        $model = new BackendUser();
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
@@ -83,9 +83,9 @@ class RegisterController extends Controller
     }
 
     /**
-     * Updates an existing Register model.
+     * Updates an existing BackendUser model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param int $id ID
+     * @param string $id ID
      * @return string|\yii\web\Response
      * @throws NotFoundHttpException if the model cannot be found
      */
@@ -103,9 +103,9 @@ class RegisterController extends Controller
     }
 
     /**
-     * Deletes an existing Register model.
+     * Deletes an existing BackendUser model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param int $id ID
+     * @param string $id ID
      * @return \yii\web\Response
      * @throws NotFoundHttpException if the model cannot be found
      */
@@ -117,15 +117,15 @@ class RegisterController extends Controller
     }
 
     /**
-     * Finds the Register model based on its primary key value.
+     * Finds the BackendUser model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param int $id ID
-     * @return Register the loaded model
+     * @param string $id ID
+     * @return BackendUser the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Register::findOne(['id' => $id])) !== null) {
+        if (($model = BackendUser::findOne(['id' => $id])) !== null) {
             return $model;
         }
 
