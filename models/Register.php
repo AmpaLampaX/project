@@ -5,13 +5,16 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "register".
+ * This is the model class for table "backenduser".
  *
- * @property int $id
- * @property int $Name
- * @property int $Contact_nm
- * @property int $email
- * @property int $password
+ * @property string $id
+ * @property string $firstName
+ * @property string $lastName
+ * @property string $username
+ * @property int $contactNumber
+ * @property string $email
+ * @property string $password
+ * @property string $authKey
  */
 class Register extends \yii\db\ActiveRecord
 {
@@ -20,7 +23,7 @@ class Register extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'register';
+        return 'backenduser';
     }
 
     /**
@@ -29,8 +32,11 @@ class Register extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'Name', 'Contact_nm', 'email', 'password'], 'required'],
-            [['id', 'Name', 'Contact_nm', 'email', 'password'], 'integer'],
+            [['id', 'firstName', 'lastName', 'username', 'contactNumber', 'email', 'password', 'authKey'], 'required'],
+            [['contactNumber'], 'integer'],
+            [['id', 'email', 'password'], 'string', 'max' => 11],
+            [['firstName', 'lastName', 'username', 'authKey'], 'string', 'max' => 20],
+            [['id'], 'unique'],
         ];
     }
 
@@ -41,10 +47,13 @@ class Register extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'Name' => 'Name',
-            'Contact_nm' => 'Contact Nm',
+            'firstName' => 'First Name',
+            'lastName' => 'Last Name',
+            'username' => 'Username',
+            'contactNumber' => 'Contact Number',
             'email' => 'Email',
             'password' => 'Password',
+            'authKey' => 'Auth Key',
         ];
     }
 }

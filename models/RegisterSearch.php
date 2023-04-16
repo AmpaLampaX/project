@@ -17,7 +17,8 @@ class RegisterSearch extends Register
     public function rules()
     {
         return [
-            [['id', 'Name', 'Contact_nm', 'email', 'password'], 'integer'],
+            [['id', 'firstName', 'lastName', 'username', 'email', 'password', 'authKey'], 'safe'],
+            [['contactNumber'], 'integer'],
         ];
     }
 
@@ -57,12 +58,16 @@ class RegisterSearch extends Register
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'id' => $this->id,
-            'Name' => $this->Name,
-            'Contact_nm' => $this->Contact_nm,
-            'email' => $this->email,
-            'password' => $this->password,
+            'contactNumber' => $this->contactNumber,
         ]);
+
+        $query->andFilterWhere(['like', 'id', $this->id])
+            ->andFilterWhere(['like', 'firstName', $this->firstName])
+            ->andFilterWhere(['like', 'lastName', $this->lastName])
+            ->andFilterWhere(['like', 'username', $this->username])
+            ->andFilterWhere(['like', 'email', $this->email])
+            ->andFilterWhere(['like', 'password', $this->password])
+            ->andFilterWhere(['like', 'authKey', $this->authKey]);
 
         return $dataProvider;
     }

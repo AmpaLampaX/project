@@ -17,13 +17,19 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'Name') ?>
+    <?= $form->field($model, 'firstName') ?>
 
-    <?= $form->field($model, 'Contact_nm') ?>
+    <?= $form->field($model, 'lastName') ?>
 
-    <?= $form->field($model, 'email') ?>
+    <?= $form->field($model, 'username') ?>
 
-    <?= $form->field($model, 'password') ?>
+    <?= $form->field($model, 'contactNumber') ?>
+
+    <?php // echo $form->field($model, 'email') ?>
+
+    <?php // echo $form->field($model, 'password') ?>
+
+    <?php // echo $form->field($model, 'authKey') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

@@ -5,9 +5,9 @@ use yii\helpers\Html;
 /** @var yii\web\View $this */
 /** @var app\models\Register $model */
 
-$this->title = 'Update Register: ' . $model->Name;
+$this->title = 'Update Register: ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Registers', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->Name, 'url' => ['view', 'id' => $model->id]];
+$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="register-update">
