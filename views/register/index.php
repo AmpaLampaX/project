@@ -1,6 +1,6 @@
 <?php
 
-use app\models\BackendUser;
+use app\models\Register;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
@@ -39,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'authKey',
             [
                 'class' => ActionColumn::className(),
-                'urlCreator' => function ($action, BackendUser $model, $key, $index, $column) {
+                'urlCreator' => function ($action, Register $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'id' => $model->id]);
                  }
             ],

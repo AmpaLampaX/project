@@ -4,12 +4,12 @@ namespace app\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\BackendUser;
+use app\models\Register;
 
 /**
- * RegisterSearch represents the model behind the search form of `app\models\BackendUser`.
+ * RegisterSearch represents the model behind the search form of `app\models\Register`.
  */
-class RegisterSearch extends BackendUser
+class RegisterSearch extends Register
 {
     /**
      * {@inheritdoc}
@@ -40,7 +40,7 @@ class RegisterSearch extends BackendUser
      */
     public function search($params)
     {
-        $query = BackendUser::find();
+        $query = Register::find();
 
         // add conditions that should always apply here
 

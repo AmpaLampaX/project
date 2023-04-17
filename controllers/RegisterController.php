@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-use app\models\BackendUser;
+use app\models\Register;
 use app\models\RegisterSearch;
 use Yii;
 use yii\web\Controller;
@@ -10,7 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * RegisterController implements the CRUD actions for BackendUser model.
+ * RegisterController implements the CRUD actions for Register model.
  */
 class RegisterController extends Controller
 {
@@ -33,7 +33,7 @@ class RegisterController extends Controller
     }
 
     /**
-     * Lists all BackendUser models.
+     * Lists all Register models.
      *
      * @return string
      */
@@ -49,7 +49,7 @@ class RegisterController extends Controller
     }
 
     /**
-     * Displays a single BackendUser model.
+     * Displays a single Register model.
      * @param string $id ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
@@ -62,13 +62,13 @@ class RegisterController extends Controller
     }
 
     /**
-     * Creates a new BackendUser model.
+     * Creates a new Register model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
     public function actionCreate()
     {
-        $model = new BackendUser();
+        $model = new Register();
 
         if ($this->request->isPost) {
             Yii::error('ifdgfhgkjljjhgfd');
@@ -96,7 +96,7 @@ class RegisterController extends Controller
     }
 
     /**
-     * Updates an existing BackendUser model.
+     * Updates an existing Register model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param string $id ID
      * @return string|\yii\web\Response
@@ -116,7 +116,7 @@ class RegisterController extends Controller
     }
 
     /**
-     * Deletes an existing BackendUser model.
+     * Deletes an existing Register model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param string $id ID
      * @return \yii\web\Response
@@ -130,15 +130,15 @@ class RegisterController extends Controller
     }
 
     /**
-     * Finds the BackendUser model based on its primary key value.
+     * Finds the Register model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param string $id ID
-     * @return BackendUser the loaded model
+     * @return Register the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = BackendUser::findOne(['id' => $id])) !== null) {
+        if (($model = Register::findOne(['id' => $id])) !== null) {
             return $model;
         }
 

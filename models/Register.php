@@ -7,7 +7,7 @@ use yii\base\NotSupportedException;
 use yii\web\IdentityInterface;
 
 /**
- * This is the model class for table "BackendUser".
+ * This is the model class for table "Register".
  *
  * @property string $id
  * @property string $firstName
@@ -18,14 +18,14 @@ use yii\web\IdentityInterface;
  * @property string $password
  * @property string $authKey
  */
-class BackendUser extends \yii\db\ActiveRecord implements IdentityInterface
+class Register extends \yii\db\ActiveRecord implements IdentityInterface
 {
     /**
      * {@inheritdoc}
      */
     public static function tableName()
     {
-        return 'BackendUser';
+        return 'Register';
     }
 
     /**
