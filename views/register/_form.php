@@ -12,7 +12,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'id')->textInput(['maxlength' => true]) ?>
+    <!--<?= $form->field($model, 'id')->textInput(['maxlength' => true]) ?>-->
 
     <?= $form->field($model, 'firstName')->textInput(['maxlength' => true]) ?>
 
@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'password')->passwordInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'authKey')->textInput(['maxlength' => true]) ?>
+    <!--<?= $form->field($model, 'authKey')->textInput(['maxlength' => true]) ?>-->
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

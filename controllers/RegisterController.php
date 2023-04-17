@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use app\models\Register;
 use app\models\RegisterSearch;
+use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -70,8 +71,20 @@ class RegisterController extends Controller
         $model = new Register();
 
         if ($this->request->isPost) {
-            if ($model->load($this->request->post()) && $model->save()) {
+            Yii::error('ifdgfhgkjljjhgfd');
+
+           if ($model->load($this->request->post())){
+            Yii::error('pocetak');
+            $model->authKey = Yii::$app->security->generateRandomString(19);
+            $model->id = Yii::$app->security->generateRandomString(1);
+
+            if($model->save()) {
+                Yii::error('kraj');
                 return $this->redirect(['view', 'id' => $model->id]);
+            }
+        }
+            else{
+                Yii::error('failed');
             }
         } else {
             $model->loadDefaultValues();

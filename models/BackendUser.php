@@ -34,9 +34,9 @@ class BackendUser extends \yii\db\ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
-            [['id', 'firstName', 'lastName', 'username', 'contactNumber', 'email', 'password', 'authKey'], 'required'],
+            [['firstName', 'lastName', 'username', 'contactNumber', 'email', 'password'], 'required'],
             [['contactNumber'], 'integer'],
-            [['id', 'email', 'password'], 'string', 'max' => 11],
+            [['id', 'email', 'password'], 'string', 'max' => 20],
             [['firstName', 'lastName', 'username', 'authKey'], 'string', 'max' => 20],
             [['id'], 'unique'],
         ];
@@ -58,6 +58,8 @@ class BackendUser extends \yii\db\ActiveRecord implements IdentityInterface
             'authKey' => 'Auth Key',
         ];
     }
+
+
     public function getAuthKey(){
         return $this->authKey;
 
