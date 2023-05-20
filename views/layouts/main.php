@@ -82,6 +82,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         </div>
     </div>
 </footer>
+<div id="grid-container"></div>
+
 
 <?php $this->endBody() ?>
 </body>
