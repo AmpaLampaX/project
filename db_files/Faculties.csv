@@ -1,0 +1,649 @@
+ID;HOME UNIVERSITY;COUNTRY;UNIVERSITY OF OUTGOING MOBILITY;ERASMUS ID CODE;CONTACT;FIELD OF STUDY;BACHELOR PROGRAM;MASTER PROGRAM;PhD;NUMBER OF STUDENTS;MOBILITY DURATION;WINTER DEADLINE;SUMMER DEADLINE
+1;FESB;AUSTRIA;Vienna University of Technology - TU Vienna;A WIEN02;"zemann@ai.tuwien.ac.at; ivona.brandic@tuwien.ac.at";061 Information and Communication Technology;yes;yes;yes;2;10;31 May;15 December
+2;FESB;AUSTRIA;Vienna University of Technology - TU Vienna;A WIEN03;"zemann@ai.tuwien.ac.at; ivona.brandic@tuwien.ac.at";0533 Mathematics;yes;yes;yes;2;10;32 May;16 December
+3;FESB;AUSTRIA;FH JOANnoUM- University of Applied Sciences;A GRAZ09;"regina.kaefer-goiginger@fh-joannoum.at; nina.blasonig@fh-joannoum.at";071 Engineering and engineering trades;no;yes;no;2x5;10;15 June;15 November
+4;FESB;BELGIUM;Odisee vzw;B BRUSSEL48;"international@odisee.be; bart.hempen@odisee.be";"0714 Electronics and automation(Electromechanics); Design and production technology";yes;no;no;3;15(5x3);(online) registration: before 15 June;(online) registration before 15 November
+5;FESB;BELGIUM;KU LEUVEN- Faculty of Engineering Technology Faculty of Engineering Technology;B LEUVEN01;"elke.timmermans@int.kuleuven.be; Kris.willems@iiw.kuleuven.be; fet@kuleuven.be ";"061 Information and Communication Technology; 0713 Electricity and energy; 0714 Electronics and automation; 0715 Mechanics and metal trades; 061 Inf; 061 Information and Communication Technology; 0713 Electricity and energy; 0714 Electronics and automation; 0715 Mechanics and metal trades";no;yes;no;3;15( 5x3);check on the homepage;check on the homepage
+6;FESB;BELGIUM;"Haute Ecole ""Robert Schuman""";B ARLON09;international@hers.be;071 Engineering and engineering trades;yes;yes;no;2;10;15 May;01 November
+7;FESB;BULGARIA;frederick University;BG SOFIA30;tominaglb@cu.bas.bg;"061 ICT; 0714 Electronics and automation";no;no;yes;2;10 (2x5);1 June;01 November
+8;FESB;BULGARIA;Sofia University;BG SOFIA06;"intern@admin.uni-sofia.bg; stoyanova@fmi.uni-sofia.bg ";"461 Mathematics; 462 Informatics; 523 Electronics and Automation";yes;yes;no;2;10;30 June;30 November
+9;FESB;CYPRUS;Frederick University;CY NICOSIA23;"ad.mv@frederick.ac.cy; eng.mm@frederick.ac.cy; eng.pa@frederick.ac.cy";"0713 Electrical Engineering; 0710 Mechanical Engineering";yes;yes;no;2;1(2x5);30 June;30 November
+10;FESB;CZECH REPUBLIC;Czech University of Life Sciences Prague;CZ PRAHA02;"vilimovska@rektorat.czu.cz; huckoj@pef.czu.cz";061 Information and Communication Technologies;yes;yes;yes;2;10(2x5);15 June;15 November
+11;FESB;CZECH REPUBLIC;Brno University of Technology (BUT);CZBRNO01;gurnik@vutbr.cz;06.1 Mechanical Engineering;yes;yes;yes;2;10(2x5);31 May;15 November
+12;FESB;CZECH REPUBLIC;"Brno University of Technology (BUT); Faculty of Mechanical Engineering (FME)";CZBRNO01;gurnik@vutbr.cz;071 Engineering and engineering trades;yes;yes;yes;2;10;31 May;15 November
+13;FESB;CZECH REPUBLIC;Czech Technical University in Prague;CZ PRAHA10;"yesna.mrkvickova@cvut.cz; vicekota@fel.cvut.cz ";"0713 Electricity and energy; 061 Information and communication; 0714 Technologies and Electronics and automation";yes;yes;yes;2;10 (2x5);30 April - students from EU;30 November - students from EU
+14;FESB;ESTONIA;Tallinn University of Technology;EE TALLIN04;"Riina Potter, Head of Mobility Centre, Erasmus+ Institutional Coordinator, Office of Academic Affairs, Mobility Centre, University of Technology, Estonia; riina.potter@taltech.ee ";0715 Mechanical Engineering;yes;yes;no;2;10;15 May;15 November
+15;FESB;FRANCE;University Clermont Auvergno, Universite Blaise Pascal Clermont II;F CLERMON02 ;check on the homepage; 071 Electrical Engineering and Mechanical Engineering;no;yes;no;(4) 2 for every subject area;20(4x5);15 May;15 November
+16;FESB;FRANCE;Clermont Auvergno Institut National Polytechnique (Clermont Auvergno INP);F AUBIERE04;check on the homepage;"06 Information and Communication Technologies (ICTs); 071 Electrical Engineering and Mechanical Engineering";no;yes;no;2;10 (2 x 5);15 May;15 November
+17;FESB;FRANCE;ESME Sudria, School of Engineering;F IVRY-SE01;"melissa.hamitouche@esme.fr; international@esme.fr";"061 Computing and ICT; 071 Engineering and engineering trades";yes;yes;no;3;15 (3x5);3 May;30 October
+18;FESB;FRANCE;Universite de Strasbourg;F STRASBO48;dri-erasmusagreement@unistra.fr;071 Engineering and engineering trades;yes;yes;yes;4;24;End of May;End of October
+19;FESB;FRANCE;Association Leonard de Vinci;F PARIS270;check on the homepage;071 Engineering and Engineering trades;yes;yes;no;"1 cycle 2 students; 2 cycle 2 students";10 ( 2x5 months);1 June;01 November
+20;FESB;FRANCE;Ecole Nationale Superieure d ?Ingenieurs de Caen;F CAEN05;relations.internationales@ensicaen.fr;"061 Information and Communication Technologies; 071 Engineering and engineering trades; 053 Physical sciences";no;yes;no;"1 for 061; 1 for 071, 1 for 053";6;check on the homepage;check on the homepage
+21;FESB;GREECE;University of Piraeus;G PIREAS01;"rector@unipi.gr; publ@unipi.gr ";"061 ICT; 0714 Electronics and automation";yes;yes;yes;4;24(4x6);15 June;15 December
+22;FESB;GREECE;Aristotle University of Thessaloniki;G THESSAL01;check on the homepage;0713 Electricity and energy;yes;yes;yes;2;6 (2x3);30 June;30 November
+23;FESB;GREECE;Eastern Macedonia & Thrace Institute of Technology;G KAVALA01;"pr@teiemt.gr; kiourtis@emt.ihu.gr";"061 Information and Communication Technology;071 Mechanics and metal trades";yes;yes;no;2;10;15 May;15 November
+24;FESB;ITALY;Politecnico di Bari;IBARI05;rosilyes.sammarco@poliba.it;"522 Electricity and energy; 523 Electronics and automation";yes;yes;yes;2;20(2x10);June;November
+25;FESB;ITALY;Politecnico di Milano;I MILANO02;erasmus@polimi.it;523 Electronics and automation;yes;yes;yes;2;12(2x6);mid June;mid December
+26;FESB;ITALY;Universita degli Studi di Salerno;I SALERNO01;erasmus@unisa.it;521 Mechanics and metal work;yes;yes;yes;2;6; 15 April-15 June ;15 April-15 November
+27;FESB;ITALY;Universita' degli Studi di l'Aquila;I L-AQUIL 01;"uri@strutture.univaq.it; michela.pitono@guest.univaq; itilaria.capri@guest.univaq.it; uri@strutture.univaq.it";481 Computer Science ;yes;yes;no;4;48;30 June;31 October
+28;FESB;ITALY;University of Catania;I CATANIA01;"andrea.rapisaryes@ct.inft.it; uri@unict.it; giuseppe.tina@dieei.unict.it; ";"0713 Electricity and energy; 0715 Mechanics and Metal trades";no;yes;yes;2;12(2x6);May;November 
+29;FESB;ITALY;University of Genova;I GENOVA01;coopint@unige.it;0716 Motor vechicles, ships and aircraft (Naval Architecture);yes;yes;no;2;10;30 September;30 November
+30;FESB;ITALY;Sapienza University of Rome - Faculty of Information Engineering Informatics and Statistics;I ROMA01;erasmus-i3s@uniroma1.it;"071 Engineering and engineering trades; 0714 Biomedical engineering; 061 Information and Communication Technologies";yes;yes;yes;2;12;15 May;15 October
+31;FESB;ITALY;Universita degli Studi di Napoli Federico II;I NAPOLI01;"international@unina.it; erasmus.agreements@unina.it; fabrizio.asciono@unina.it";071 Engineering and Engineering Trades;yes;yes;yes;4;20 (4x5);15 June;30 November
+32;FESB;LITHUANIA;"Kaunas University of Technology; Faculty of Electrical and Electronics Engineering";LT KAUNAS02;"gintare.vilbikieno@ktu.lt; virginija.savalenkovieno@ktu.lt";"0713 Electricity and energy; 0714 Electronics and automation";yes;yes;yes;"2x5(1st and 2nd level); 1x5(3rd level)";15;1 June;01 November
+33;FESB;MACEDONIA;SS. Cyril and Methodius University in Skopje;MK SKOPJE01;mcenovska@ukim.edu.mk;071, 072 Engineering manufacturing and construction (Mech., Eng.);yes;yes;yes;2;12(2x6);15 May;15 November
+34;FESB;MACEDONIA;"SS. Cyril and Methodius University in Skopje; Faculty of Electrical Engineering and Information Technologies";MK SKOPJE01;mcenovska@ukim.edu.mk;"071 Electrical Engineering; 0713 Electricity and energy; 0714 Electronics and automation; 0611 Computer Science; 071 Telecommunications";yes;yes;yes;3;18 (3x6);15 May;15 November
+35;FESB;MACEDONIA;Goce Delcev University;MK STIP01;sanja.stefanova@ugd.edu.mk;071 Engineering and engineering trades;yes;yes;yes;2;12 (2x6);30 June;31 December
+36;FESB;MACEDONIA;"""St. Kliment Ohridski"" University Bitola";MK BITOLA01;"violeta.manovska@uklo.edu.mk; kaliopa.stilinovic@uklo.edu.mk";0610 Information and Communication Technologies;yes;yes;no;2;10 (2x5);1 June;30 November
+37;FESB;NETHERLAND;Avans University of Applied Sciences;NL BREyes01;internationaloffice@avans.nl;"071 Enginoerng and Engineering Trades; 061 Information and Communication Technologies";yes;no;no;4x5 montsh each (for both subject areas);20;15 May;15 November
+38;FESB;NORWAY;University of Agder;N KRISTIA01;terje.thorsyeslen@uia.no;071 Engineering and engineering trades;no;yes;yes;"2nd - 4; 3rd 2";"2nd-20; 3rd-10";1 May;15 October
+39;FESB;GERMANY;Technische Universitat Clausthal;D CLAUSTH01;Astrid.Abel@tu-clausthal.de;715 Mechanical Engineering;yes;yes;no;2;24(2x12);15 April;15 October
+40;FESB;GERMANY;Cologno University of Applied Sciences;D KOLN04;"janina.knoell@fh-koeln.de;erasmus-agreements@th-koeln.de";061 Information and Communication Technology;yes;yes;no;1;10;15 May;15 November
+41;FESB;GERMANY;"Technische Universitat Chemnitz; Faculty of Mathematics";D CHEMNIT01;Oliver Sachs, Erasmus + Institutional Coordinator, Chemnitz University of Technology, Tel: +49 371 531-37972, oliver.sachs@iuz.tu-chemnitz.de ;054 Mathematics and Statistics;yes;yes;no;2;12(2x6);15 July;15 January
+42;FESB;GERMANY;Hochschule Bremen-University of Applied Sciences;D BREMEN04;"erasmus@hs-bremen.de; Ilka.Knippel@hs-bremen.de";071 Engineering and engineering trades;yes;yes;yes;2;10 (2x5);"1 June; also deadline for posted letters";"15 Januray; also deadlino for posted letters"
+43;FESB;GERMANY;Coburg University;D COBURG01;"annotte.stegemann@hs-coburg.de; international@hs-coburg.de";"0713 Electricity and energy; 0715 Mechanics and Metal trades";yes;yes;no;2;10;15 June;15 November
+44;FESB;GERMANY;Ruhr-Universitat Bochum (RUB);D BOCHUM01;"Jonna.Haensel-noumann@uv.ruhr-uni-bochum.de; Veronika.Klasik@uv.ruhr-uni-bochum.de";0715 Mechanics and Metal trades;yes;yes;no;2;10;15 June;15 December
+45;FESB;GERMANY;Ruhr-Universitat Bochum (RUB);D BOCHUM01;"Jonna.Haensel-noumann@uv.ruhr-uni-bochum.de; Veronika.Klasik@uv.ruhr-uni-bochum.de";061 ICTs;yes;yes;no;2;12;15 July;15 January
+46;FESB;GERMANY;Hochschule Bonn-Rhein-Sieg, University of Applied Sciences, Department of Computer Science;D ST-AUGU02;christina.holthaus@h-brs.de;"061 ICTs; 0712 Environmental protection technology; 0713 Electricity and energy; 0714 Electronics and automation";yes;yes;yes;6;12;30 May;30 October
+47;FESB;POLAND;AGH University of Science and Technology;PL KRAKOW02;"pajak@agh.edu.pl; zabinska@agh.edu.pl";061 ICTs, 071 Engineering and engineering trades;yes;yes;yes;2;12;1 June;01 November
+48;FESB;POLAND;Politechnika Wroclawska - University of Wroclaw;PL WROCLAW02;erasmus@pwr.wroc.pl;52 Engineering and Engineering trades;yes;yes;yes;2;20(2x10);15 June;15 November
+49;FESB;POLAND;Warsaw University of Life Sciences - SGGW;PL WARSZAW05;joanna_zach@sggw.edu.pl;"061 (481) Information and Communication Technologies; 0715 (521) Mechanics and metal trade";yes;yes;yes;2;10(2x5);15 June;15 December
+50;FESB;POLAND;Lublin University of Technology;PL LUBLIN03;a.matyjaszczyk@pollub.pl;071 Engineering and engineering trades;yes;yes;no;2;10 (2x5);15 June;15 November
+51;FESB;POLAND;Kazimierz Pulaski University of Technology and Humanities in Radom;PL RADOM01;"a.yesbrowska@uthrad.pl; dwz@uthrad.pl";071 Engineering and engineering trades;yes;yes;yes;2;10;30 May;15 November
+52;FESB;POLAND;Rzeszow University of Technology;PL RZESZOW01;"jruszel@prz.edu.pl; epta@prz.edu.pl; monikas@prz.edu.pl";071 Engineering and engineering trades;yes;yes;yes;2;10;1 June;31 October
+53;FESB;PORTUGAL;University of Coimbra;P COIMBRA 01;dri@uc.pt;"0715 Mechanics and Metal trades; 061 ICT";yes;yes;yes;2;10;1 June;01 November
+54;FESB;PORTUGAL;Polytechnic Institute of Braganca;P BRAGANC01;sylwia@ipb.pt;"522 Electricity and energy; 48 Computing ";yes;no;no;2;10(2x5);15 July;15 December
+55;FESB;PORTUGAL;Polytechnic Institute of Braganca;P BRAGANC01;sylwia@ipb.pt;0715 Mechanical Engineering;yes;yes;no;2;10(10x5);15 July;15 December
+56;FESB;PORTUGAL;Universiyesde de Aveiro;P AVEIRO01;gri@ua.pt;0715 Mechanics and Metal trades;yes;yes;no;4;40 (4x10);01 November;15 November
+57;FESB;PORTUGAL;Universiyesde de Evora;P EVORA01;mobility@uevora.pt;"0713 Electricity and energy; 0714 Electronics and automation";yes;yes;yes;2;10 (2x5);1 June;01 November
+58;FESB;PORTUGAL;Instituto Politecnico de Coimbra;P COIMBRA02;dga.sri@ipc.pt;071 Engineering and engineering trades;yes;no;no;2;10 (2x5);31 May;30 November
+59;FESB;PORTUGAL;University of Porto, Faculty of Engineering_FEUP;P PORTO02;international@fe.up.pt;0715 Mechanics and Metal trades;no;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+60;FESB;ROMANIA;Technical University of Cluj Napoca;RO CLUJNAP05;"Int.Rel.Office@staff.utcluj.ro; erasmus@staff.utcluj.ro";"520 Electrical Engineering; 482 Informatics Computer Science";yes;yes;yes;1;10;15 July;15 November
+61;FESB;SLOVAKIA;Technical University of Kosice;SK KOSICE03; natalia.vaskova@tuke.sk;"0788 Engineering, Manufacturing and Construction; 0712 Environmental protection technology";yes;yes;yes;1;5;30 June;30 November
+62;FESB;SLOVAKIA;University of Zilina;SK ZILINA01;jozef.ristvej@uniza.sk;1041 Transport services;yes;yes;yes;6;5 (6 x 5 months= 30 months);15 June;30 November
+63;FESB;SLOVENIA;University of Ljubljana;SI LJUBLJA01;"Student.office@uni-lj.si; bostajn.murovec@fe.uni-lj.si";"071 Electrical Engineering; 0713 Eletricity and energy; 0714 Eletronics and automation; 061 ICT";yes;yes;yes;3;15 (3x5);31 May;15 November
+64;FESB;SLOVENIA;University of Ljubljana;SI LJUBLJA01;Katja.Cerjak@uni-lj.si;071 Engineering and engineering trades;no;yes;yes;2;10 (2x5);31 May;15 November
+65;FESB;SLOVENIA;Faculty of Mechanical Engineering;SI MARIBOR01;erasmus@um.si;0710 Engineering and engineering trades;no;yes;yes;2;10 (2x5);1 July;1 December
+66;FESB;SERBIA;University of Nis;RS NIS01;ivica.manic@elfak.ni.ac.rs;Engineering and engineering trades;yes;yes;yes;2;10;20 May;20 November
+67;FESB;SERBIA;University of Kragujevac;RS KRAGUJE01;erasmus@kg.ac.rs;0715 Mechanics and Metal trades;yes;yes;yes;2;10;30 June;20 December
+68;FESB;SPAIN;Universiyesd de Oviedo;E OVIEDO01;inter.agreements@uniovi.es;48 Computing;yes;no;no;2;24;30 July;30 November
+69;FESB;SPAIN;Universiyesd de Las Palmas de Gran Canaria;E LAS-PAL 01;"Felix B. Tobajas Guerrero, subdirector de Estudiantes, Moviliyesd y Practicas Externas; t + 34 928 457325 sempe.eite@ulpgc.es; www.eite.ulpgc.es ";061 ICT;yes;yes;no;4;20 (4x5);31 May;30 November
+70;FESB;SPAIN;Universiyesd de Las Palmas de Gran Canaria;E LAS-PAL 01;"Felix B. Tobajas Guerrero, subdirector de Estudiantes, Moviliyesd y Practicas Externas; t + 34 928 457325 sempe.eite@ulpgc.es; www.eite.ulpgc.es ";0714 Electronics and automation;yes;yes;no;4;36(4x9);31 May;30 November
+71;FESB;SPAIN;Universiyesd de Las Palmas de Gran Canaria;E LAS-PAL 01;"Felix B. Tobajas Guerrero, subdirector de Estudiantes, Moviliyesd y Practicas Externas; t + 34 928 457325 sempe.eite@ulpgc.es; www.eite.ulpgc.es ";0716 Motor vehicle, ships and aircraft;yes;yes;no;2;10 (2x5);31 May;30 November
+72;FESB;SPAIN;Universiyesd de la Laguna;E TEnoRIF01;"orincom@ull.edu.es;";441 Physics;yes;no;no;2;10 (2x5);check on the homepage;check on the homepage
+73;FESB;SPAIN;Floriyes Centre de Formacio Coop. V, CV-FLORIyes UNIVERSITARIA;E VALENCI16;Inmaculayes Mora, imora@floriyes-uni.es;0710 Engineering and engineering trades;yes;no;no;3;18 (6x3);31 May;31 May
+74;FESB;SPAIN;Universiyesd de Sevilla;E SEVILLA01;relint4@us.es;0713 Electricity and Energy;yes;yes;no;"1st cycle 2 students x 10 months (20 months total); 2st cycle 2 students x 10 months (20 months total)";2x10;check on the homepage;check on the homepage
+75;FESB;SPAIN;Universiyesd de Sevilla;E SEVILLA01;relint4@us.es;0714 Electronics and Automation;no;yes;no;2;2x10;check on the homepage;check on the homepage
+76;FESB;SPAIN;Universiyesd de Sevilla;E SEVILLA01;relint4@us.es;0715 Mechanics and Metal trades;yes;yes;no;1st cycle 4 students x 10 months 2st cycle 4 students x 10 months;4x10;check on the homepage;check on the homepage
+77;FESB;SPAIN;Universiyesd de Sevilla;E SEVILLA01;relint4@us.es;0212 Industrial Design;yes;yes;no;2;2x10;check on the homepage;check on the homepage
+78;FESB;SWEDEN;Malaryeslen University;S VASTERA 01;check on the homepage;481 Computer Science ;yes;yes;yes;3;15;15 May;15 October
+79;FESB;SWEDEN;Malaryeslen University;S VASTERA 01;check on the homepage;523 Electronics and automation;yes;yes;yes;2;10;15 May;15 October
+80;FESB;TURKEY;Isparta University of Applied Sciences;TR ISPARTA02;erasmus@isparta.edu.tr;0713 Mechanical Engineering;yes;yes;yes;2;10;30 June;30 December
+81;FESB;TURKEY;Nisantasi University;TR ISTANBU45;"erasmus@nisantasi.edu.tr; sercan.karka@nisantasi.edu.tr";061 Computer Science, 0715 Mechanical Engineering, Industrial Engineering;yes;no;no;2;10(2x5);15 June;01 November
+82;FESB;TURKEY;Koaceli University;TR KOACELI02;spamuk@kocaeli.edu.tr;0715 Mechanical Engineering;yes;yes;yes;2;10 (2x5);July;December
+83;FESB;TURKEY;Yeditepe University;TR ISTANBU21;check on the homepage;"0713 Electricity and energy; 0715 Mechanics and Metal trades";/;yes;yes;2;10 (2x5);1 June;01 November
+84;FESB;TURKEY;Yildiz Technical University;TR ISTANBU07;erasmus@yildiz.edu.tr;0716 Naval Architecture;yes;yes;yes;2;10;"online Application Period; 15 May- 15 July";"online Application Period; 15 May- 15 July"
+85;FESB;TURKEY;Izmir Institute of Technology-Mechanical Engineering Department;TR IZMIR03;erasmuskoordinator@iyte.edu.tr;071 Engineering and engineering trades;yes;yes;yes;2;10;15 August;31 December
+86;FESB;TURKEY;National Defence University;TR ISTANBU63;erasmus@msu.edu.tr;071 Engineering and Engineering Trade;no;yes;no;2;12;1 June;01 November
+87;FGAG;AUSTRIA;BOKU Vienna;A WIEN03;"erasmustoboku@boku.ac.at;erasmus@boku.ac.at";0732 Building and civil engineering;no;yes;yes;1;6;30 June;30 November
+88;FGAG;AUSTRIA;Graz University of Technology;A GRAZ02;"julia.schwaha@tugraz.at; claudia.jansen@tugraz.at";0612 Database and network design and administration;yes;yes;no;1;5;check on the homepage;check on the homepage
+89;FGAG;AUSTRIA;Vienna University of Technology-TU Vienna;A WIEN02;"markus.tomaselli@tuwien.ac.at; andreas.zemann@tuwien.ac.at";073 Architecture and Urban Design;no;yes;no;2;10 (2x5);31 May;15 December
+90;FGAG;CZECH REPUBLIC;Czech Technical University in Prague, Faculty of Civil Engineering;CZ PRAHA 10;"yesna.mrkvickova@cvut.cz; very.klatova@fsv.cvut.cz";"582 Building and civil engineering; 589 Architecture and building";no;yes;no;2;10;15 May;30 November
+91;FGAG;CZECH REPUBLIC;VSB Technicka Univerzita Ostrava;CZ OSTRAVA01;"Mgr. Et Mgr. Kamila Pokorna; Erasmus + Institutional Coordinator University International Office; kamila.pokorna@vsb.cz; marcela.maturova@vsb.cz; mobility.fast@vsb.cz";"0732 Building and civil engineering; 0731 Architecture and town planning";yes;yes;no;2;20 (2x10);1 June;01 November
+92;FGAG;CZECH REPUBLIC;Brno University of Technology (BUT);CZ BRNO01;lady@ro.vutbr.cz;0732 Building and civil engineering;no;yes;yes;2;12 (2x6);31 May;15 November
+93;FGAG;FRANCE;The Ecole normale superieure de Cachan;F CACHAN03;ri@ens-cachan.fr;582 Building and civil engineering;no;yes;yes;1;5;30 May;30 October
+94;FGAG;FRANCE;Universite de Technologie de Compiegne (UTC);F COMPIEG01;dieter.schulte@utc.fr;Mechanical and Civil Engineering;no;yes;yes;"MA:2; PhD:2";20 (4x5);1 May;01 November
+95;FGAG;ITALY;Universita' degli studi di Genova;I GENOVA01;coopint@unige.it;0732 Building and civil engineering;no;yes;no;2;10;check on the homepage;check on the homepage
+96;FGAG;ITALY;University of Trieste;I TRIESTE01;studenti.outgoing@amm.units.it;581 Architecture;no;yes;no;2;20 (2x10);May- to be confirmed by official mail year by year;November- to be confirmed by official mail year by year
+97;FGAG;ITALY;"UniversitA degli Studi ""G. D'Annunzio""";I CHIETI01;agreements@unich.it;0731 Architecture;no;yes;no;3;15 (3x5);30 June;10 December
+98;FGAG;ITALY;University of Ferrara;I FERRARA01;International.agreements@unife.it;07 Engineering, manufacturing and construction;no;yes;no;3;18;from May to 31 August;from October to 15 January
+99;FGAG;ITALY;Universita degli studia dell Basilicata;I POTENZA01;erasmus.agreements@unibas.it;0732 Building and civil engineering;no;yes;yes;2;12;31 July;30 October
+100;FGAG;ITALY;Universita degli Studi di Trento;I TRENTO01;check on the homepage;0732 Building and civil engineering;no;yes;yes;2;10;31 May;31 October
+101;FGAG;HUNGARY;Buyespest University;HU BUDAPEST02;erasmus@bme.hu;0732 Building and civil engineering;no;yes;yes;2;10(2x5);31 May;30 November
+102;FGAG;MACEDONIA;SS. Cyril and Methodius University of Skopje;MK SKOPJE01;"mcenevska@ukim.edu.mk;international@ukim.edu.mk";582 Civil Engineering;no;yes;no;2;10 (2x5);15 May;15 November
+103;FGAG;GERMANY;Leibniz Universitat Hannover;D HANNOVE01;francesco.ducatelli@zuv.uni-hannover.de;581 Architecture and town planning;no;yes;no;2;10;31 May;30 November
+104;FGAG;GERMANY;RheinMain University of Applied Sciences;D WIESBAD01;"eva.bauer@hs-rm.de; international@hs-rm.de";"581 Architecture; 582 Civil Engineering";no;yes;no;2;10 (2x5);15 May;15 November
+105;FGAG;GERMANY;Universitat Stuttgart;D STUTTGA01;erasmus@ia.uni-stuttgart.de;"0731 Architecture and Town Planning; 0732 Building and Civil Engineering";no;yes;no;2;12;1 May;1 December
+106;FGAG;GERMANY;Coburg University;D COBURG01;"annette.stegemann@hs-coburg.de; international@hs-coburg.de";"073 Architecture; 0732 Building and civil engineering";no;yes;no;2;5;15 June;15 November
+107;FGAG;NORWAY;University of Agder;N KRISTIA01;terje.thorsyeslen@uia.no;0732 Building and civil engineering;no;yes;no;2;5;1 May;15 October
+108;FGAG;POLAND;UTP-University of Science and Technology;PL BYDGOSZ02;jaroszewska@utp.edu.pl;073 Architecture and construction;no;yes;no;2;10 (2x5);30 June;30 November
+109;FGAG;POLAND;Wroclaw University of Science and Technology;PL WROCLAW02;erasmus@pwr.edu.pl;0732 Building and civil engineering;no;yes;no;2;10(2x5);15 June;15 November
+110;FGAG;PORTUGAL;Faculty of Science and Technology Department of Civil Engineering;P COIMBRA01;dri.projects@uc.pt;0732 Building and civil engineering;no;yes;yes;2;18 (2x9);1 June;01 November
+111;FGAG;PORTUGAL;"Universiyesde Nova de Lisboa; Faculyesde de Ciencias e Tecnologia, Nova School of Science and Technology";P LISBOA03;div.ri.agreements@fct.unl.pt;073 Architecture and construction;no;yes;yes;"2nd= 1 student; 3rd= 1 student ";10 (2x5);31 May;31 October
+112;FGAG;SLOVENIA;University of Ljubljana;SI LJUBLJA01;check on the homepage;" 581 Architecture; 0732 Building and civil engineering; 433 Geosciences";no;yes;no;2;20 (2x10);15 May;15 November
+113;FGAG;SLOVENIA;University of Maribor;SI MARIBOR01;erasmus@um.si;582 Building and civil engineering;no;yes;yes;3;18;1 July;1 December
+114;FGAG;SLOVENIA;University of Maribor;SI MARIBOR01;erasmus@um.si;581 Architecture and Town Planning;no;yes;no;3;18;1 July;1 December
+115;FGAG;SERBIA;University of Belgrade;RS BELGRAD02;kostrm@rect.bg.ac.rs;0732 Building and civil engineering;yes;yes;no;1;5;1 May;31 October
+116;FGAG;SPAIN;Universiyesd Politecnica de Madrid;E MADRID 05;international.europe@upm.es;0731 Architecture and town planning;no;yes;no;2;20 (2x10);10 June;1 December
+117;FGAG;SPAIN;Universitat Politecnica de Valencia;E VALENCI02;opii@upvnet.upv.es;073 Architecture and construction;no;yes;no;2;10(2x5);31 May;15 October
+118;FGAG;SPAIN;University of Granayes;E GRANADA01;mobilitycivil.coord@ugr.es;0732 Building and Civil Engineering;no;yes;no;2;9;15 May;31 October
+119;FGAG;TURKEY;Maltepe University Faculty of Architecture;TR ISTANBU18;erasmus@maltepe.edu.tr;"073 Architecture; 0212 Design";no;yes;no;2;18 (2x9);15 August;15 January
+120;FGAG;TURKEY;Istanbul Kemerburgaz University;TR ISTANBU38;senay.gumus@kemerburgaz.edu.tr;"0732 Civil Engineering; 0731 Architecture";no;yes;no;1;5;check on the homepage;check on the homepage
+121;FGAG;TURKEY;Istanbul Teknik Universitesi;TR ISTANBU04;erasmus_agreements@itu.edu.tr;0732 Civil Engineering;no;yes;yes;2;10;1 June;01 November
+122;FGAG;TURKEY;Ozyegin University;TR ISTANBU31;"international.relations@ozyegin.edu.tr; intexchange@ozyegin.edu.tr";0731 Architecture;no;yes;no;2;10;15 July;30 November
+123;KTF;FRANCE;Institut National Polytechnique de Toulose;F TOULOUS28;"joelle.courbieres@inp-toulouse.fr; internationaloffice@ensiacet.fr";"0531 Chemistry; 0711 Chemical engineering and processes";no;yes;no;2;12 (2x6);1 June;01 November
+124;KTF;FRANCE;"Universite d'Orleans; CoST-College of Science and Technology";F ORLEANS01;"vic.cost@univ-orleans.fr; celino.chenault@univ-orleans.fr";"13.3 Chemistry; 13.6 Biochemistry";no;yes;yes;12;3;1 May;1 October
+125;KTF;ITALY;Universita' degli Studi di Cagliari;I CAGLIARO1;erasmus@unica.it;"0531 Chemistry; 0916 Pharmacy";yes;yes;yes;2;12;31 July;30 November
+126;KTF;ITALY;Universita di Trieste;I TRIESTE01;atossi@units.it;727 Pharmacy;no;yes;yes;2;6;May - to be confirmed by official mail year by year;November- to be confirmed by official mail year by year
+127;KTF;ITALY;Universita degli di Salerno;I SALERNO01;bilateralagreements@unisa.it;0711 Chemical engineering and processes;yes;yes;yes;3;9;15 June;15 November
+128;KTF;ITALY;Universita degli Studi di Palermo; I PALERMO01;"relinter@unipa.it; erasmus.agreement@unipa.it";0510 Biological and related sciences;yes;yes;no;2;12;30 June;30 October
+129;KTF;GERMANY;Coburg Univrsity;D COBURG01;"annotte.stegemann@hs-coburg.de; international@hs-coburg.de";"0533 Physics; 0531 Chemistry; 0711 Chemical engineering and processes";no;yes;no;2;10 (2x5);15 June;15 November
+130;KTF;POLAND;The AGH University of Science and Technology;PL KRAKOW02;pajak@agh.edu.pl;"0521 Env. Sciences; 0711 Chem. Processes; 0712 Eng, Env. Prot. Techn.";no;yes;yes;3;15;30 June;30 November
+131;KTF;POLAND;Faculty of Pharmacy, Wroclaw Medical University;PL WROCLAW05;slawa.ksenycz@umed.wroc.pl;442 Chemistry;no;yes;yes;3;9 (3x3);30 June;30 June
+132;KTF;POLAND;Faculty of Pharmacy, Wroclaw Medical University;PL WROCLAW05;slawa.ksenycz@umed.wroc.pl;727 Pharmacy;no;yes;no;2;6 (2x3);30 June;30 June
+133;KTF;PORTUGAL;Polytechnic Institute of Braganca;P BRAGANC01;sylwia@ipb.pt;442 Chemistry;yes;no;no;2;10 (2x5);15 July;15 December
+134;KTF;ROMANIA;University of Craiova;RO CRAIOVA01;"npanoa@yahoo.com; loremateescu@gmail.com";0721 Food processing;yes;no;no;3;5;31 May;30 November
+135;KTF;ROMANIA;University of Craiova;RO CRAIOVA01;"npanoa@yahoo.com; loremateescu@gmail.com";"0712 Environmental protecting technology; 0531 Chemistry";no;yes;yes;3;5;31 May;30 November
+136;KTF;SLOVAKIA;Technical University of Kosice_TUKE;SK KOSICE03;Monika.Gaalova@tuke.sk;"0711 Chemical engineering and processes; 722 Materials Engineering";yes;yes;yes;2x3 months;6;30 June;30 November
+137;KTF;SLOVENIA;Polymer Technology College;SI MARIBOR09;maja.kitano@vstp.si;0711 Chemical engineering and processes;yes;yes;no;1;5;1 July;1 December
+138;KTF;SLOVENIA;University of Maribor;SI MARIBOR01;erasmus@um.si;542 Chemical and Process;yes;yes;no;2;10 (2x5);"1 July Students from EU; 1 June Non EU students";"1 December Students from EU; 1 November Non EU students"
+139;KTF;SERBIA;University of Belgrade;RS BELGRADE02;check on the homepage;0512 Biochemistry, 0531 Chemistry;no;no;yes;on request;undefined;1 May;31 October
+140;KTF;SERBIA;University of Novi Sad;RS NOVISAD02;erasmus@pmf.uns.ac.rs;"0521 Environmental Sciences; 0531 Chemistry";yes;yes;yes;2x5 months;undefined;30 June;15 November
+141;KTF;SPAIN;Universiyesd Miguel Hernandez de Elche;E ELCHE01;moviliyesd@umh.es;"0531 Chemistry; 0721 Food processing";yes;yes;yes;2;12(2x6);15 May;01 November
+142;SOSM;AUSTRIA;Universitat fur Bodenkultur Wien, BOKU;A WIEN03;"erasmustoboku@boku.ac.at;erasmus@boku.ac.at; claudia.zefferer@boku.ac.at";0521 Environmental sciences;no;yes;yes;1;5;30 June;30 November
+143;SOSM;ITALY;Polytechnic University of Marche, Ancona;I ANCONA01;l.martini@univpm.it;"421 Biology and biochemistry; 624 Fisheries; 4433 Environmental Sciences, Ecology ";yes;yes;yes;2;10 (2x5);31 May;31 October
+144;SOSM;ITALY;Universita degli Studi di Ferrara;I FERRARA01;check on the homepage;"0511 Biology; 0521 Enviromental Sciences; 624 Fisheries; 4433 Ecology";yes;yes;yes;2;12 (2x6);September;February
+145;SOSM;ITALY;Universita del Salento;I LECCE01;programmi.europei@unisalento.it;"051 Biological and related sciences; 083 Fisheries sciences";yes;yes;no;2;2;30 June;31 October
+146;SOSM;ITALY;Universita degli Studi di Palermo; I PALERMO01;"relinter@unipa.it; concetta.messina@unipa.it";0510 Biological and related sciences;yes;yes;no;2;12;30 June;30 October
+147;SOSM;POLAND;West Pomeranian University of Technology, Szczecin;PL SZCZECI02;international@zut.edu.pl;"0511 Biology; 0521 Enviromental Sciences; 624 Fisheries; 4433 Ecology";yes;yes;yes;2;10 (2x5);30 May;30 November
+148;SOSM;POLAND;University of Warmia and Mazury in Olsztyn;PL OLSZTYN01;agnieszka.matejko@uwm.edu.pl;"083 Fisheries; 0521 Enviromental Sciences";yes;yes;no;1;6;15 June;30 November
+149;SOSM;PORTUGAL;University of the Azores;P ACORES01;reitoria.gre@uac.pt;"051 Biology and related Sciences; 0521 Enviromental Sciences";yes;yes;no;4;20(4x5);to 30 June;30 November
+150;SOSM;SPAIN;Universitat politecnica de Valencia;E VALENCI02;opii@upvnot.upv.es;"083 Fisheries; 051 Biological and related sciences";yes;yes;yes;3;30 (3x10);31 May;31 October
+151;SOSM;TURKEY;Firat University;TR ELAZIG01;"erasmus@firat.edu.tr; disiliskiler.koord.firat.edu.tr";083, 0831 Fisheries;yes;yes;no;2;5;30 August;30 January
+152;SOSM;TURKEY;Cukurova Universitesi;TR ADANA01;erasmus@cu.edu.tr;"0511 Biology; 0521 Enviromental Sciences; 0831 Fisheries";no;yes;yes;2;12 (2x6);30 June;30 December
+153;SOZS;CZECH REPUBLIC;Palacky University in Olomouc;CZ OLOMOUC01;yvona.vyhnankova@upol.cz;0913 Nursing;yes;no;no;3;9 (3x3);31 May;31 October
+154;SOZS;ESTONIA;University of Tartu;EE TARTU02;"erasmus@ut.ee; jelena.sokk@ut.ee";0915 Physiotheraphy;yes;no;no;5;15;1 May;01 November
+155;SOZS;LITHUANIA;Vilnius University;LT VILNIUS01;"simona.vizinieno@cr.vu.lt; trs@cr.vu.lt";0915 Theraphy and rehabilitation;yes;no;no;5;15;1 June;15 November
+156;SOZS;SLOVENIA;University of Primorska;SI KOPER03;erasmus@upr.si;0913 Nursing;yes;no;no;2;6 (2x3);1 June (application deadline);1 November (application deadline)
+157;SOZS;SPAIN;UNIVERSITAT ROVIRA I VIRGILI;E TARRAGO01;"Jordi Albino, Centre Internacional Universitat Rovira i Virgili; mou@urv.cat ";091 Health (Nursing);yes;no;no;2;6 (2x6);1 June;01 November
+158;SOFZ;AUSTRIA;University of Salzburg;A SALZBURG01;"erasmus-outgoing@sbg.ac.at; mariane.wonneberger@plus.ac.at";"022 Humanities; 051 Biological and related sciences";yes;yes;yes;2;5;1 June;01 November
+159;SOFZ;ENGLAND;Bournemouth University;UK POOLE01;check on the homepage;"225 History and Archeology; 9 Forensics";no;yes;no;5;5;30 Apr;31 October
+160;SOFZ;ITALY;Universita degli Studi di Macerata;I MACERATA01;check on the homepage;041 Accounting and taxation;yes;yes;no;4;20 (4x5);1 June;01 November
+161;SOFZ;POLAND;AGH University of Science and Technology;PL KRAKOW02;amm@agh.edu.pl;"022 Humanities; 031 Social and behavioural sciences; 042 Law; 050 Natural sciences; 061 Information and Communication Technologies";yes;yes;no;4;4x5;check on the homepage;check on the homepage
+162;SOFZ;SLOVAKIA;Zilinska univerzita v Ziline, University of Zilina;SK ZILINA01;vladimir.salaga@fpeyess.uniza.sk;031 Economics;yes;yes;no;3;3x5;30 June;15 December
+163;SOFZ;SLOVENIA;University in Maribor;SI MARIBOR01;check on the homepage;"481 Computer Science; 860 Security services; 861 Protection of persons and property";no;yes;no;3;15 (3x5);1 July;1 December
+164;SOFZ;SLOVENIA;College of Accounting;SI LJUBLJA28;helena.mihelcic@vsr.si;0411 Forensic Investigation in Finance and Accounting;no;yes;no;2;4 (2x2);1 June;01 November
+165;SOFZ;SERBIA;University of Belgrade;RS BELGRAD02;check on the homepage;0421 Criminal Law, Criminology;yes;yes;yes;on request;on request;1 May;31 October
+166;KBF;AUSTRIA;University College of Teacher Education of Christian Churces Vienna;A WIEN10;"thomas.schrei@kphvie.ac.at; kathrin.claassen@kphvie.ac.at";0221 Religion and theology, Primary teacher education;yes;yes;yes;2;10 (2x5);15 June;30 November
+167;KBF;BELGIUM;Katholieke Universiteit Leuven;B LEUVEN01;"peter.demey@kuleuven.be; Elke.Timmermans@int.kuleuven.be";221 Religion;yes;yes;yes;2;10;check on the homepage;check on the homepage
+168;KBF;ITALY;Universita degli Studi di Perugia;I PERUGIA01;check on the homepage;"0221 Theology and religion; 0223 Philosophy and ethics; 0288 Interdisciplinary programs involving humanities; 0111 Education Sciences; 0031 Personal skills and development";yes;yes;yes;2;6;1 July;1 December
+169;KBF;ITALY;Facolta Valdese di Teologia;I ROMA28;segreteria@facoltavaldese.org;0221 Religion and Theology;yes;yes;yes;2;10;01 June;01 September
+170;KBF;IRELAND;St. Patrick?s Pontifical University,Maynooth;IRL KILDARE01;"theology.office@spcm.ie; admissions@spcm.ie; Johnpaul.sheriyesn@spcm.ie";"221 Theology; 0223 Philosophy and Ethics";yes;yes;yes;2;2x10;15 May;15 December
+171;KBF;GERMANY;Universitat Passau Department fur Katolische Theologie;D PASSAU01;"barbara.zacharias@uni-passau.de; almut.bareiss@uni-passau.de ";0221 Religion and Theology;yes;yes;yes;2;18;1 June;01 November
+172;KBF;GERMANY;Ruhr-Universitat Bochum;D BOCHUM01;"Jonna.Haensel-Neumann@uv.ruhr-uni-bochum.de; Veronika.Klasik@uv.ruhr-uni-bochum.de";0221 Theology;yes;yes;yes;2;12;15 June;15 December
+173;KBF;GERMANY;Johann Wolfgang Goethe Universitat, Frankfurt am Main;D FRANKFU01;"erasmus-io@uni-frankfurt.de; brucker@em.uni-frankfurt.de ";0221 Theology and Religion;yes;yes;yes;2;2x6;15 June;14 October
+174;KBF;POLAND;The Pontificial University of John Paul II in Cracow- Faculty of Theology;PL KRAKOW08;"Urszula.kubiczek@upjp2.edu.pl; wojciech.wegrzyniak@upjp2.edu.pl; erasmus@upjp2.edu.pl ";221 Religion;yes;yes;no;4;24 (4x6);15 June;15 November
+175;KBF;POLAND;Cardinal Stefan Wyszynski University in Warsaw;PL WARSZAW07;check on the homepage;221 Theology;yes;yes;yes;4;20 (4x5);31 May;15 January
+176;KBF;SLOVAKIA;Trnava University in Trnava The Faculty of Theology;SK TRNAVA01;"simon.marincak@truni.sk; marta.seckarova@truni.sk";0221 Religion and theology;yes;yes;yes;2;12 (2x6);1 June;01 November
+177;KBF;SLOVENIA;Univerza v Ljubljani;SI LJUBLJA01;"urska.jeglic@teof.uni-lj.si; erasmus@teof.uni-lj.si";0221 Catholic Theology;yes;yes;yes;4;20 (4x5);15 May;15 November
+178;FF;AUSTRIA;Karl-Franzes Universitat Graz;A GRAZ01;julia.reiter@fh-joanneum.at;222 Languages and Philological Sciences (ERA09.0);yes;yes;yes;2;10 (2x5);15 May;15 October
+179;FF;AUSTRIA;Alpen Adria Universitat Klagenfurt;A KLAGENF01;marco.messier@aau.at;312 Sociology and cultural studies;yes;yes;yes;2;10;1 June;01 November
+180;FF;AUSTRIA;Alpen Adria Universitat Klagenfurt;A KLAGENF01;elena.buffa@aau.at;0230 Languages (Romance Languages);yes;yes;yes;2;10 (2x5);1 June;01 November
+181;FF;AUSTRIA;Alpen Adria Universitat Klagenfurt;A KLAGENF01;ana.mitic@aau.at;0203 Humanities and Social Sciences;yes;yes;yes;2;5;1 June;01 November
+182;FF;CZECH REPUBLIC;University of Ostrava;CZ OSTRAVA02;Ivana.Schmejkalova@osu.cz;01 Education;yes;yes;no;2;10 (2x5);31 May;31 October
+183;FF;CZECH REPUBLIC;Univerzita Palackeho V Olomouci Faculty of Philosophy;CZ OLOMOUC01;yvona.vyhnankova@upol.cz;226 Philosophy and ethics;yes;yes;yes;3;15 (3x5);31 May;31 October
+184;FF;CZECH REPUBLIC;Univerzita Palackeho V Olomouci;CZ OLOMOUC01;;0232 Literature and linguistics;yes;yes;yes;2;undefined;30 June;15 November
+185;FF;FRANCE;Universite de Rennes;F RENNES02;international@univ-rennes2.fr;813 Humanities and Social Sciences;yes;yes;no;2;10 (2x5);1 May;1 October
+186;FF;FRANCE;Universite Jean Monnet Saint Etienne;F ST-ETIE01;ri-erasmusagreements@univ-st-etienne.fr;"22 History; 31 Social Sciences";yes;yes;yes;3;18 (3x6);20 May;25 October
+187;FF;FRANCE;Universite de Lorraine;F NANCY43;marie-christine.viry@univ-lorraine.fr;023 Languages;yes;yes;no;2;5;31 May;31 October
+188;FF;FRANCE;Universite de Lorraine;F NANCY43;"drie-cooperation-contact@univ-lorraine.fr; marie-christine.viry@univ-lorraine.fr";0222 History, Art History and archeology;yes;yes;no;4;20;31 May;31 October
+189;FF;FRANCE;University of Franche-Comte;F BESANCO01;maxime.blondel@univ-fcomte.fr;023 Languages;yes;yes;no;2;18;1 June;1 October
+190;FF;FRANCE;Universite Sorbonne Nouvelle - Paris 3;F PARIS003;isabelle.barraquand@sorbonne-nouvelle.fr;023 Languages;yes;yes;yes;2;10;15 May;15 November
+191;FF;GREECE;University of PelopoNnese;G TRIPOLI03;vgionna@uop.gr;"011 Education; 0223 Philosophy and ethics";yes;yes;yes;2;12;30 June;30 November
+192;FF;ITALY;"Universita degli Studi ""G. D'Annunzio"" Chieti- Pescara";I CHIETI01;agreements@unich.it;222 Languages and Philological Sciences;yes;yes;yes;undefined;48;check on the homepage;check on the homepage
+193;FF;ITALY;Universita di Trieste;I TRIESTE01;mobilita.outgoing@amm.units.it;222 Languages and Philological Sciences;yes;yes;yes;6;30 (6x5);May;November
+194;FF;ITALY;University of Pavia;I PAVIA01;Erasmus - Unipv erasmus@unipv.it;"022 Humanities; 023 Languages";yes;yes;yes;4;20;Early July;Early December
+195;FF;ITALY;Universita degli Studi di Firenze;I FIRENZE01;"erasmadm@unifi.it; erasmusplus@adm.unifi.it ";022 Humanities, History, History of Art;yes;yes;no;2;10;check on the homepage;check on the homepage
+196;FF;ITALY;Universita degli Studi di Macerata;I MACERAT01;"veronique.grumel@unimc.it; paola.landi@unimc.it";"0230 Humanities; 02 Arts and Humanities";yes;yes;no;3;18 (3x6);30 June;30 October
+197;FF;ITALY;"Scuola Superiore per Mediatori Linguistici "" Gregorio VII"" (SSML Gregorio VII) ";I ROMA18;pierantonelli@gregoriosettimo.eu;0230 Languages;yes;yes;no;3;18 (3x6);15 July;15 December
+198;FF;ITALY;Universita degli Studi di Salerno;I SALERNO01;erasmus@unisa.it;0314 Sociology;yes;yes;no;3;18 (3x6);15 April-15 June;15 April-15 November
+199;FF;ITALY;Universita degli Studi di Salerno;I SALERNO01;"erasmus@unisa.it; bilateralagreements@unisa.it";"011 Education; 023 Languages";yes;yes;no;2;10;15 April-15 June;15 April-15 November
+200;FF;ITALY;Sapienza Universita' di Roma;I ROMA01;direzione.ari@uniroma1.it;02 Arts and Humanities;yes;yes;yes;2;10 (2x5);15th May;15th October
+201;FF;ITALY;Alma Mater Studiorum-Universita' di Bologna;I BOLOGNA01;erasmus@unibo.it;023 Languages;yes;yes;yes;2;12 (2x6);check on the homepage;check on the homepage
+202;FF;ITALY;Universita di Foggia;I FOGGIA03;" valentina.difrancesco@unifg.it; lauradepalma.europa@unifg.it";0220 Humanities & Social Sciences;yes;yes;yes;2;10 (2x5);15 July;15 December
+203;FF;ITALY;Universita degli Studi Di Genova;I GENOVA01;sass@unige.it;0213 Fine Arts;yes;no;no;2;6;1 June;01 November
+204;FF;ITALY;University of Catania;I CATANIA01;"udipacrg@unict.it; aschini@unict.it";222 Languages and Philological Sciences;yes;yes;yes;2;12;May;November
+205;FF;ITALY;"Scuola Superiore per Mediatori Linguistici ""Istituto Internazionale""";I BENEVEN05;ammi@ssmlinternazionale.it;"0232 Literature and linguistics; Language acquision";yes;no;no;2;12;30 August;30 December
+206;FF;ITALY;Universita degli Studi del Molise;I CAMPOBA01;relazint@unimol.it;"222 Languages and Philological Sciences; 2221 Modern EC Languages; 2222 Genereal and comparative literature; 2223 Linguistics";yes;yes;no;2;10;30 June;31 October
+207;FF;ITALY;Universita degli studi di Urbino Carlo Bo*;I URBINO01;"lucia.bartolucci@uniurb.it; erasmus.incoming@uniurb.it";"011 Education; 022 Humanities; 0313 Psychology";yes;yes;no;1;1 student x 9 months;31 July;31 October
+208;FF;ITALY;Universita degli Studi dell Insubria;I VARESE 02;"relint@uninsubria.it;relint@uninsubria.it";023 Languages;yes;yes;no;4;5-6 months each= 20/24 total months;Nomination and application deadline: 15 June;Nomination and application deadline: 15 November
+209;FF;ITALY;Universita Telematica eCampus;I COMO05;international@uniecampus.it;023 Languages;yes;yes;yes;2 x 1 semester;2x 5 months;15 June;15 November
+210;FF;LITHUANIA;Vynautas Magnus University;LT KAUNAS01;erasmus@vdu.lt;031 Sociology;yes;yes;no;2;10;1 June;15 November
+211;FF;LITHUANIA;Vilniaus Universitetas;LT VILNIUS01;trs@cr.vu.lt;023 Languages;yes;yes;no;4;20;01 June;15 November
+212;FF;HUNGARY;Eszterhazy Karoly Egyetem, Eszterhazy Karoly University, Eger;HU EGER01;international@ektf.hu;023 Languages and Philological Sciences;yes;yes;no;2;10;15 June;10 December
+213;FF;HUNGARY;Eotvos Lorand University (ELTE);HU BUDAPEST01;check on the homepage;220 Humanities and Social Sciences;yes;yes;yes;6;"preddiplomski = 2*10 diplomski = 2*10; doktorski = 2*10 ";check on the homepage;check on the homepage
+214;FF;HUNGARY;Eotvos Lorand University (ELTE);HU BUDAPEST01;check on the homepage;0230 Languages;yes;yes;yes;2;10 (2x5);30 May;30 November
+215;FF;HUNGARY;Karoli Gaspar University of the Reformed Church in Hungary;HU BUDAPES10;erasmus@kre.hu;222 Foreign languages (ENG);yes;yes;no;2x5 motnhs;10;30 May;10 December
+216;FF;MACEDONIA;Ss. Cyril and Methodius University Skopje;MK SKOPJE01;check on the homepage;"22 Humanities; 31 Social Sciences";yes;yes;yes;3;18;15 May;15 November
+217;FF;GERMANY;Universitat Bielefeld;D BIELEFE 01;erasmus-agreements@uni-bielefeld.de;011 Education;yes;yes;yes;2; 12 (2x6);15 June;15 December
+218;FF;GERMANY;University of Konstanz;D KONSTAN01;"erasmus.agreements@uni-konstanz.de;international.incoming@uni-konstanz.de";0232 Languages and Philological Sciences;yes;yes;yes;2x10;20;15 May;15 November
+219;FF;GERMANY;Eberhard Karls Universitat Tubingen;D TUBINGE01;international.office@uni-tuebinge.de;023 Languages:English;yes;yes;no;2;6 months;31 May;31 December
+220;FF;GERMANY;Goethe Universitat;D FRANKFU01;check on the homepage;0314 Sociology;yes;yes;no;"1st cycle = 2; 2nd cycle = 1";"1st cycle = 10 months; 2nd cycle = 5 months";15 November;15 December
+221;FF;GERMANY;Goethe Universitat;D FRANKFU01;erasmus-io@uni-frankfurt.de;0223 Philosophy and ethics;no;yes;yes;"2nd cycle = 2; 3rd cycle = 1";"2nd cycle = 10 months; 3rd cycle = 5 months";15 November;15 December
+222;FF;GERMANY;Universitat Leipzig;D LEIPZIG01;erasmus.agreements@zv.uni-leipzig.de;023 Languages;yes;yes;no;2x5 motnhs;undefined;30 June;15 January
+223;FF;GERMANY;Universitat Trier;D TRIER01;freihoff@uni-trier.de;023 Languages;yes;yes;no;10;undefined;check on the homepage;check on the homepage
+224;FF;GERMANY;Christian Albrechts Universitat Kiel;D KIEL01;check on the homepage;023 Languages;yes;yes;no;4x5;undefined;01 June;01 September
+225;FF;POLAND;Ayesm Mickiewicz University in Poznan;PL POZNAN 01;erasmus@amu.edu.pl;0222 History;yes;yes;yes;2;10;15 May-15 July;15 November- 15 January
+226;FF;POLAND;Ayesm Mickiewicz University in Poznan;PL POZNAN 01;sujka@amu.edu.pl;021 History of Art;yes;yes;yes;2;10;15 May-15 July;15 November- 15 January
+227;FF;POLAND;Ayesm Mickiewicz University in Poznan;PL POZNAN 01;check on the homepage;222 Foreign Languages;yes;yes;yes;2;18;15 May-15 July;15 November- 15 January
+228;FF;POLAND;Jagiellonian University;PL KRAKOW01;izabela.zawiska@uj.edu.pl;225 (08.3) History;yes;yes;yes;3;15;31 May;30 November
+229;FF;POLAND;University of Silesia in Katowice;PL KATOWIC01;http://erasmus@us.edu.pl/;"220 Humanities; 222 Foreign languages; 223 Mother tongue";yes;yes;yes;2;10;30 June;30 November
+230;FF;POLAND;Uniwersytet Lodzki;PL LODZ01;"marcin.michon@uni.lodz.pl; monika.kopytowska@uni.lodz.pl ";222 Languages and Philological Sciences;yes;yes;yes;2;10;30 June;15 December
+231;FF;POLAND;Opole University;PL OPOLE01;erasmus@uni.opole.pl;222 Languages and Philological Sciences;yes;yes;no;3;15 (3x5);15 June;15 December
+232;FF;POLAND;University of Warsaw;PL WARSZAW01;international@adm.uw.edu.pl;222 Foreign Languages;yes;yes;yes;3;15 (3x5);check on the homepage;check on the homepage
+233;FF;POLAND;Uniwersytet Wroc?awski Department of Slavonic Studies;PL WROCLAW01;check on the homepage;220 Humanities;yes;yes;yes;2;20 (2x10);15 June;31 October
+234;FF;POLAND;Uniwersytet Wroclawski-Department of Slavonic Studies;PL WROCLAW01;barbara.skalacka-harrold@uwr.edu.pl;"222 Foreign Languages; 312 Sociology; 224 History, Philosophy and related subjects";yes;yes;yes;2;20 (2x10);15 June;31 October
+235;FF;POLAND;Nicolaus Copernicus University;PL TORUN01;erasmus@cm.umk.pl;"223 Philosophy; 312 Sociology";yes;yes;yes;3;18;1 June;01 November
+236;FF;POLAND;University of Wroclaw Willy Brandt Centre of German and European Studies;PL WROCLAW01;check on the homepage;"022 Humanities; 031 Social and behavioural sciences";yes;yes;no;3;15;1 June;01 November
+237;FF;POLAND;University of Warsaw;PL WARSZAW01;m.sendlak@uw.edu.pl;0223 Philosophy and ethics;yes;yes;yes;2;10;15 May;15 November
+238;FF;POLAND;Instytut Slawistyki Polskiej Akademil Nauk (ISPAN);PL WARSZAW85;"olha.tkachenko@ispan.waw.pl; dorota.dobrzynska@ispan.waw.pl";0230 Languages;no;no;yes;"1 Phd student; 1 postdoc";undefined;check on the homepage;check on the homepage
+239;FF;POLAND;University of Szczecin Department od Italian Studies;PL SZCZECI01;malgorzata.sokol@usz.edu.pl;0232 Language and Philological Sciences, Classical Philology, Literature and linguistics;yes;yes;no;2;10;30 November;31 December
+240;FF;POLAND;University of Silesia in Katowice;PL KATOWICE01;erasmus@us.edu.pl;"0111 Education Science; 01 Education";yes;yes;no;2;10;30 June;30 November
+241;FF;POLAND;"Pnastwowa Wyzsza Szkola Zawodowa w Tarnowie; State Higher Vocational School in Tarnow";PL TARNOW02;;0111 Education Science;yes;no;no;1;3;check on the homepage;check on the homepage
+242;FF;PORTUGAL;Polytechnic Institute of Braganca;P BRAGANC01;anaraquel@ipb.pt;0230 Foreign Languages;yes;no;no;2;10 (2x5);1 June;01 November
+243;FF;PORTUGAL;Polytechnic Institute of Braganca;P BRAGANC01;;011 Education;yes;yes;yes;2;10 (2x5);1 June;01 November
+244;FF;SLOVAKIA;Pavol Jozef Safarik University in Kosice;SK KOSICE02;maros.melicharek@upjs.sk;0222 History;yes;yes;yes;5;25 (5x5);15 June;15 November
+245;FF;SLOVAKIA;University of Zilina;SK ZILINA01;lenka.kalusova@fhv.uniza.sk;14 Teacher Training and Education Science;yes;yes;no;2;10;15 June;30 November
+246;FF;SLOVAKIA;Pavol Jozef Safarik University in Kosice, Department of British and American Studies;SK KOSICE02;"veronika.petrunova@upjs.sk; olga.gallova@upjs.sk";023 Languages;yes;yes;no;2;10 (2x5);15 June;30 November
+247;FF;SLOVAKIA;Matej Bel University Banska Bystrica Faculty of Education;SK BANSKA01;anita.dienesova@umb.sk;"0110 Education; 0223 Philosophy and ethics";yes;yes;yes;12;2x6;15 July;15 November
+248;FF;SLOVENIA;University of Ljubljana Faculty of Art;SI LJUBLJA01;;03.6 227 History of Art;yes;yes;yes;2;12;15 May;15 November
+249;FF;SLOVENIA;University of Ljubljana Faculty of Art;SI LJUBLJA01;;023 Languages and Philological Sciences - Romance languages ;yes;yes;yes;2;12;15 May;15 November
+250;FF;SLOVENIA;University of Ljubljana Faculty of Art;SI LJUBLJA01;; 0222 History;yes;yes;yes;2;12;15 May;15 November
+251;FF;SLOVENIA;University of Ljubljana Faculty of Education;SI LJUBLJA01;;011 Education;yes;yes;no;2;10;15 May;15 November
+252;FF;SLOVENIA;University of Maribor;SI MARIBOR 01;erasmus@um.si;222 Foreign Languages;yes;yes;yes;4;16;1 July;1 December 
+253;FF;SLOVENIA;University of Maribor;SI MARIBOR 01;erasmus@um.si;"226 Philosophy and Ethics; 22 Humanities; 225 History and Archeology; 312 Sociology and Cultural Studies";yes;yes;yes;2;8;1 July;1 December 
+254;FF;SLOVENIA;University of Maribor;SI MARIBOR 01;erasmus@um.si;1 Education;yes;yes;yes;3;15;1 July;1 December 
+255;FF;SLOVENIA;University of Primorska;SI KOPER 03;"; erasmus@upr.si ";"1 Education Teacher Training; 220 Humanities; 310 Social Sciences; 022 Humanities; 0222 History; 023 Languages; 031 Social and behavioural sciences (Cultural Studies, Antropology) ";yes;yes;yes;3;15 (3x5);15 June;15 November
+256;FF;SLOVENIA;University of Ljubljana;SI LJUBLJA01;;0232 Literature and linguistics (English language);yes;yes;yes;1;10;15 May;15 November
+257;FF;SERBIA;University of Nis;RS NIS01;;"011 Education Sciences; 023 Languages; 0223 Philosophy and ethics";yes;yes;yes;2;10;20 May;20 November
+258;FF;SERBIA;University of Kragujevac;RS KRAGUJE01;erasmus@kg.ac.rs;"022 Humanities; 023 Languages";yes;yes;yes;2;10;30 November;20 December
+259;FF;SERBIA;University of Belgrade;RS BELGRAD02;;"021 Arts and humanities; 022 History; 0314 Sociology and Philosophy; 023 Languages; 01 Education; 0111 Education Sciences; 0112 Training for Pre-school Teachers; 02 Teacher Training with Subject Specialization";yes;yes;yes;on request;on request;1 May;31 October
+260;FF;SPAIN;Universiyesd de Castilla - La Mancha*;E CIUDA-R01;ori.to@uclm.es;022 Humanities;yes;yes;yes;2;10 (2x5);15 June;30 November
+261;FF;SPAIN;Universiyesd de Castilla - La Mancha*;E CIUDA-R01;ori.to@uclm.es;011 Education;yes;yes;yes;6;30 (6x5);15 June;30 November
+262;FF;SPAIN;Universiyesd de Castilla - La Mancha*;E CIUDA-R01;ori.to@uclm.es;031 Social and behavioural sciences;yes;no;no;2;10 (2x5);15 June;30 November
+263;FF;SPAIN;Universiyesd Nacional de Educacion a Distancia (UNED);E MADRID01;moviliyesd-economico@adm.uned.es;"022 Humanities; 031 Social Sciences";yes;yes;yes;2;10 (2x5);15 July;15 January
+264;FF;SPAIN;Universiyesde de Cordoba;E CORDOBA 01;relaciones-internacionales@uco.es;023 Languages;yes;no;no;2;5;30 June;31 December
+265;FF;SPAIN;Universiyesd de las Palmas de Gran Canaria;E LAS-PAL01;erasmus@ulpgc.es;023 Languages;yes;yes;no;2;2x6;31 May;15 November
+266;FF;TURKEY;Uluyesg University;TR BURSA01;erasmus@uluyesg.edu.tr;226 Philosophy;yes;yes;yes;3;18 (3x6);July;December 
+267;FF;TURKEY;Amasya University;TR AMASYA01;erasmus@amasya.edu.tr;"01 Education; 022 Humanities; 023 Languages; 0314 Sociology and cultural Studies";yes;yes;no;2;10;30 June;30 December
+268;FF;TURKEY;Balikesir Univerisity;TR BALIKES01;"seyessen007@yahoo.com; ecegormez@balikesir.edu.tr";0314 Sociology and cultural studies;yes;yes;no;2;10;check on the homepage;check on the homepage
+269;FF;TURKEY;Ankara Yildirim Beyazit University, Faculty of Humanities and Social Sciences_;TR ANKARA 15;nisaevagunes@ybu.edu.tr;0314 Sociology;yes;yes;no;"2 x 1 semester; (2 x 5 months)";undefined;01 August;01 December
+270;FF;TURKEY;"KTO Karatay University; Faculty of Social and Human Sciences";TR KONYA02;erasmus@karatay.edu.tr;312 Sociology;yes;yes;no;3x6;undefined;check on the homepage;check on the homepage
+271;MEDICINE;CZECH REPUBLIC;Charles University;CZPRAHA07;erasmus@ruk.cuni.cz;0916 Pharmacy;yes;yes;no;2;10;15 June;31 October
+272;MEDICINE;CZECH REPUBLIC;Masaryk University;CZ BRNO05;"zapletal@czs.muni.cz; marakova@czs.muni.cz";0911 Dental Studies;yes;yes;no;2;10;15 June;15 November
+273;MEDICINE;CZECH REPUBLIC;University of Ostrava;CZ OSTRAVA02;"kamila.yesnihelkova@osu.cz; Daniela.Gumulcova@osu.cz";0912 Medicine;yes;yes;no;2;10;31 May;31 October
+274;MEDICINE;FINLAND;University of Eastern Finland;SF KUOPIO12;mia.laurila@uef.fi;727 Pharmacy;yes;yes;no;1;10;check on the homepage;check on the homepage
+275;MEDICINE;FRANCE;Universite Claude Bernard LYON 1*;F LYON01;catherine.guillaumon@univ-lyon1.fr;0912 Medicine;undefined;undefined;undefined;2;20;2 May;check on the homepage
+276;MEDICINE;FRANCE; Universite de Lille, Lille University School of Medicine;F LILLE103;erasmus-agreements@uni-lille.fr;0912 Medicine;yes;yes;no;" 2 students x 3 months- Medicine (practical training); 1 student x 10 months";6 and 10;check on the homepage;check on the homepage
+277;MEDICINE;ITALY;Universita Politecnica delle Marche_ UNIVPM;I ANCONA01;l.martini@univpm.it;0912 Medicine;yes;no;no;4;36 (4x9);31 May;31 October
+278;MEDICINE;ITALY;Universita degli Studi di Firenze;I FIRENZE01;erasmadm@unifi.it erasmusplus@adm.unifi.it;0912 Medicine;yes;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+279;MEDICINE;ITALY;Universita Politecnica delle Marche_ UNIVPM Faculty of Medicine;I ANCONA01;l.martini@univpm.it;"0912 Medicine; 0911 Dental Studies";no;yes;yes;"2nd = 2; 3rd = 1";"2nd = 18 (2x9); 3rd = (1x6)";31 May;31 October
+280;MEDICINE;ITALY;"University ""G.d'Annuzio""";I CHIETI01;uri1@unich.it;0916 Pharmacy;yes;yes;no;3;10;30 June;10 December
+281;MEDICINE;IRELAND;Trinity College Dublin;IRLDUBLIN01;erasmus@tcd.ie;0916 Pharmacy;yes;yes;no;2;10;15 April;15 October
+282;MEDICINE;HUNGARY;University of Pecs, Medical School;HU PECS01;"nemeth.judit@pte.hu; arvay.orsolya@pte.huanett.tomozer@aok.pte.hu";721 Medicine;yes;yes;no;2;20 (2x10);15 May;15 November
+283;MEDICINE;MACEDONIA;SS. Cyril and Methodius University in Skopje;MK SKOPJE01;M.Cvetkovska@ukim.edu.mk;0912 Medical Science;yes;no;no;2;10;15 May;15 November
+284;MEDICINE;GERMANY;Friedrich Alexander Universitat Erlangen-Nunberg;D ERLANGE01;nataliya.walther@fau.de;0912 Medicine;"yes; (only from 5th semester onwards)";"yes; (only from 5th semster onwards)";no;2;20 (2 x 10);15 May;15 November
+285;MEDICINE;POLAND;Medical University of Warsaw;PL WARSZAW06;anna.baranczyk-kuzma@wum.edu.pl;0721 Medicine;no;yes;no;2;20 (2x10);31 May;15 December
+286;MEDICINE;POLAND;Jagiellonian University in Krakow;PL KRAKOW01;izabela.zawiska@uj.edu.pl;0912 Medicine;yes;yes;no;2;10;15 May;15 May
+287;MEDICINE;ROMANIA;University Apollonia from IASI;RO IASI06;leonard.atanase@yahoo.com;"0911 Dental Studies; 0912 Medicine";yes;yes;no;2;2x6 months (12 months total);15 September;15 December
+288;MEDICINE;SLOVENIA;University of Ljubljana - Faculty of Pharmacy;SI LJUBLJA01;check on the homepage;0916 Pharmacy;yes;yes;no;2;10;15 May;15 November
+289;MEDICINE;SLOVENIA;University of Maribor;SI MARIBOR01;erasmus@um.si;721 Medicine;yes;yes;yes;2;20;1 July;1 December
+290;MEDICINE;SERBIA;Univerzitet u Novom Sadu;RS NOVISAD02;iro@uns.ac.rs;0916 Pharmacy;yes;yes;no;2;2x5;check on the homepage;check on the homepage
+291;MEDICINE;SPAIN;Funyescion Universiyesd San Jorge;E ZARAGOZ07;international@usj.es;0916 Pharmacy;yes;yes;yes;2;10;check on the homepage;check on the homepage
+292;UMAS;AUSTRIA;Gustav Mahler Privatuniversitat fur Musik;A KLAGENF06;international@gmpu.ac.at;0215 Music and performing arts;yes;yes;no;2x5;10;check on the homepage;check on the homepage
+293;UMAS;AUSTRIA;University of Art and Design Linz;A LINZ02;international.office@ufg.ac.at;0211 Audio-visual techniques and media production, Visual communication design;no;yes;no;1/semester;4 (8 month);1 May;01 November
+294;UMAS;AUSTRIA;University of Applied Arts Vienna;A WIEN 07;international.office@uni-ak.ac.at;021 Arts;yes;yes;no;1;5;15 April;15 October
+295;UMAS;AUSTRIA;Musik und Kunst Privatuniversitat der Stadt Wien;A WIEN 52;p.koenigseder@muk.ac.at;0215 Music and performing arts;yes;yes;no;2x5;10 months total;15 April;15 October
+296;UMAS;AUSTRIA;FH Joanneum, University of Applied Sciences;A GRAZ09;international@fh-joanneum.at;0211 Audio- visual techniques and media production;yes;yes;no;2x5;10 months total;15 June;15 September
+297;UMAS;BELGIUM;Universiteit Antwerpen;B ANTWERP01;nele.simons@uantwerpen.be;322 Conservation and Restauration;yes;no;(mobility is open to 4th and 5th year students);2;10;"1 May, when a visa is required; 1 June, when no visa is required";"1 November, when a visa is required; 15 November, when no visa is required"
+298;UMAS;BELGIUM;Artesis Plantijn Hogeschool Antwerpen;B ANTWERP62;veronique.blockhuys@ap.be;21 Arts (all options but not fashion);yes;yes;no;2;10;31 May;30 November
+299;UMAS;BELGIUM;AP Hogeschool Antwerpen;B ANTWERP62;frauke.druant@ap.be;0215 Music and performing arts;yes;no;no;2;10;1June;01 November
+300;UMAS;BELGIUM;Koninklijk Conservatorium Brussel;B BRUSSEL46;"annelore.schittecatte@ehb.be; johan.de.sterke@ehb.be ";0215 Music and performing arts;yes;yes;no;2;10;1 June;01 November
+301;UMAS;BULGARIA;New Bulgarian University;BG SOFIA 02;erasmus.nbu@gmail.com;212 Music and Performing Arts;yes;yes;yes;2;10 (2x5);1 June;1 December
+302;UMAS;BULGARIA;National Academy of Art;BG SOFIA08;art.academy@nha.bg;021 Arts;yes;yes;no;2;10 (2x5);30 June;30 October
+303;UMAS;BULGARIA;National Academy of Music;BG SOFIA 13;sagitta@nma.bg;0215 Music and Performing arts;no;no;no;2;10 months total;End of April;Mid of March
+304;UMAS;CZECH REPUBLIC;FILM AND TV SCHOOL OF ACADEMY OF PERFORMING ARTS IN PRAGUE (FAMU);CZ PRAHA04;"yesvid.cenek@famu.cz; irvin.venys@hamu.cz";021 Arts;yes;yes;yes;2;10 (2x5);15 May;15 May
+305;UMAS;CZECH REPUBLIC;Academy of Fine Arts in Prague;CZ PRAHA03;"marie.havlinova@avu.cz; avuinternational@avu.cz";"021 Fine Arts; 3222 Museum studies, Conservation";yes;yes;no;2;5;check on the homepage;check on the homepage
+306;UMAS;CZECH REPUBLIC;University of Ostrava, Faculty of Fine Arts and Music;CZ OSTRAVA 02;Veronika.Voracova@osu.cz;021 Arts;yes;yes;no;on request;on request;check on the homepage;check on the homepage
+307;UMAS;ENGLAND;University of Reading Department of Arts;UK READING01;check on the homepage;0213 Fine Arts;yes;yes;no;3;15;1 June;01 November
+308;UMAS;FRANCE;Nimes School of Arts;F NIMES 15;l.wohlfahrt@esba-nimes.fr;021 Arts;yes;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+309;UMAS;ITALY;"Conservatorio di Musica ""N.Rota""";I MONOPOL 02;erasmusrota@gmail.com;215 Craft Skills;yes;yes;yes;5;05.Okt;15 May;01 November
+310;UMAS;ITALY;"Conservatorio di Musica ""A. Corelli""- Istituto Superiore di Studi Musicali";I MESSINA04;erasmus@consme.it;0215 Music and performing arts;yes;yes;no;2;10 (2x5);1 April -1 June;1 September-1 November
+311;UMAS;ITALY;Accademia di Belle Arti di Venezia;I VENEZIA03;erasmus@accademiavenezia.it;211 Fine Arts;yes;yes;no;2;10 (2x5);15 May;15 May (Only first semester or full year)
+312;UMAS;ITALY;Conservatorio di Musica Benedetto Marcello di Venezia;I VENEZIA04;international@conservatoriovenezia.net;0215 Music and performing arts;yes;yes;no;2;10 (2x5);01 April;1 July
+313;UMAS;ITALY;Universita degli Studi di Genova;I GENOVA01;coopint@unige.it;211 Fine Arts;yes;no;no;2;6;01 April;1 July
+314;UMAS;ITALY;Academia Lingustica di Belle Arti;I GENOVA 03;erasmus@accademialigustica.it;021 Arts;yes;yes;no;2;5;30 June;30 November
+315;UMAS;ITALY;"Conservatorio Statale di Musica ""F.A.Bonporti"" di Trento";I TRENTO02;fortunatofederica@yahoo.it;0215 Music and Performing Arts;yes;yes;no;2;10;31 May;15 November
+316;UMAS;ITALY;Instituto superiore di studi Musicali Franco Vittadini;I PAVIA02;mobilita.erasmus@conspv.it;0215 Music and performing arts;yes;yes;no;2;10;1 June;01 November
+317;UMAS;ITALY;"Conservatorio di Musica ""Niccolo Piccinni""";I BARI03;erasmus@conservatoriopiccinni.it;0215 Music and performing arts;yes;yes;no;2;10;30 May;31 October
+318;UMAS;ITALY;Academia di Belle Arti di Macerata;I MACERAT02;relazioni.internazionali@abamc.it;021 Arts;yes;yes;no;2;10;15 June;15 November
+319;UMAS;ITALY;"Conservatorio di Musica ""Alfredo Casella"" di L'Aquila";I L-AQUILA04;erasmus@consaq.it;0215 Music and performing arts;yes;yes;no;2;10;15 May;1 December
+320;UMAS;ITALY;Academia di Belle Arti di Frosinone;I FROSINO01;erasmus@accademiabellearti.fr.it;0213 Fine Arts;no;yes;yes;2;10;31 May;20 November
+321;UMAS;ITALY;Politecnico di Milano School of Design Campus Bovisa;I MILANO02;"erasmus@polimi.it; claudia.russo@polimi.it";021 Arts (Visual Communications Design);yes;yes;no;1;5;31 May;20 November
+322;UMAS;LATVIA;Jazeps Vitols Latvian Academy of Music;LV RIGA05;maija.sipola@jvlma.lv;"0215 Music and performing arts; 0114 Teacher training and education science";yes;yes;yes;3;05.Okt; from 15 May until end of May;from 15 November until end of November
+323;UMAS;LATVIA;Art Academy of Latvia;LV RIGA04;elina.gibiete@lma.lv;021 Arts;yes;yes;no;1;10;1 May;01 November
+324;UMAS;LITHUANIA;Lithuanian Academy of Music and Theatre;LT VILNIUS05;rima.rimsaite@lmta.lt;021 Arts;yes;yes;yes;2;10;15 May;15 November
+325;UMAS;HUNGARY;Eszterhaazy Karoly Foiskola;HU EGER01;international@ektf.hu;021 Arts;yes;yes;no;2;10;15 June;10 December
+326;UMAS;HUNGARY;Szegedi Tudomanyegyetem- University of Szeged;HU SZEGED01;"tanacs.edit@szte.hu; tibor.zilahi@szte.hu; international.bbmk@szte.hu";215 Music and Performing Arts;yes;yes;no;2x5;10;check on the homepage;check on the homepage
+327;UMAS;MACEDONIA;Goce Delcev University;MK STIP01;marijana.kroteva@ugd.edu.mk;021 Arts;yes;yes;yes;2;10;30 June;31 December
+328;UMAS;MACEDONIA;Ss Cyril and Mehodius University-Faculty of Fine Arts;MK SKOPJE01;info@flu.ukim.edu.mk;021 Arts;yes;yes;yes;2;10 (2x5);15 May;15 November
+329;UMAS;MACEDONIA;Film Institute Film Academy Ohrid;MK OHRID02;olgica.fiofa@gmail.com;0211 Audio-visual techniques and media production;no;yes;no;2;10 (2x5);15 May;20 October
+330;UMAS;NETHERLANDS;Maastricht Academy of Music;NL HEERLEN14;"erasmus@zuyd.nl; internationaloffice.arts@zuyd.nl";0215 Music and performing arts;yes;yes;no;2;10 (2x5);1 May;01 November
+331;UMAS;GERMANY;FH Aachen - University of Applied Sciences;D AACHEN02;kazma@fh-aachen.de;210 Arts;yes;yes;no;2;12 (2x6);31 May;31 October
+332;UMAS;GERMANY;HMKW Hochschule fur Medien, Kommunikation und Wirtschaft;D BERLIN30;g.steinberg@hmkw.de;"0211 Visual Communication; 0213 Audio-visual techniques and media production; 0214 Design";yes;yes;no;2;10 (2x5);31 May;31 October
+333;UMAS;GERMANY;Fachhochschule Koln; D KOLN04;janina.knoell@th-koeln.de;210 Arts;yes;yes;no;2;10 (2x5);15 May;15 November
+334;UMAS;GERMANY;Fachhochschule Dusseldorf_University of Applied Sciences;D DUSSEELD03;"teresa.christ@study.hs-duesseldorf.de; monika.katz@hs-duesseldorf.de";021 Arts;yes;yes;no;2;24 (2x12);"Applications by July 15; By 15 May if the accommoyestion in the residence hall is required";"Applications by January 15; By 31 October if the accommoyestion in the residence hall is required"
+335;UMAS;GERMANY;Muthesius Kunsthochschule;D KIEL05;fernweh@muthesius.de;021 Arts;yes;yes;no;1;10;15 May (for October-February);15 November (for April-July)
+336;UMAS;GERMANY;Staatliche Hochschule fur Musik Trossingen;D TROSSIN01;hermle-marquart@mh-trossingen.de;215 Music and Performing Arts;yes;yes;yes;2;10(2X5);30 April;30 April
+337;UMAS;GERMANY;Coburg University;D COBURG01;annette.stegemann@hs-coburg.de;021 Conservation and restoration;yes;yes;no;1;5;15 June;15 November
+338;UMAS;GERMANY;Hochschule fur Musik und yesrstellende Kunst Frankfurt am Main;D FRANKFUR02;friederike.kreft@hfmdk-frankfurt.de;0215 Music and performing arts;yes;yes;no;2;10;check on the homepage;check on the homepage
+339;UMAS;GERMANY;Bauhaus-Universitat Weimar Geschwister-Scholl-Str 15;D WEIMAR01;international-office@uni-weimar.de;Film and Video;no;yes;no;2;10;1 June;1 December
+340;UMAS;GERMANY;University of Music Wurzburg (Hochschule fur Musik Wurzburg);D WURZBUR02;dirk.braeuer@hfm-wuerzburg.de;0215 Music and performing arts;yes;yes;no;2;05.Okt;check on the homepage;check on the homepage
+341;UMAS;POLAND;The Jan Matejko Academy of Fine Arts in Krakow;PL KRAKOW10;erasmus@asp.krakow.pl;021 Arts (Design);yes;yes;no;2;10;15 June;15 November
+342;UMAS;POLAND;Akademia Muzyczna im. Grazyny i Kiejstuta Bacewiczow w Lodzi;PL LODZ04;international@amuz.lodz.pl;0215 Music and performing arts;no;no;no;2;10;15 April;15 October
+343;UMAS;POLAND;University of Warmia and Mazury in Olsztyn (UWM);PL OLSZTYN01;"marek.szczesny@uwm.edu.pl; marko4@o2.pl";0213 Fine Arts;yes;yes;no;2;10 (2x5);15 June;30 November
+344;UMAS;POLAND;Akademia Muzyczna Imienia Karola Lipinskiego We Wroclawu;PL WROCLAW06;erasmus@amkl.edu.pl.;021 Arts;yes;yes;yes;2;10 (2x5);15 May;15 November
+345;UMAS;POLAND;Akademia Sztuki w Szczecinie/Szczecin Academy of Art;PL SZCZECI15;erasmus@akademiasztuki.eu�;021 Arts and Design;yes;yes;no;2;10 (2x5);30 June;30 November
+346;UMAS;POLAND;The Karol Szymanowski Academy of Music in Katowice;PL KATOWIC04;erasmus@am.katowice.pl;0215 Music and performing arts;yes;yes;no;2;10 (2x5);30 April (for both aswemsters);30 April
+347;UMAS;POLAND;Strzeminski Academy of Fine Arts Lodz;PL LODZ05;international.office@asp.lodz.pl;021 Arts;yes;yes;no;2;10;31 May;15 November
+348;UMAS;POLAND;Uniwersytet Muzyczny Fryderyka Chopina Warszawa;PL WARSZAW09;erasmus@chopin.edu.pl;0215 Music and performing arts;yes;yes;yes;2;18;31 May;31 October
+349;UMAS;POLAND;Academy of Fine Arts in Gyesnsk;PL GDANSK05;erasmus@asp.gyes.pl;0213 Fine Arts;yes;yes;no;2;10;30 June;30 October
+350;UMAS;PORTUGAL;Universiyesde Nova de Lisboa_Nova School of Science and Technology;P LISBOA03;"erasmus@unl.pt; div.ri.agreements@fct.unl.pt";021 Arts;yes;yes;no;2;10 (2x5);31 May;15 December
+351;UMAS;PORTUGAL;Instituto Politecnico de Castelo Branco;P CASTELO01;"gri.coord@ipcb.pt; cbaptista@ipcb.pt";"0211 Audio-visual techniques and media production; 0215 Music and performing arts";yes;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+352;UMAS;ROMANIA;"National University of Theatre and Film ""I. L. Caragiale""";RO BUCURES33;erasmus@unatc.ro;021 Arts;yes;yes;no;2;10 (2x5);15 May;15 November
+353;UMAS;SLOVENIA;Universit of Ljubljana Academy of Music;SI LJUBLJA01;Jasmina.Zajc@aluo.uni-lj.si;0215 Music;yes;yes;no;2;10;15 May;15 November
+354;UMAS;SLOVENIA;Universit of Ljubljana Academy of Fine Arts and Design;SI LJUBLJA01;"manuela.volmajer@fd.si; ";0212 Design;yes;yes;no;1;5;15 May;15 November
+355;UMAS;SLOVENIA;Faculty of Design;SI LJUBLJA09;"manuela.volmajer@fd.si; ";03.0 Art and Design;yes;no;no;1;6;1 June;1 December
+356;UMAS;SLOVENIA;University of Maribor;SI MARIBOR01;"manuela.volmajer@fd.si; ";212 Music and Performing Arts;yes;yes;yes;5;2x5,2x5,1x5;1 July;1 December
+357;UMAS;SLOVENIA;Wood Technology School Maribor, Higher Vocational College;SI MARIBOR04;"andreja.peserl@lsmb.si; ";"0722 Engineering, Technology (Manufacturing and processing Wood); 0212 Fashion, interior and industrial design";yes;no;no;1;5;1 July;1 December
+358;UMAS;SLOVENIA;"University of Ljubljana; Faculty of Education";SI LJUBLJA01;;011 Education;yes;yes;no;2;10 (2x5);15 May;15 November
+359;UMAS;SLOVENIA;Academia druzba za storitve d.o.o.;SI MARIBOR07;Daniel Perdiguero Rodriguez Daniel.perdiguero@academia.eu;"021 Arts (Visual Communication Design Department; Film and Video Department)";yes;yes;no;2;10 (2x5);15 May;15 November
+360;UMAS;SERBIA;University of Arts in Belgrade;RS BELGRAD01;Jasmina Milovanovic, jasmina.milovanovic@arts.bg.ac.rs;021 Arts;yes;yes;no;2;10;15 May;15 October
+361;UMAS;SERBIA;University of Nis - Faculty of Arts;RS NIS01;ivica.manic@elfak.ni.ac.rs;021 Arts;yes;yes;no;2;10;20 May;20 November
+362;UMAS;SPAIN;Universitat de Barcelona;E BARCELO01;Oficina erasmus de Belles Arts ba-erasmus@ub.edu;219 Conservation;yes;yes;no;2;10 (2x5);15 June;15 November
+363;UMAS;SPAIN;Conservatori Del Liceu;E BARCELO30;mfmartinez@conservatori-liceu.es;215 Music and Performing Arts;yes;yes;no;2;10 (2x5);30 April;30 April
+364;UMAS;SPAIN;Escuela de Arte de Sevilla;E SEVILLA10;international@escueladeartedesevilla.es;"021 Arts; 214 Design";no;yes;yes;2;10;30 May;15 November
+365;UMAS;SPAIN;Escuela Superior de Conversacion y Restauracion;E MADRID25;check on the homepage;021 Arts;yes;yes;no;1st cycle in Split to 1st cycle (Bachelor, 2nd 3rd academic year) in Madrid;10;check on the homepage;check on the homepage
+366;UMAS;SPAIN;Escuela Superior de Conversacion y Restauracion;E MADRID25;martarodriguez@escrbc.com;021 Arts;yes;yes;no;2nd cycle in Split to 1st cycle (Bachelor 4th academic year);5;check on the homepage;check on the homepage
+367;UMAS;SPAIN;Conservatori Superior de Musica Joaquin Rodrigo de Valencia;E VALENCI67;erasmus@csmvalencia.es;0215 Music and performing arts;yes;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+368;UMAS;TURKEY;Yasar University;TR IZMIR05;erasmus@yasar.edu.tr;021 Arts;yes;yes;yes;2;10 (2x5);30 June;30 September
+369;UMAS;TURKEY;Karabuk University;TR KARABUK01;erasmus@karabuk.edu.tr;021 Arts;yes;yes;yes;3;12 (3x4);31 May;31 October
+370;UMAS;TURKEY;Yildiz Technical University;TR ISTANBU07;"Assist. Prof. Dr. Burcu Kirmizi; kirmizi@yildiz.edu.tr ";0730 Conservation and Restoration of Cultural Property;yes;yes;no;2;10 (2x5);15 July;15 December
+371;UMAS;TURKEY;Yildiz Technical University;TR ISTANBU07;"Institutional Coordinator, Murat Turhan, PhD erasmus@yildiz.edu.tr; bilateralagreements@yildiz.edu.tr";730 Conservation and Restoration of Cultural Property;yes;yes;no;2;10 (2x5);15 July;15 December
+372;UMAS;TURKEY;Canakkale Onsekiz Mart University;TR CANAKKA01;"seyma.ozkan@yahoo.com.tr; Cagri EGE erasmusba@comu.edu.tr";0213 Fine Arts;yes;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+373;UMAS;TURKEY;Gaziantep University Faculty of Fine Arts;TR GAZIANT01;"erasmus@comu.edu.tr; intloffice@gantep.edu.tr nkalabek@gantep.edu.tr";0213 Fine Arts;yes;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+374;UMAS;TURKEY;Ordu University;TR ORDU01;"erasmus@odu.edu.tr; funyesaltin@yahoo.com";"0213 Fine Arts; 0211 Audio-visual techniques and media production";yes;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+375;EFST;AUSTRIA;Alpen-Adria Universitat Klagenfurt;A KLAGENF01;"Michaela.Holzweber@aau.at; erasmus.agreements@aau.at";"430 Business Studies and Management Sciences; 314Economic";yes;yes;yes;8;40;1 June;01 November
+376;EFST;AUSTRIA;Fachhochschule Wiener Neustadt, University of Applied Sciences Wiener Neustadt; A WIENER01;fhwnio@fhwn.ac.at;04.0(34) Business and administration;yes;yes;no;2;10;1 May;1 October
+377;EFST;AUSTRIA;Universitat Wien;A WIEN 01;erasmus.incoming@univie.ac.at;340(04.0/14.3) Business and Administration (CESEE Net Program);no;no;yes;2;10 (2x5);check on the homepage;check on the homepage
+378;EFST;AUSTRIA;FH Joanneum University of Applied Science, Graz;A GRAZ 09;"Regina.Kaefer-Goiginger@fh-joanneum.at; international@fh-joanneum.at; julia.reiter@fh-joanneum.at";34 Business and administration;yes;yes;no;2;10;1 June;01 November
+379;EFST;AUSTRIA;Karl-Franzens-Universitat Graz;A GRAZ 01;international@uni-graz.at;"314 Economics (ERA 14.3); 34 Business and Administration (ERA04.0)";yes;yes;no;3;3x5;15 May;15 October
+380;EFST;BELGIUM;"University of Ghent; Faculty of Economics and Business Administration";B GENT01;studentsin@UGent.be;"0311 Economics; 0410 Business and Administration";yes;yes;no;2;10 (2x5);15 May;15 November
+381;EFST;BULGARIA;University of National and World Economy;BG SOFIA 03;erasmus@unwe.bg;"04.0 Business Studies and Management; 14.3 Economics";yes;no;no;2;10 (2x5);30 June;30 November
+382;EFST;CZECH REPUBLIC;Czech University of Life Sciences Prague;CZ PRAHA02;"vilimovska@rektorat.czu.cz; huckoj@pef.czu.cz; pospisill@rektorat.czu.cz";"041 Business and Administration; 0311 Economics";yes;yes;yes;5;25;15 June;15 November
+383;EFST;ESTONIA;Tallin University of Technology;EE TALLINN 04;kerti.sonmez@ttu.ee;"340 Business Studies; 314 Economics";yes;yes;yes;2;10 (2x5);15 May;15 November
+384;EFST;FRANCE;Graduate School and Research of Economics and Management, Universite Cote d'Azur;F NICE01* provisional code F NICE 42;"Carolina Clavijo Perea Carolina; CLAVIJO-PEREA@univ-coteyeszur.fr";"0311 Economics; 041 Business and Administration";yes;yes;no;2;10 (2x5);15 April;30 September
+385;EFST;FRANCE;"Universite Catholique de Lille; Faculte de Gestion, Economie & Sciences (FGES)";F LILLE11; clemence.roger@univ-catholille.fr;"410 Business and Administration; 0311 Economics";yes;yes;no;2;10 (2x5);15 May;15 October
+386;EFST;FRANCE;Universite Paris-Est Creteil Val-de-Marne , UPEC;F PARIS012;laetitia.rossi@u-pec.fr;041 Business and Administration;yes;yes;no;2;10 (2x5);31 May;15 November
+387;EFST;FRANCE;Aix-Marseille Universite, Faculty of Economics & Management;F MARSEIL84;jessica.donati@univ-amu.fr;0311 Economics;yes;yes;yes;2;10;Mid May;Mid October
+388;EFST;FRANCE;ESCE International Business School;F PARIS213;jennifer.kraus@esce.fr;041 Business and Administration;yes;yes;no;2;5 or 10 months;1 May;01 November
+389;EFST;FRANCE;NEOMA Business School;F REIMS25;mobility@neoma-bs.fr;041 Business and Administration;yes;yes;yes;2 students x 5 months;10;check on the homepage;check on the homepage
+390;EFST;FRANCE;EMLV Ecole de Management Leonard De Vinci, Association Leonard De Vinci;F PARIS270;alain.ouvrieu@devinci.fr;041 Business and Administration;yes;yes;yes;2 students x 5 months;10;1 June;01 November
+391;EFST;GREECE;Athens University of Economics and Business, Oikonomiko Panepistimio Athinon (OPA);G ATHINE04;erasmusmobility@aueb.gr;"041 Business and Administration; 0311 Economics";yes;yes;no;2;10 (2x5);July;Mid November
+392;EFST;ITALY;Universita' Sapienza di Roma, Faculty of Economics;I ROMA01;erasmusincoming@uniroma1.it;"041 Business and Administration; 0311 Economics";yes;yes;yes;3;15;Application Form: after receiving the login code to on-line application form the student has 30 yesys deadline;Application Form: after receiving the login code to on-line application form the student has 30 yesys deadline
+393;EFST;ITALY;Universita Politecnica delle Marche_UNIVPM;I ANCONA01;"erasmus.economia@univpm.it; international.mobility@univpm.it ";"314 Economics; 340 Business and Administration";yes;yes;no;4;20;31 May;31 October
+394;EFST;ITALY;Universita degli Studi di Firenze;I FIRENZE01;"relint@economia.unifi.it; incoming@economia.unifi.it";"040 Business and administration; 0311 Economics";yes;yes;no;2;12 (2x6);There is no offical deadline;There is no offical deadline
+395;EFST;ITALY;University of Padova;I PADOVA01;"international.economia@unipd.it; erasmus@unipd.it";340 Business and administration (broad programmes);yes;yes;yes;4;20 (4x5);15 June;15 November
+396;EFST;ITALY;Universita degli Studi di Siena;I SIENA01;erasmus.out@unisi.it;"340 Business and Administration; 340 Business and Administration; 314 Economics";yes;yes;yes;3;15 (3x5);June 30th;November 30th
+397;EFST;ITALY;University of Palermo;I PALERMO01;"erasmus.agreement@unipa.it; valeria.sclafani01@unipa.it; ";"041 Business and administration; 1015 Travel, Tourism and Leisure; 0311 Economics";yes;yes;no;6;30 (6x5);June;October
+398;EFST;ITALY;University of Udine;I UDINE01;"outgoing.erasmus@uniud.it; Claudia.schileo@uniud.it";340 Business Administration;yes;yes;no;2;10 (2x5);check on the homepage;check on the homepage
+399;EFST;ITALY;Universita del Salento;I LECCE01;"kelly.serbeti@unisalento.it; programmi.europei@unisalento.it";041 Business and Administration;yes;yes;no;2;10 (2x5);30 June;31 October 
+400;EFST;ITALY;Universita degli Studi Gabriele D'Annunzio di Chieti-Pescara;I CHIETI01;UdA International Agreements agreements@unich.it;041 Business and Administration;yes;yes;no;2;10 (4-5);30 July;30 November
+401;EFST;LATVIA;Riga Technical University;LV RIGA02;erasmus@riseba.lv;340 Business and Administration;yes;yes;yes;1;5;1 July;01 November
+402;EFST;LATVIA;Riga Technical University;LV RIGA02;erasmus@riseba.lv;"3402 Business Studies with Technology; 314 Economics";yes;yes;yes;1;5;1 July;01 November
+403;EFST;LATVIA;RISEBA University of Applied Sciences;LV RIGA29;erasmus@riseba.lv;041 Business and Administration;yes;yes;no;2;10;15 June;15 November
+404;EFST;LITHUANIA;Kaunas University of Tecnology;LT KAUNAS02;"erasmus@ktu.lt; ieva.likadzijauske@ktu.lt";"340 Business and Administration; 3402 Business Studies with Technology; 314 Economics";yes;yes;yes;1;5;1 June;01 November
+405;EFST;LITHUANIA;Business School at Vilnius University;LT VILNIUS01;"simona.viziniene@cr.vu.lt; trs@cr.vu.lt";041 Business and Administration;yes;no;no;4;20;1 June;15 November
+406;EFST;HUNGARY;University of Pecs;HU PECS01;"nemeth.judit@pte.hu; nemeth.judit@pte.hu";"0410 Business and Administration; 0311 Economics";yes;yes;no;2x5 ili 1x10;10;15 May;15 November
+407;EFST;MACEDONIA;SS Cyril and Methodius University in Skopje (UKIM);MK SKOPJE01;international@ukim.edu.mk;"041 Business and Administration; 0311 Economics";yes;yes;no;3;15 (3x5);15 May;15 November
+408;EFST;MACEDONIA;St Kliment Ohridski;MK BITOLA01;"kaliopa.stilinovic@uklo.edu.mk; nurten.sulejmani@uklo.edu.mk";"041 Business and administration; 0311 Economics; 1015 Travel, tourism and leisure";yes;yes;no;3;15 (3x5);1 June;30 November
+409;EFST;GERMANY;Friedrich Alexander Universitat Erlangen-Nurnberg;D ERLANGE01;incoming-students@fau.de;041 Business and Administration;yes;yes;no;1;5;15 May;15 November
+410;EFST;GERMANY;Ruhr- Universitat Bochum (RUB), Faculty of Management and Economics;D BOCHUM01;"Jonna.Haensel-Neumann@uv.ruhr-uni-bochum.de; Veronika.Klasik@uv.ruhr-uni-bochum.de";"0410 Business and Administration; 0311 Economics";yes;yes;no;2;2x5 months;15 December;15 January
+411;EFST;GERMANY;Julius-Maximilians- Universitat Wurzburg;D WURZBUR01;incoming@wiwi.uni-wuerzburg.de;"0311 Economics; 041 Business Administration";yes;yes;available is only research activity;1x 10 months or 2x5 months;undefined;15 June;15 January
+412;EFST;NORWAY;Universitetet i Stavanger;N STAVANG01;eilin.sandsmark@uis.no;041 Business and administration;yes;yes;no;2 students x 5 months;undefined;check on the homepage;check on the homepage
+413;EFST;POLAND;Pozna? University of Economics and Business;PL POZNAN03;Katarzyna.Jakubiak@ue.poznan.pl;"041 Business; 0413 Management and Administration";yes;yes;no;5;25 (5x5);15 June;15 November
+414;EFST;POLAND;Pozna? University of Economics and Business;PL POZNAN03;Katarzyna.Jakubiak@ue.poznan.pl;"041 Business; 0413 Management and Administration";yes;yes;no;5;25 (5x5);15 June;15 November
+415;EFST;POLAND;Wroclaw University of Economics;PL WROCLAW03;Iwona.Przylecka@ue.wroc.pl;0413 Management and Administration;yes;yes;no;2;10;10 July;10 January
+416;EFST;POLAND;Cracow University of Economics;PL KRAKOW04;erasmus_agreements@uek.krakow.pl;"0410 Business and administration; 0311 Economics";yes;yes;no;2;10 (2x5);30 May;30 November
+417;EFST;POLAND;SGH Warsaw School of Economics;PL WARSZAW03;mchromy@sgh.waw.pl];"041 Business and administration; 0311 Economics";yes;yes;no;2;10 (2x5);19 April;19 October
+418;EFST;POLAND;Politechnika Gyesnska, Gyesnsk University of Technology, Faculty of Management and Economics;PL GDANSK02;"mdoerffer@pg.edu.pl; international@pg.edu.pl";041 Business and Administration;yes;yes;no;2;10 (2x5);30 June;15 December
+419;EFST;PORTUGAL;University of Aveiro;P AVEIROO1;gri@ua.pt;"0411 Accounting; 0412 Finance; 0311 Economics; 041 Business and Administration";yes;yes;no;2;10 (2x5);31 May;15 November
+420;EFST;PORTUGAL;Universiyesde de Coimbra;P COIMBRA01;intfeuc@fe.uc.pt;"041 Business and administration; 0311 Economics";yes;yes;no;4;20;1 June;01 November
+421;EFST;PORTUGAL;Universiyesde do Minho;P BRAGA01;COOP-INT UMinho coop.int@usai.uminho.pt;"041 Business and Administration; 0311 Economics";yes;yes;yes;4 per area;20;15 May;15 October
+422;EFST;PORTUGAL;Instituto Politecnico do Porto, Instituto Superior de Contabiliyesde e Administracao do Porto (ISCAP) Porto Accounting and Business School*;P PORTO05;"gcri@sc.ipp.pt; gri.iscap.coord@eu.ipp.pt";041 Business and Administration;yes;yes;no;2;10 (2x5);1 June;01 November
+423;EFST;SLOVENIA;University of Ljubljana/Faculty of Economics and Business*;SI LJUBLJA01;"alma.elezovic@ef.uni-lj.si; marija.susnik@fu.uni-lj.si; international@fu.uni-lj.si";"041 Economics; 0311 Administration, Economics; 34 Business and andministration(management, public administration); 314 Economics";yes;yes;yes;2x5;10;15 May;15 November
+424;EFST;SLOVENIA;University of Maribor, Faculty of Economics and Business;SI MARIBOR01;eva.skruba@um.si;"340 Business and administration (broad programmes); 314 Economics";yes;yes;yes;3;15; 1 July; 1 December
+425;EFST;SLOVAKIA;University of Economics in Bratislava;SK BRATISL03;incoming@euba.sk;"041 Business and administration; 0311 Economics";yes;yes;no;3;15 (3x5);15 May;31 October
+426;EFST;SERBIA;University of Belgrade, Faculty of Economics i Faculty of Organisational Sciences (Fakultet organizacionih nauka);RS BELGRADE02;kostrm@rect.bg.ac.rs;041 Business Administration;yes;yes;yes;3;15;1 May;31 October
+428;EFST;SPAIN;University of Granayes, Facultad de Ciencias Economicas y Empresariales;E GRANADA01;incoming_economics@ugr.es;"0410 Business and Administration; 0311 Economics; 1015 Travel tourism and leisure";yes;yes;no;2;"20 (2x10); 20 (4x5)";June;October
+429;EFST;SPAIN;University of Valencia, Facultat d Economia;E VALENCI01;"karin.wascher@uv.es; marim@uv.es; renewagreements@uv.es";1015 Travel, tourism and leisure;yes;yes;no;2 or 4;2x10 or 4x5;15 June;15 November
+430;EFST;SPAIN;University of Huelva, Facultad de Ciencias Economicas y Turismo;E HUELVA 01;drinter02@sc.uhu.es;041 Business and Administration;yes;no;no;3;"15 (3x5); 2 po semestru";1 July;30 November
+431;EFST;SPAIN;University of Malaga;E MALAGA01;lbarranco@uma.es;"0410 Business and administration; 0311 Economics; 1015 Travel, tourism and leisure";yes;yes;no;2;2 x 5 (10);15 May;15 October
+432;EFST;SPAIN;ESIC Universiyesd - Madrid Campus;E MADRID232;andres.gomez@esic.university;041 Business and Administration;yes;yes;no;6;30;30 October;30 May
+433;EFST;SWEDEN;Sodertorn University;S HUDDING01;international@sh.se;041 Business Administration ;yes;yes;no;2;10;10 May;10 October
+434;EFST;TURKEY;TED University;TR ANKARA18;can.oney@tedu.edu.tr;"041 Business Administration; 0311 Economics";yes;yes;no;3;15 (3x5);7 June;15 December
+435;EFST;TURKEY;Dokuz Eylul University;TR IZMIR 01;erasmus.incoming@deu.edu.tr;"041 Business and Administration; 0311 Economics; 1015 Travel, tourism and leisure";yes;yes;6;5;6x5;15 June;15 December
+436;LAW;BELGIUM;Universite Libre de Bruxelles;B BRUXEL04;Elizabeth.Olivares.Fontt@ulb.ac.be;0421 Law;no;yes;no;2x5;10;1 June;15 October
+437;LAW;CZECH REPUBLIC;Masaryk University;CZ BRNO05;"marakova@czs.muni.cz; erasmus.agreements@czs.muni.cz";0421 Law;yes;yes;yes;1,1,2;12 (2x6);15 July;15 November
+438;LAW;ITALY;Universita' degli Studi di Genova;I GENOVA01;coopint@unige.it;0421 Law;yes;no;no;3;9;30 September;30 November
+439;LAW;ITALY;Universita' Europea di Roma;I ROMA 23;"andrea.llorente@unier.it; Aniello.Merone@unier.it; Elena.lecci@unier.it";0421 Law;yes;yes;no;2;2x10 months;15 June;15 November
+440;LAW;ITALY;Universita degli Studi di Urbino Carlo Bo;I URBINO01;"studerasmus@uniurb.it; erasmus.incoming@uniurb.it";0421 Law;yes;yes;yes;1;10;31 July;31 October
+441;LAW;ITALY;Universita degli Studi di Macerata;I MACERATA01;cri@unimc.it;042(380) Law;yes;yes;no;2 (1+1);12 (6+6);30 June;01 November
+442;LAW;ITALY;Universita degli Studi di Salerno;I SALERNO01;"erasmus@unisa.it; biletaralagreements@unisa.it";0421 Law;yes;yes;no;2;18 (2x9);15 May;15 October
+443;LAW;ITALY;University of Catania;I CATANIA01;"rzanghi@lex.unict.it; servizi.diyesttici@lex.unict.it; gferro@lex.unict.it; giovanna.schillaci@unict.it; valentina.barbagallo@unict.it; dirrera@unict.it";042 Law;yes;yes;no;3;18;30 June;30 November
+444;LAW;ITALY;"Universita degli Studi ""Giustino Fortunato""";I BENEVEN 04;international@unifortunato.eu;042 Law;yes;yes;no;2;5;1 June;01 November
+445;LAW;ITALY;Univerita degli studi del Sannio;I BENEVEN 02;erasmus@unisannio.it;38 Law;yes;yes;yes;2;6;1 July;1 December
+446;LAW;ITALY;Universita di Bologna;I BOLOGNA01;erasmus@unibo.it;042 Law;yes;yes;yes;2;10;5 June;5 June
+447;LAW;GERMANY;FernUniversitat in Hagen;D HAGEN01;Ingrid.Thaler@FernUni-Hagen.de;042 Law;yes;yes;no;1;12;30 June;31 December
+448;LAW;GERMANY;Universitat des Saarlandes;D SAARBRU01;"fabienne.saunier@io.uni-saarland.de; luis.lidon@uni-saarland.de; mc.sparapani@mx.uni-saarland.de; froehlich@europainstitut.de";0421 Law;yes;yes;yes;2;10(2x5);15 July;15 December
+449;LAW;NORWAY;Universitetet i Stavanger_UiS Business School;N STAVANGO1;eilin.sandsmark@uis.no;042 Law;yes;yes;;2;10(2x5);check on the homepage;check on the homepage
+450;LAW;HUNGARY;University of Szeged;HU SZEGED01;Gabriella.Balog.Molnar@rekt.szte.hu;042 Law;yes;yes;yes;2;10 (2x5);30 June;31 October
+451;LAW;MACEDONIA;Goce Delcev University;MK STIP01;sanja.stefanova@ugd.edu.mk;042 Law;yes;yes;yes;2;12 (2x6);check on the homepage;check on the homepage
+452;LAW;MACEDONIA;SS. Cyril and Methodius University in Skopje;MK SKOPJE01;g.josifova@ukim.edu.mk;042 Law;yes;yes;yes;2;10 (2x5);1 June;01 November
+453;LAW;MACEDONIA;South East European University;MK TETOVO 02;b.arifi@seeu.edu.mk;042 Law;yes;yes;yes;2;10 2x5);1 June;15 November
+454;LAW;POLAND;University of Bialystok;PL BIALYSTOK04;erasmus@uwb.edu.pl;042 Law;yes;yes;no;2;10 (2x5);30 June;30 November
+455;LAW;POLAND;"University of Gyesnsk; Faculty of Law and Administration";PL GDANSK01;tomasz.widlak@prawo.ug.edu.pl;0421 Law;yes;yes;no;2;10;31 May;30 November
+456;LAW;POLAND;Uniwersytet Wroclawski;PL WROCLAW01;"barbara.skalacka-harrold@uwr.edu.pl; jakub.bornio@uwr.edu.pl";312 International Relations;yes;yes;yes;2;10;check on the homepage;check on the homepage
+457;LAW;PORTUGAL;Universiyesde Lusofona do Porto;P PORTO57;elisabetepinto.costa@ulp.pt;042 Law;yes;yes;no;2;10;31 May;31 October
+458;LAW;SLOVAKIA;Pan-European University;SK BRATISL08;slavomir.rudenko@paneurouni.com;0421 Law;yes;yes;no;2;20 (2x10);15 July;30 November
+459;LAW;SLOVENIA;University of Maribor;SI MARIBOR01;check on the homepage;380 Law;yes;yes;no;5;25 (5x5);1 July;1 December 
+460;LAW;SLOVENIA;University of Ljubljana Faculty of Administration;SI LJUBLJA01;intern.office@uni-lj.si;380 Law;yes;yes;no;2;10 (2x5);The Faculty of Administration is offering only Spring term exchanges;15 November
+461;LAW;SLOVENIA;University of Ljubljana;SI LJUBLJA01;check on the homepage;042 Law;yes;yes;yes;2;10;15 May;15 November
+462;LAW;SPAIN;Universiyesd de Zaragoza;E ZARAGOZ01;interder@unizar.es;10.1 380-Law;yes;yes;no;2;20 (2x10);1 July For whole year and first semester students;28 November For second semester students
+463;LAW;SPAIN;Universiyesd de les Illes Balears; E PALMA01;ricardo.sagrera@uib.es;0421 Law;yes;no;yes;2;10;30 September;30 November
+464;LAW;SPAIN;Universiyesd de Cordoba, Facultad de Derecho yy CC. Economicas y Empresariales;E CORDOBA01;direccion.ori@uco.es;0421 Law;yes;yes;no;2;18 (2x9);check on the homepage;check on the homepage
+465;LAW;SPAIN;Universiyesd de Granayes;E GRANADA01;lmoral@ugr.es;0421 Law;yes;no;no;4;4 x 5;check on the homepage;check on the homepage
+466;KIF;CZECH REPUBLIC;Univerzita Palackeho v Olomouci;CZ OLOMOUC01;yvona.vyhnankova@upol.cz;"1014 Sports; 0114 Teacher Training with subject specialization (P.E.)";yes;yes;yes;2;9;31 May;31 October 
+467;KIF;CZECH REPUBLIC;Charles University;CZ PRAHA07;jelizaveta.getta@ruk.cuni.cz;1014 Sports;yes;yes;no;2;10;1 June;31 October 
+468;KIF;CZECH REPUBLIC;"Masaryk University; Faculty of Sports Studies";CZ BRNO05; kakulidu@fsps.muni.cz;1014 Sports;yes;yes;yes;2;10;15 June;15 November
+469;KIF;FRANCE;Universite de Rennes;F RENNES02;"gwenaelle.lemeur@univ-rennes2.fr; international@univ-rennes2.fr";1014 Sport Sciences;yes;yes;no;2;10;1 May;1 October
+470;KIF;ITALY;University of Palermo;I PALERMO01;relinter@unipa.it, erasmus.agreement@unipa.it;1014 Sports;yes;yes;yes;4;20 (4x5 months);June;November
+471;KIF;ITALY;"University ""G.d' Annunzio"" Chieti-Pescara";I CHIETI01;agreements@unich.it;1014 Sports;yes;yes;no;3;9 (3x3);30 June;10 December
+472;KIF;ITALY;"University of Rome ""Foro Italico""";I ROMA05;relazioni.internazionali@uniroma4.it;"0988 Bachelor in Sport and Exercise Science and Master of Science in Sport Sciences and Techniques; 0488 Master of Science in Sports Management; 0915 Master of Science in Health & Physical Activity and Master of Science in Preventive and Ayespted Physical Activity";yes;yes;no;2;10;15 July;30 November
+473;KIF;ITALY;Universita degli Studi di Napoli Parthenope;I NAPOLI03;"internazionale.lingue@uniparthenope.it; sampagnaro@uniparthenope.it";"1014 Sport; 0111 Education science; 0919 Health";yes;yes;yes;1;6;31 July;30 November
+474;KIF;LITHUANIA;Lithuanian Sports University;LT KAUNAS04;University-erasmus@lsu.lt;1014 Sports;yes;yes;yes;2;10(2x5);15 May;15 November
+475;KIF;LUXEMBOURG;LUNEX International University;LUXDIFFERRD01;erasmus@lunex-university.net;1014 Sports;yes;yes;no;3;9;30 May;30 October
+476;KIF;HUNGARY;Eszterhazy Karoly Foiskola;HU EGER01;international@ektf.hu;01 Education (Sports and PE);yes;yes;no;2;10;15 June;10 December
+477;KIF;GERMANY;Carl von Ossietzky University Oldenburgno Institute of Sport Science;D OLDENBU01;andreas.maennle@uni-oldenburg.de;1014 Sports;yes;yes;no;2;10;15 July;15 January
+478;KIF;GERMANY;Kiel University;D KIEL01;go-out@uv.uni-kiel.de;1014 Sports;yes;yes;no;no;no;15 June;15 January
+479;KIF;POLAND;Gyesnsk University of Physical Education and Sport;PL GDANSK06;erasmus@awf.gyes.pl;1014 Sports;yes;yes;;3;5;1 June;15 November
+480;KIF;POLAND;AKADEMIA WYCHOWANIA-FIZYCZNEGO WE WROCLAWIU;PL WROCLAW08;monika.ilecka@awf.wroc.pl;813 Physical Education, Sport and Science;yes;yes;no;2;10;15 June;15 November
+481;KIF;POLAND;University of Applied Sciences in Kalisz;PL KALISZ01;"tmanasterska@wp.pl; e.wasielewska@pwsz.kalisz.pl; monika.napadlek@pwsz.kalisz.pl";1014 Sports;yes;yes;no;2;10;31 July;31 Dcember
+482;KIF;PORTUGAL;Universiyesde de Lisboa;P LISBOA109;"erasmus@ulisboa.pt; rute.pimenta@reitoria.ulisboa.pt";9021 Physical Education, Sport Science;yes;yes;yes;2;10;15 June;30 November
+483;KIF;PORTUGAL;Universiyesde De Tras-os-Montes e Alto Douro (UTAD);P VILA-RE01;"luciafg@utad.pt; grim.coord@utad.pt; grim.sec@utad.pt";1014 Sports;yes;yes;no;2;18;30 June;30 November
+484;KIF;PORTUGAL;Instituto Politecnico de Santarem;P SANTARE01;"helder.pereira@esg.ipsantarem.pt; ceu.martins@sc.ipsantarem.pt";1014 Sports;yes;yes;yes;2;10;15 June;15 November
+485;KIF;PORTUGAL;Instituto Politecnico do Porto;P PORTO05; gri@ese.ipp.pt;1014 Sports;yes;no;no;3;10;1 June;15 November
+486;KIF;ROMANIA;Transilvania University of Brasov;RO BRASOV01;erasmus@unitbv.ro;1014 Degree in Physical Activity and Sport Science;yes;no;no;2;18 (2x9);15 July;15 January
+487;KIF;ROMANIA;Transilvania University of Brasov;RO BRASOV01;erasmus@unitbv.ro;1014 Master Degree in Physical Activity and Sport Science;no;yes;no;2;10 (2x5);15 July;15 January
+488;KIF;ROMANIA;"Universitatea ""Constantin Brancusi""";RO TARGU04;erasmus.ucb.targujiu@gmail.com;0915 Theraphy and rehabilitation;yes;no;no;2;10;"15 June; (the yestes are flexible)";"15 November; (the yestes are flexible)"
+489;KIF;ROMANIA;"Universitatea ""Constantin Brancusi""";RO TARGU04;erasmus.ucb.targujiu@gmail.com;1014 Sports;yes;yes;no;2;10;"15 June; (the yestes are flexible)";"15 November; (the yestes are flexible)"
+490;KIF;SLOVAKIA;Comenius University in Bratislava;SK BRATISL02;marcela.rychtarikova@uniba.sk;813 Sport Science;yes;yes;yes;2;10;check on the homepage;check on the homepage
+491;KIF;SLOVAKIA;University of Presov;SK PRESOV01;erasmus@unipo.sk;1014 Sports;yes;yes;no;2;8;15 June;15 November
+492;KIF;SLOVENIA;University of Maribor;SI MARIBOR01;erasmus@um.si;813 Sports;yes;yes;yes;5;25 (5x5);1 July;1 December
+493;KIF;SLOVENIA;University of Primorska;SI KOPER03;erasmus@upr.si;813 Sports;yes;yes;yes;3;15 (3x5);1 June;15 November
+494;KIF;SLOVENIA;University of Ljubljana;SI LJUBLJA01;jozef.krizaj@fsp.uni-lj.si;1014 Sports;yes;yes;yes;2;12;15 May;15 November
+495;KIF;SERBIA;University of Belgrade;RS BELGRAD02; markob@rect.bg.ac.rs;1014 Sports;yes;yes;yes;2;10;01 April;1 October
+496;KIF;SERBIA;University of Nis;RS NIS01;ivica.manic@elfak.nj.ac.rs;1014 Sport Science;yes;yes;yes;2;10;20 May;20 November
+497;KIF;SERBIA;University of Novi Sad;RS NOVISAD 02;iro@uns.ac.rs;1014 Sports;yes;yes;yes;2;12 (2x6);15 June;15 October
+498;KIF;SPAIN;INEFC Barcelona;E BARCELO01;mobilitat.inefcbcn@gencat.cat ;8.13 Physical education, Sport Science;yes;no;no;3;10;15 June;15 November
+499;KIF;SPAIN;University of Deusto;E BILBAO02;relint@deusto.es;011 Education (Physical Activity and Sports Sciences);yes;no;no;2;10 (2x5);15 June;15 November
+500;KIF;SPAIN;Universiyesd de Murcia;E MURCIA01;erasmus@um.es;1014 Sports;yes;yes;yes;2;9;30 June;30 November
+501;KIF;TURKEY;NEVSEHIR HACI BEKTAS VELI UNIVERSITY;TR NEVSEHI02;erasmus@nevsehir.edu.tr;1014 Sports;yes;no;no;2;10;30 June;15 December
+502;KIF;TURKEY;Ege Universityno Faculty of Sport Sciences;TR IZMIR02;"erasmus@mail.ege.edu.tr; cagrilimanege@gmail.com";1014 Sports;yes;yes;yes;2;18;1 July;01 November
+503;PMF;AUSTRIA;Vienna University of Technology- TU VIENNA;A WIEN02;check on the homepage;"0533 Mathematics; 0610 Information and Communication Technology";yes;yes;yes;2;10 (2x5);31 May;15 December
+504;PMF;AUSTRIA;University in Zlin;CZ ZLIN01;bycek@rektorat.utb.cz;0610 Information and Communication Technologies, Mathematics;yes;yes;no;undefined;10 (2x5);1 June;01 November
+505;PMF;FRANCE;Universite Paul Sabatier Toulouse II;F TOULOUS 03;check on the homepage;"0533(441) Physics; 0521 Environmental Sciences; 0532 Earth Sciences; 4437 Meteorology; 4438 Oceanography";no;yes;yes;2;12;31 May;15 November
+506;PMF;FRANCE;Ecole Nationale Superieure d'Ingienieurs de Caen;F CAEN05;relations.internationales@ensicaen.fr;053 Physical science;no;yes;no;1;6;check on the homepage;check on the homepage
+507;PMF;GREECE;Alexanyesr Technological Educational Institute of Thessaloniki;G THESSAL12;socrates@teithe.gr;"06 Information and Communication technologies; 071 Engineering and engineering trades";yes;yes;no;3;18;30 June;15 November
+508;PMF;GREECE;University of the Aegean;G ATHINE41;erasmus@aegean.gr;0588 Natural sciences, mathematics and statistics;yes;yes;no;2;12 (2x6);15 June;15 October
+509;PMF;ITALY;University of Trieste;I TRIESTE01;gianfer@units.it;0512 Biochemistry;no;yes;yes;2;12 (2x6);May-to be confirmed by official mail year by year;November-to be confirmed by official mail year by year
+510;PMF;ITALY;Universita' degli studi di Genova;I GENOVA01;coopint@unigc.it;0521 Environmental sciences;no;yes;no;1;6;check on the homepage;check on the homepage
+511;PMF;ITALY;Universita' degli studi di Genova;I GENOVA02;coopint@unigc.it;"0511 Biology; 0520 Enviromental sciences; 0532 Earth sciences";no;yes;no;3,3,3;54;30 September;30 November
+512;PMF;ITALY;Universita degli studi di Perugia;I PERUGIA01;area.relint@unipg.it;461 Mathematics;yes;yes;no;2;12 (2x6);15 July;15 December
+513;PMF;ITALY;Universita degli studi del Sannio;I BENEVEN02;"erasmus@unisannio.it; eugenia.googlia@unisannio.it";0588 Natural sciences, mathematics and statistics;yes;yes;no;4;24 (4x6);1 July;1 December
+514;PMF;ITALY;Universita Politecnica delle Marche;I ANCONA01;check on the homepage;0519 Biological and related sciences not elsewhere classified;yes;yes;yes;2;12;1 June;01 November
+515;PMF;LITHUANIA;Vytautas Magnus University;LT KAUNAS01;erasmus@vdu.lt;"441 Physics; 461 Mathematics; 421 Biology and Biochemistry; 481 Computer Science";yes;yes;no;2;10 (2x5);1 June;15 November
+516;PMF;MACEDONIA;SS. CYRIL AND METHODIUS UNIVERSITY IN SKOPJE;MK SKOPJE01;check on the homepage;"052 Environment; 054 Mathematics and Statistics";yes;yes;no;2;12 (2x6);15 May;15 November
+517;PMF;GERMANY;University of Bremen Department of Physics and Electrics Engineering;D BREMEN01;euprog@uni-bremen.de;0533 Physics;yes;no;no;2;12 (2x6);31st May;30th November 
+518;PMF;GERMANY;Institute of Enviromental Physics;D BREMEN01;lad@iup.physik.uni-bremen.de;0521 Enviromental Sciences;no;yes;no;2;10 (2x5);31st May;30th November 
+519;PMF;GERMANY;Coburg University of Applied Sciences and Arts;D COBURG01;"international@hs-coburg.de; Kristina.Schulz@hs-coburg.de";"051 Biological and related scineces (Nutrition); 0531 Chemistry; 0533 Physics; 061 Computer science";yes;yes;no;4;5;15 June;15 November
+520;PMF;GERMANY;Christian-Albrecht University of Kiel;D KIEL01;check on the homepage;0521 Environmental Sciences;no;yes;no;2;10;15 June;15 January
+521;PMF;GERMANY;Hochschule fur Technik;D STUTTGA05;"michael.geiger@hft-stuttgart.de; barbara.kreis@hft-stuttgart.de";054no061 Mathematics and statisticsno Information and Communication Technologies (ICTs);yes;yes;no;2;6;1 May;01 November
+522;PMF;GERMANY;Technische Universitat Dresden;D DRESDEN02;check on the homepage;051 Biological and related sciences;yes;yes;no;2;5;30 June;15 January
+523;PMF;NORWAY;Norwegian University of Science and Technology;N TRONDHE01;wolfgang.laschet@ntnu.no;"0110 Education; 0610 ICTs";no;yes;yes;2;20;1 May;1 October
+524;PMF;POLAND;AGH University of Science and Technology;PL KRAKOW02;oprocha@agh.edu.pl;0541 Mathematics;yes;yes;yes;3;30;30 June;30 November
+525;PMF;POLAND;Czestochowa University of Technology;PL CZESTOC01;erasmus@adm.pcz.pl;"0521 Environmental Sciences; 053 Physical Sciences; 054 Mathematics and Statistics; 061 Information and Communication Technologies";yes;yes;no;2;12 (2x6);31 August;31 January
+526;PMF;POLAND;University of Life Sciences in Lublin;Pl LUBLIN04;izabela.wolska@up.lublin.pl;051 Biological and related sciences;yes;yes;yes;2;5;15 June;15 December
+527;PMF;PORTUGAL;Universiyesde de Lisboa Faculty of Science;P LISBOA109;internacional@fc.ul.pt;0533 Physics, Astrophysics;no;yes;no;2;12;30 June;31 October
+528;PMF;SLOVENIA;University of Ljubljana;SI LJUBLJA01;check on the homepage;461 Mathematics;yes;yes;no;2;10;15 May;15 November
+529;PMF;SLOVENIA;University of Maribor;SI MARIBOR01;erasmus@um.si;461 Mathematics;no;yes;yes;4;36 (2x6 + 2x12);1 July;1 December
+530;PMF;SWEDEN;Lund University;S LUND 01;Tomas.Brage@fysik.lu.se;0533 Physics;yes;yes;no;1;10;25 April;25 October
+531;PMF;SLOVAKIA;Slovak University of Technology in Bratislava;SK BRATISL01;ivan.prelovsky@stuba.sk;"524 Chemical and Process Engineering; 061 Computer science";yes;yes;yes;2;10 (2x5);31 May;31 October
+532;PMF;SLOVAKIA;Comenius University in Bratislava Faculty of Natural Sciences_;SK BRATISL02;erasmusplus@rec.uniba.sk;"0511 Biology; 0531 Chemistry; 0533Physics; 0610 ICTs; 0541 Mathematics";yes;yes;no;3;15;15 June;15 November
+533;PMF;SPAIN;Universiyesd de Oviedo;E OVIEDO01;"vice.internacional@uniovi.es; ance@uniovi.es";0533 Physics;yes;yes;no;2;11;30 June;15 December
+534;PMF;SERBIA;University of Nis;RS NIS01;check on the homepage;"0533 Physics; 0541 Mathematics";yes;yes;yes;2;10 (2x5);20 May;20 November
+535;PMF;SERBIA;University of Belgrade;RS BELGRADE02;check on the homepage;"0511 Biology; 0531 Chemistry; 0541 Mathematics; 0533 Physics";yes;yes;yes;on request;on request;1 May;31 October
+536;PMF;SERBIA;Univerzitet u Novom Sadu;RS NOVISAD02;branka.agbaba@uns.ac.rs;"0511 Biology; 0521 Environmental sciences; 061 ICT; 0541 Mathematics; 0531 Chemistry; 0512 Biochemistry; 0533 Physics";yes;yes;yes;"2- Biology; 1-Environmental sciences; 1-ICT; 1-Mathematics; 1-Chemistry; 1-Biochemistry; 1-Physics";"10 (2x5)-Biology; 5 months-Environmental sciences; ICT- 5 months; Mathematics-5; Chemistry -5; Biochemistry-5; Physics-5";30 June;15 September
+537;PMF;TURKEY;Izmir Institute of Technology;TR IZMIR03;erasmuskoordinator@iyte.edu.tr;"0511 Biology; 0531 Chemistry; 0541 Mathematics; 0533 Physics";yes;no;no;1;5 (1x5);31 May;31 December
+538;PMF;TURKEY;Giresun University;TR GIRESUN01;elif.neyran.soylu@giresun.edu.tr;0542 Statistics;yes;yes;no;1;5;15 June;15 December
+539;SOSS;AUSTRIA;Graz University of Technology;A GRAZ02;brigit.steinkellner@tugraz.at;0612 Information and Communication Technologies Database and network design and administration;yes;yes;no;1;5;"Online application is closed on 1 June; TU Graz needs to receive the signed & complete application package by 1 May (students who need a visa); 15 June (students who do not need visa)";"Online application is closed on 1 November; TU Graz needs to receive the signed & complete application package by 1 October (students who need a visa); 15 November (students who do not need visa)"
+540;SOSS;AUSTRIA;FH Joanneum University of Applied Science, Graz;A GRAZ 09;"Regina.Kaefer-Goiginger@fh-joanneum.at; international@fh-joanneum.at; julia.reiter@fh-joanneum.at";34 Business and administration;yes;yes;no;3;15;check on the homepage;check on the homepage
+541;SOSS;BELGIUM;Artesis Plantijn Hogeschool Antwerpen;B ANTWERP62;"veronique.blockhuys@ap.be; stephanie.goovaerts@ap.be ";"(340) 041 Business and administration; (812) 1013 Hotel, restaurants and catering";no;yes;no;2;10;31 May;30 November
+542;SOSS;BULGARIA;University of National and World Economy;BG SOFIA03;paskal@gbg.bg;041 Business and administraton;yes;yes;yes;5;25 (5x5);30 June;30 November
+543;SOSS;BULGARIA;University of Ruse;BG ROUSSSE01;jppopova@uni-ruse.bg;041 Business and Administration;yes;yes;yes;3;15(3x5);30 June;30 November
+544;SOSS;CZECH REPUBLIC;Brno University of Technology;CZ BRNO01;"philippi@ro.vutbr.cz; international@fbm.vutbr.cz";041 Business and Administration;yes;yes;no;3;each 5 months;Online application: March 31-May 31;Online application: September 15- November 15
+545;SOSS;DENMARK;University College of Northern Denmark, Aalborg;DK ALBORG02;myn@ucn.dk;"340 Business and administration; 812 Travel Tourism and Leisure; 48 Computing ";no;yes;no;2;10;check on the homepage;check on the homepage
+546;SOSS;FINLAND;Novia University of Applied Sciences;SF VAASA13;camilla.moliis@novia.fi;"710 Engineering; 410 Business Administration";yes;no;no;2;8 (2x4);1 May;01 November
+547;SOSS;FRANCE;Lycee Rene Gosse Clermont L'Herault;F MONTPEL50;"elisabeth.fabre@ac-montpellier.fr; ";"0413 Business and Administration; 1013 Hotel, restaurant and catering; 1015 Travel, tourism and leisure";yes;yes;no;check on the homepage;2;check on the homepage;check on the homepage
+548;SOSS;FRANCE;IPAC;F ANNECY04;ghussenot@ipac-france.com;340 Business and administration;yes;no;no;4;20 months-4 semesters, only fall semester;31 May;15 November
+549;SOSS;FRANCE;Universite Polytechnique Hauts-de-France (UPHF);F VALENCI01;Jonathan.Brindle@uphf.fr;041 Business Administration;no;yes;no;3;15;01 November;30 November
+550;SOSS;GREECE;University of West Attica;G EGALEO02;"international@uniwa.gr; erasmus2@uniwa.gr";0413 Business and Management;yes;yes;no;3;15 (3x5);30 June;15 December
+551;SOSS;IRELAND;The National University of Ireland, Maynooth;IRL MAYNOOT01;check on the homepage;"041 Business Administration; 061 Information and Communication Technologies; 071 Engineering and engineering trades";yes;yes;no;4;5;check on the homepage;check on the homepage
+552;SOSS;ITALY;Universita Europea di Roma;I ROMA23;"andrea.llorente@unier.it; Aniello.Merone@unier.it; Elena.lecci@unier.it";1015 Travel, tourism and leisure;yes;yes;no;3;27 (3x9);1 May;15 November
+553;SOSS;ITALY;Universita degli Studi del Sannio;I BENEVEN02;erasmus@unisannio.it;041 Business and Administration;yes;yes;no;4;24;1 July;1 December
+554;SOSS;LITHUANIA;Vilniaus kolegija University of Applied Sciences;LT VILNIUS10;international@viko.lt;"0311 Economics; 041 Business Administration; 061 Information and Communication Technologies; 0710 Engineering and Engineering trades";yes;no;no;2;6;31 May;30 November
+555;SOSS;LITHUANIA;Klaipedos Valstybine Koelgija/ Klapeiyes State University of Applied Sciences;LT KLAIPED09;"a.sinusaite@kvk.lt; i.berenyte@kvk.lt";"041 Business and Administration; 1015 Travel, tourism and leisure; 071 Engineering and engineering trades";yes;no;no;3;5;15 June;15 December
+556;SOSS;LITHUANIA;Vilnius College of Technologies and Design;LT VILNIUS14;a.aleknaviciene@vtdko.lt;"061 Information and Communication Technologies; 071 Engineering and engineering trades";yes;yes;no;3;5;check on the homepage;check on the homepage
+557;SOSS;HUNGARY;Buyespest Business School;HU BUDAPES20;kollath.katlin@kkk.bgf.hu;041 Business & Administration;yes;no;no;2;10 (2x5);30 May;30 November
+558;SOSS;HUNGARY;Eszterhazy Karoly Foiskola;HU EGER01;international@ektf.hu;"0311 Economics; 061 Information and Communication Technologies";yes;yes;no;2;10;15 June;10 December
+559;SOSS;HUNGARY;Hungarian University of Agriculture and Life Sciences_ MATE_ former Kaposvar University;HU KAPOSVAR01;Milkovics.Milan@uni-mate.hu;041 Business Administration, Finance and Accounting;yes;yes;no;2;10;30 June;31 October
+560;SOSS;MACEDONIA;European University-Republic of Macedonia;MK SKOPJE05;verica.najdovska@eurm.edu.mk;"041 Business Administration; 061 Information Technologies";yes;yes;no;2;10;1 June;01 November
+561;SOSS;NETHERLANDS;Fontys International Business school;NL EINDHOV03;l.huskes@fontys.nl;041 Business and Administration;yes;yes;no;2;10;15 May;15 November
+562;SOSS;NETHERLANDS;Saxion University of Applied Sciences;NL ENSCHED03;s.a.dejager@saxion.nl;041 Business and Administration;yes;no;no;4;20 (4x5);1 June;1 December
+563;SOSS;NETHERLANDS;Windesheim University of Applied Sciences;NL ZWOLLE05;check on the homepage;071 Engineering and engineering trades;yes;no;no;2;10 (2x5);1 June;01 November
+564;SOSS;NETHERLANDS;Avans University of Applied Sciences_( vidi FESB);NL BREDA01;internationaloffice@avans.nl;"04 Business, administration and law; 06 Information and Communication Technologies (ICTs)";yes;no;no;3;3x5 (15);15 May;15 November
+565;SOSS;GERMANY;Nuertingen Geislingen University;D NURTING01;"Jutta.Schnell@hfwu.de; martina.hart@hfwu.de";"041 Business and Administration; 0311 Economics";yes;yes;no;2;10;1 June;01 November
+566;SOSS;GERMANY;University of Applied Sciences Nordhausen;D NORDHAU01;"; international@hs-nordhausen.de";"34 Business Studies; 5 Engineering";yes;no;no;1;5;15 June;15 January
+567;SOSS;GERMANY;Rheinische Fachhuchschule Koln_University of Applied Sciences;D KOLN07;cschoenefeld@rfh-koeln.de;"0710 Engineering and engineering trades; 0311 Economics";yes;yes;no;2;10 (2x5);15 June;15 November
+568;SOSS;GERMANY;Hochschule Coburg;D COBURG01;annette.stegemann@hs-coburg.de;"0710 Engineering and engineering trades; 0610 Information and Communication Technologies; 0311 Economics; 0410 Business and Administration";yes;yes;no;2;10 (2x5);15 June;15 November
+569;SOSS;GERMANY;Duale Hochschule Baden-Wurttemberg Karlsruhe Baden-Wuerttemberg Cooperative State University;D KARLSRU07;"alexandra.braswell@dhbw-karlsruhe.de; dreischer@dhbw-karlsruhe.de";"340 Business and Administration; 481 Computer Science; 520 Engineering";yes;no;no;2;10;31 May;30 November
+570;SOSS;GERMANY;Rosenheim University of Applied Sciences;D ROSENHE01;check on the homepage;071 Engineering and engineering trades;yes;yes;no;2;10 (2x5);1 June;1 December
+571;SOSS;GERMANY;Rosenheim University of Applied Sciences;D ROSENHE01;check on the homepage;"0413 Management and administration; 0710 Engineering and engineering trades";yes;no;no;"0413-4 students; 0710-2";"0413 -24 months (4x6 months); 0710- 12 months (2x6 months)";1 June;1 December
+572;SOSS;GERMANY;Hochschule Kaiserlautern_University of Applied Sciences;D KAISERS02;"yesniela.fleuren@hs-kl.de; internatioanal@hs-kl.de";"071 Engineering, Manufacturing and Construction; 061 Information and Communication Technologies";yes;yes;no;3;18 (3x6);15 June;10 December
+573;SOSS;GERMANY;Hochschule Kaiserlautern_University of Applied Sciences;D KAISERS02;Beatrice.Melendez@hs-kl.de;041 Business and Administration;yes;yes;no;1st= 3;18 (3x6);15 June;10 December
+574;SOSS;GERMANY;Kempten University of Applied Sciences;D KEMPTEN01;bernd.holzhauser@hs-kempten.de;0410 Business and Administration (incl. Tourism and Social Welfare Management);yes;yes;no;2;10(2x5);31 May;15 November
+575;SOSS;GERMANY;University of Applied Sciences;D FULDA01;maria.campuzano@verw.hs-fulyes.de;041 Business and Administraton;yes;yes;no;3;15 (3x5);1 June;1 December
+576;SOSS;GERMANY;Hochschule Bonn-Rhein-Sieg, University of Applied Sciences;D ST-AUGU02;"International Office: Christina Holthaus; christina.holthaus@h-brs.de; Department of Management Sciences, Campus Rheinbach, Stefanie Dr�gg; stefanie.druegg@h-brs.de: Department of Management Sciences, Campus Sankt Augustin, Sonja Atai: sonja.atai@h-brs.de; vera.schneider@h-brs.de ";0410 Business Administration;yes;yes;no;5;25;Application to: welcome.centre@h-brs.de Deadline: 15 May;Application to: welcome.centre@h-brs.de Deadline: 15 October
+577;SOSS;GERMANY;Hochschule Bonn-Rhein-Sieg, University of Applied Sciences;D ST-AUGU02;check on the homepage;"0610 Information and Communication Technologies (ICTs); 0712 Environmental protection technology; 0713 Electricity and energy; 0714 Electronics and automation; 0715 Mecahnics and metal trades; 0716 Motor vehicles, ships and aircraft; 072 Manufacturing and processing";yes;yes;yes;2;10(2x5);check on the homepage;check on the homepage
+578;SOSS;GERMANY;Hochschule Bonn-Rhein-Sieg, University of Applied Sciences;D ST-AUGU02;incoming students;0610 Information and Communication Technologies;yes;yes;yes;6;(6x5);check on the homepage;check on the homepage
+579;SOSS;POLAND;Universitat Passau;D PASSAU01;check on the homepage;0410 Business and administration;yes;yes;no;2;10(2x5);check on the homepage;check on the homepage
+580;SOSS;POLAND;Nicolaus Copernicus University;PL TORUN01;ewader@umk.pl;481 Computer Science;yes;yes;no;check on the homepage;10;1 June;01 November
+581;SOSS;POLAND;The State School of Higher Professional Education in Konin_ AKADEMIA NAUK STOSOWANYCH W KONINIE (ANS w Koninie);PL KONIN02;"patrycja.herman@konin.edu.pl; bozena.miastkowska@konin.edu.pl";"0311 Economics; 041 Business and administration; 07 Engineering, manufacturing and construction";yes;yes;no;3;15 (3x5);30 June;30 November
+582;SOSS;POLAND;Nowy-Sacz School of Business-National Louis University;PL NOWY-SA01;erasmus.office@wsb-nlu.edu.pl;0410 Business and Administzration;yes;yes;no;3;5;15 July;30 November
+583;SOSS;POLAND;Polish Naval Academy;PL GDYNIA03;mo.wysocka@amw.gdynia.pl;"061 ICT; 071 Engineering and engineering trades";yes;yes;no;3;15;30 June;30 November
+584;SOSS;POLAND;The Mazovian Academy in Plock*;PL PLOCK02;erasmus@pwszplock.pl;041 Business Administration, 061 Information Technologies;yes;yes;no;3;15;31 May;10 December
+585;SOSS;POLAND;Rzeszow University of Technology;PL RZESZOW01;jruszel@prz.edu.pl;"0311 Economics; 071 Engineering and engineering trades; 061 ICTs";yes;yes;yes;2;10;1 June;31 October
+586;SOSS;POLAND;Bronislaw Markiewicz State Higher School of Technology and Economics in Jaroslaw (PWSTE in Jaroslaw);PL JAROSLA02;check on the homepage;"041 Business and Administration; 061 Information and Communication Technologies";yes;yes;no;"041- 3 students ( 5 months each); 061 - 3 students (5 months each)";check on the homepage;15 June;15 December
+587;SOSS;POLAND;Spoleczna Akademia Nauk- University of Social Sciences;Pl LODZ09;check on the homepage;"0410 Business and Administration; 1015 Travel, Tourism and Leisure";yes;yes;no;4x12 za Business and Administration, a 3x6 za Travel, Tourism and Leisure;check on the homepage;30 April;30 October
+588;SOSS;PORTUGAL;State University of Applied Sciences in Nowy Sacz;PL NOWYSA 02;briw@pwsz-ns.edu.pl;"0311 Economics; 0410 Business and Administration";yes;yes;no;10 (2x5);check on the homepage;1 June;1 December
+589;SOSS;PORTUGAL;Estoril Higher Institute for Tourism and Hotel Studies;P ESTORIL01;"internacional@eshte.pt;; teresa.oliveira@eshte.pt; ricardo.dias@eshte.pt";"0413 Business and Administration; 1013 Hotel, restaurants and catering; 1015 Travel,tourism and leisure";yes;yes;no;10;50 (10x5);June;November
+590;SOSS;PORTUGAL;ISAG_Higher Education Institute of Administration and Management;P PORTO16;iro@isag.pt;041 Business and Administration;yes;yes;no;3;27 (3x9);15 August;31 December
+591;SOSS;PORTUGAL;Polytechnic Institute of Braganca;P BRAGANC01;sylwia@ipb.pt;061 Information and Communication Technologies;yes;yes;no;3;15;15 July;15 December
+592;SOSS;PORTUGAL;ISLA-Higher Institute of Management and Administation;P SANTARE06;filipa.martinho@islasantarem.pt;"041 Business and Administration; 061 Computer Science; 1015 Travel, Tourism and Leisure";yes;no;no;3;15(3x5);February 28;Sep.30
+593;SOSS;PORTUGAL;Instituto politecnico do Porto;P PORTO05;"gri2@iscap.ipp.pt; gri@ese.ipp.pt";1015 Travel, tourism and leisure;yes;yes;no;4;20;1 June;01 November
+594;SOSS;PORTUGAL;Instituto Politecnico de Coimbra;P COIMBRA02;dga.sri@ipc.pt;"041 Business Administration; 071 Engineering and engineering trades";yes;yes;no;2;10;31 May;30 November
+595;SOSS;ROMANIA;ISLA-IPGT Instituto Politecnico de Gestao e Tecnologia;P VILANOV01;check on the homepage;"041 Business and Administration; 061 Information and Communication Technologies";yes;yes;no;3;5 months each;31 July;31 January
+596;SOSS;ROMANIA;Alexandru Ioan Cuza University of Iasi;RO IASI02;carmen.pintilescu@uaic.ro;340 Economics and Business Administration;yes;yes;no;2;10;01 August;1 December
+597;SOSS;ROMANIA;Romanian American University;RO BUCURES18;erasmus@student.rau.ro;"041(340) Business and Administration; 061(481) Information and Communication Technologies (ICTs)";yes;yes;no;3;15 (3x5);15 July;15 December
+598;SOSS;ROMANIA;George Bacovia University in Bacau;RO BACAU02;"nicoletabotez@yahoo.com; nicoleta.botez@ugb.ro";"041 Business and Administration; 0411 Accounting and taxation; 0610 Information and Communication Technologies (ICTs), not further defined; 0311 Economics";yes;yes;no;2;10 (2x5);30 June;30 November
+599;SOSS;SLOVAKIA;University of Iasi;RO IASI02;"erasmus@uaic.ro; alexandra.teodorescu@uaic.ro";061 Information and Communication Technologies;yes;yes;yes;2;10(2x5);01 August;1 December
+600;SOSS;SLOVENIA;University of Zilina Faculty of Mechanical Engineering;SK ZILINA01;peter.fabian@rekt.uniza.sk;0715 Mechanical Engineering;yes;yes;no;2;10 (2x5) ;15 June;30 November
+601;SOSS;SLOVENIA;Solski center Slovenj Gradec;SI SLOVENJ01;lidija.ajtnik@sc-sg.si;"041 Business and administration; 0311 Economics; 061 Information and Communication Technologies";yes;yes;no;3;5;check on the homepage;check on the homepage
+602;SOSS;SERBIA;University of Ljubljana Faculty of Computer and Information Science;SI LJUBLJA01;katja.cerjak@uni-lj.si;061 Information and Communication Technologies;yes;yes;no;2;10 (2x5) ;15 May;15 November
+603;SOSS;SERBIA;University of Belgrade;RS BELGRAD02;check on the homepage;071 Engineering and engineering trades;yes;yes;yes;on request;on request;1 May;31 October
+604;SOSS;SPAIN;Akademija strukovnih studija Beograd, Odsek Visoka turisticka skola, Academy of Applied Studies Belgrade, The College of Tourism;RS BELGRAD20;check on the homepage;"041 Business and administration; 1013 Hotel, restaurant and catering; 1015 Travel, tourism and leisure";yes;yes;no;3;5 months each;15 June;15 November
+605;SOSS;SPAIN;Floriyes Centre de Formacio, CV-FLORIDA UNIVERSITARIA;E VALENCI16;imora@floriyes-uni.es;"041 Business Administration; 071 Engineering and engineering trades";yes;yes;no;6;30;15 May;31 October
+606;SOSS;SPAIN;Universiyesd de Zaragoza;E ZARAGOZ01;relint@unizar.es;523 Electronic Engineering, Telecommunications;yes;yes;no;2;10;1 July;28 November
+607;SOSS;SPAIN;Universitat Ramon Llull- La Salle Campus Barcelona;E BARCELO 16;"Institutional Coordinator: Anna Viyesl Ganuza; email: anna.viyesl@salle.url.edu; Specific Agreements: Ramata Bah Bah; email: students-office@salle.url.edu";"0710 Computer Eingineering; 0610 ICT; 0410 Business";yes;no;no;2;2x10;30 September;30 October
+608;SOSS;TURKEY;Universitat Autonoma de Barcelona;E BARCELO02;erasmus@uab.cat;1015 Tourism;yes;no;no;2;5;1 March-15 May;1 October-15 November
+609;SOSS;TURKEY;Istanbul Arel University;TR ISTANBU29;international@arel.edu.tr;041 Business Administration;yes;yes;no;4;20;15 August;30 January
+610;SOSS;TURKEY;Okan Universitesi;TR ISTANBU22;serpil.arisoy@okan.edu.tr;"041 Business Studies (broad prog); 0713 Electric eng; 0714 electronics";no;no;no;"2 x 10; 2 x 10; 2 x 10";60;1 July;1 December
+611;SOSS;TURKEY;Balikesir University;TR BALIKES01;seyessen007@yahoo.com;"0412 Finance, Banking and insurance; 1015 Travel, Tourism and leisure; 0410 Business and administration";yes;no;no;2;5;check on the homepage;check on the homepage
+612;SOSS;TURKEY;Istanbul Health and Technology University (ISTUN);E 10284888;"erasmus@istun.edu.tr; tuba.aktas@istun.edu.tr";"041 Business Administration; 0715 Mechanical Engineering; 0611 Computer Engineering";yes;yes;no;3;5;10 August;10 January
+613;SOSS;TURKEY;Ankara Yildirim Beyazit University;TR ANKARA15;"international@ybu.edu.tr; erasmus@ybu.edu.tr";"041 Business, trade and administration; 0311 Economics, 0412 Banking, finance and insurance; 061 Information and Communication Technologies; 0715 Mechanics and metal trades; 0714 Electronics and automation ";yes;no;no;3;5;15 September;15 January
+614;SOSS;TURKEY;Antalya Bilim University;TR ANTALYA02;yagmur.kaya@antalya.edu.tr;"0311 Econbomics; 1015 Tourism Management";yes;no;no;2;2x5;10 August;check on the homepage
+615;MARITIME;BULGARIA;"Naval Academy ""Nikola Yonkov Vaptsarov""";BG VARNA05;"n.velikov@nvna.eu; erasmus.vvmu@gmail.com";"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering; Manufacturing and Construction; 1048 IDP&Q involving Transport Service; 0413 IDP&Q involving BManagement and Administration";yes;yes;yes;6;30 (6x5);15 September;15 February
+616;MARITIME;CZECH REPUBLIC;University of West Bohemia;CZ PLZEN01;"ovsjan@rek.zcu.cz; mundil@rek.zcu.cz";"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering, Manufacturing and Construction; 1048 IDP&Q involving Transport Service; 0488 IDP&Q involving Business and Administration";yes;yes;yes;2;5;15 May;30 November
+617;MARITIME;FINLAND;Novia University of Applied Sciences;SF VAASA13;Camilla.punyesrs.mitts@novia.fi;0710 Engineering and engineering trades;yes;no;no;1;5;1 May;01 November
+618;MARITIME;FINLAND;Satakunta University of Applied Sciences;SF PORI08;satu.schrey@samk.fi;"1041 Transport Services (including Nautical Scineces, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering, Manufacturing and Construction; 1048 IDP&Q involving Transport services; 0488 IDP&Q involving Business and Administration";yes;no;no;2;5;15 May;15 November
+619;MARITIME;LATVIA;Latvian Maritime University;LV RIGA12;"info@latja.lv; vija.kasakovska@latja.lv";"1041 Transport Services;0716 Motor vehicles, ships & aircraft";yes;yes;yes;2;10;1 June;01 November
+620;MARITIME;LITHUANIA;Lithuanian Maritime Academy;LT KLAIPED06;"s.briediene@lajm.lt; t.lysenko@lajm.lt";"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering, Manufacturing and Construction; 1048 IDP&Q involving Transport Service; 0488 IDP&Q involving Business and Administration";yes;no;no;2;2x4months;30June;1 December
+621;MARITIME;NORWAY;USN University of South-Eastern Norway, Universitetet Norge;N KONGSBE02;thor.e.eide@hbv.no;"0488 Interdisciplinary programmes and qualifications involving bussines and administration; 0713 Motor vessels Ships and crafts; 0716 Electricity and energy; 1041 Transport services; 1048 Interdisciplinary programmes and qualifications involving transport services; 0710 Engineering and engineering trades";yes;yes;yes;2;10 (2x5);15 April;15 October
+622;MARITIME;GERMANY;Hochschule Bremen - University of Applied Sciences;D BREMEN04;"erasmus@hs-bremen.de; international-office@hs-bremen.de";"02.6 Transport and Traffic Studies; 04.2 Business Studies with Technology; 06.0 Engineering, Technology; 16.4 Nautical Science, Navigation ";yes;yes;yes;2;10 (2x5);1 June;15 January
+623;MARITIME;GERMANY;Hochschule Wismar;D WISMAR01;korinna.stubbe@hs-wismar.de;"0488 Interdisciplinary programmes and qualifications involving bussines and administration; 0713 Motor vessels Ships and crafts; 0716 Electricity and energy; 1041 Transport services; 1048 Interdisciplinary programmes and qualifications involving transport services";yes;yes;yes;2;10;End of June;End of November
+624;MARITIME;POLAND;Akademia Morska w Gdynino Gdynia Maritime University;PL GDYNIA01;pror.w@umg.edu.pl;"1041 Transport services; 071 Engineering and engineering trades";yes;yes;no;2;10;15 June;30 November
+625;MARITIME;POLAND;Polish Naval Academy;PL GYDNIA03;c.dyrcz@amw.gdynia.pl;"06.0 Engineering Technology; 16.4 Nautical Science, Navigation";yes;yes;yes;4;20 (4x5);30 June;30 November
+626;MARITIME;POLAND;University of Gyesnsk Faculty of Economics Institute of Oceanography;PL GDANSK01;bwzs@ug.edu.pl;"314 Economics; 4433 Enviromental Sciences";yes;yes;no;2;10;31 May;30 November
+627;MARITIME;POLAND;Maritime University of Szczecin;PL SZCZECI01;check on the homepage;"525 Motor vehicles, ships and crafts; 1041 Transport Services";yes;yes;no;2;10;31 May;15 November
+628;MARITIME;POLAND;Maritime University of Szczecin;PL SZCZECI03;erasmus@am.szczecin.pl;525 Motor vehicles, ships and crafts;yes;yes;no;4;40;31 May;15 November
+629;MARITIME;POLAND;Maritime University of Szczecin;PL SZCZECI03;check on the homepage;1041 Transport Services;yes;yes;no;8;80;check on the homepage;check on the homepage
+630;MARITIME;POLAND;Politechnika Gyesnska, Gyesnsk University of Technology, Gyesnsk Tech;PL GDANSK02;check on the homepage;071 Engineering and engineering trades;yes;yes;no;2;5;30 June;15 December
+631;MARITIME;PORTUGAL;Instituto Superior Tecnico, Universiyesde de Lisboa;P LISBOA 109;erasmus@tecnico.ulisboa.pt;0716 Motor vehicles, ships and crafts;no;yes;no;2;10 (2x5);15 June;16 November
+632;MARITIME;ROMANIA;Mircea Cel Batran Naval Academy_ (MBNA);RO CONSTAN01;"erasmus@anmb.ro; international@anmb.ro";"1041 Transport services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Transport Services; 0488 IDP&Q involving Business and Administration; 1048 IDP&Q involving Transport Service";yes;no;no;2;10 (2x5);1 June;01 November
+633;MARITIME;SLOVAKIA;University of Zilina Faculty of Operation and Economics of Transport and Communication;SK ZILINA01;�jarmila.cervena@uniza.sk;104 Transport and Traffic Studies;yes;yes;yes;3;18 (3x6);15 June;30 November
+634;MARITIME;SLOVENIA;University of Ljubljana Faculty of Maritime Studies and Transport Portoro�;SI LJUBLJA01;check on the homepage;"02.6 Transport and Traffic Studies; 04.2 Business Studies with Technology; 06.0 Engineering, Technology; 16.4 Nautical Science, Navigation ";yes;yes;yes;4;20 (4x5);15 May;15 November
+635;MARITIME;SLOVENIA;Prometna Sola Maribor Visja prometna sola Vocational College of Traffic and Transport;SI MARIBOR08;ziva.trstenjak@vpsmb.net;"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering, Manufacturing and Construction; 1048 IDP&Q involving Transport Services; 0488 IDP&Q involving Business and Administratio";yes;yes;yes;2;10 (2x5);check on the homepage;30 August
+636;MARITIME;SLOVENIA;Faculty of Industrial Engineering, Novo Mesto;SI NOVO-ME11;janja.sasek@fini-unm.si;"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering, Manufacturing and Construction; 1048 IDP&Q involving Transport Services; 0488 IDP&Q involving Business and Administration";yes;yes;yes;2;"10 (2x5); 6 (2x3)";10th May;10th November
+637;MARITIME;SERBIA;University of Belgrade;RS BELGRADE02;check on the homepage;"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering, Manufacturing and Construction; 1048 IDP&Q involving Transport Services; 0488 IDP&Q involving Business and Administration";yes;yes;yes;on request;on request;1 May;31 October
+638;MARITIME;SPAIN;Universiyesd Politecnica de Madrid;E MADRID05;international.europe@upm.es;"1041 Transport Services (including Nautical Science, Navigation); 071 Engineering and engineering trades";yes;yes;yes;2;10;30 April-10 June;15 November-1 December
+639;MARITIME;SPAIN;University of A Coruna;E-LACORU01;erasmus@udc.es;"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts";yes;yes;yes;2;10 (2x5);15 June;15 Nov
+640;MARITIME;SPAIN;Universiyesd de La Laguna;E TENERIF01;orincom@ull.edu.es;"840 Transport srevices; 521 Mechanics and metalwork; 523 Electronics and automation";yes;no;no;2;2x5 months;check on the homepage;check on the homepage
+641;MARITIME;SPAIN;Universiyesd del Pais Vascono Euskal Herriko Unibertsitatea; E BILBAO01;agreements.international@ehu.es;"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering, Manufacturing and Construction; 1048 IDP&Q involving Transport Services; 0488 IDP&Q involving Business and Administration";no;yes;no;2;10;31 May;31 October
+642;MARITIME;SPAIN;Universiyesd de Las Palmas de Gran Canaria;E LAS-PAL01;"d.moviliyesd@ulpgc.es; relint@ulpgc.es";"0716 Motor vehicles, ships and aircraft; 0714 Electronics and automation; 061 Information and Communication Technologies";yes;yes;no;"0716 -4; 0714 -2; 061 -4";"0716 -10 0714-5; 061-5";18 June;23 December
+643;MARITIME;TURKEY;Istanbul Technical University - Maritime Faculty;TR ISTANBU04;erasmus@itu.edu.tr;"06.0 Engineering, Technology; 16.4 Nautical Science, Navigation; 840 Transport services";yes;no;no;3;15 (3x5);June;October
+644;MARITIME;TURKEY;Yildiz Techical University;TR ISTANBUO7;check on the homepage;"525 Engineering, Technology; 0716 Motor vehicles, ships and aircraft";yes;yes;no;5;25 3 (3x5)+2 (2x5);15 July;15 December
+645;MARITIME;TURKEY;Yildiz Techical University;TR ISTANBUO7;erasmus@yildiz.edu.tr;"525 Engineering, Technology; 0716 Motor vehicles, ships and aircraft";yes;yes;no;5;25 3 (3x5)+2 (2x5);15 July;15 December
+646;MARITIME;TURKEY;Yildiz Techical University;TR ISTANBU07;"erasmus@yildiz.edu.tr; bilateralagreements@yildiz.edu.tr";716 Marine Engineering;yes;no;no;3;15 (3x5);15 July;15 December
+647;MARITIME;TURKEY;Karadeniz Technical University;TR TRABZON01;"onuraydin@ktu.edu.tr; cigdemhusem@ktu.edu.tr";"1041 Transport Services (including Nautical Science, Navigation); 0716 Motor vehicles, ships and crafts; 0788 IDP&Q involving Engineering; Manufacturing and Construction; 1048 IDP&Q involving Transport Service; 0488 IDP&Q involving Business and Administration";yes;yes;yes;2;10 (2x5);1 June;1 December
+648;MARITIME;TURKEY;Marmara University;TR ISTANBU05;erasmus@marmara.edu.tr;"0488 IDP&Q involving Business and Administration; 04.X Business Studies ( All included)";yes;yes;yes;5;25;31 May;31 October
+649;MARITIME;TURKEY;Istanbul University-Cerrahpa?a;TR ISTANBU64;erasmus.iuc@istanbul.edu.tr;"02.6 Transport and Traffic Studies; 04.2 Business Studies with Technology; 06.0 Engineering, Technology; 16.4Nautical Science, Navigation";yes;yes;yes;5;25 (5x5);15 June;15 Nov

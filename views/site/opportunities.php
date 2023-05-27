@@ -93,7 +93,7 @@ $this->params['breadcrumbs'][] = $this->title;
     $this->registerJs("
         $(document).on('click', '#FESB', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'FESB'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -103,7 +103,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#FGAG', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'FGAG'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -113,7 +113,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#FF', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'FF'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -123,7 +123,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#KBF', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'KBF'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -133,7 +133,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#KIF', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'KIF'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -143,7 +143,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#KTF', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'KTF'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -153,7 +153,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#MEDICINE', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'MEDICINE'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -163,7 +163,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#PMF', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'PMF'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -173,7 +173,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#EFST', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'EFST'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -183,7 +183,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#SOSM', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'SOSM'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -193,7 +193,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#LAW', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'LAW'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -203,7 +203,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#SOFZ', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'SOFZ'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -213,7 +213,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#SOSS', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'SOSS'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -223,7 +223,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#SOZS', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'SOZS'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -233,7 +233,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#MARITIME', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'MARITIME'},
                 success: function(response) {
                     $('#grid-container').html(response);
@@ -243,7 +243,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         $(document).on('click', '#UMAS', function() {
             $.ajax({
-                url: '/index.php?r=proba%2Findexb',
+                url: '/index.php?r=faculties%2Findexb',
                 data: {button: 'UMAS'},
                 success: function(response) {
                     $('#grid-container').html(response);

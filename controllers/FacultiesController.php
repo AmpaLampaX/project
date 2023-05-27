@@ -2,17 +2,17 @@
 
 namespace app\controllers;
 
-use app\models\Proba;
-use app\models\ProbaSearch;
+use app\models\Faculties;
+use app\models\FacultiesSearch;
 use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * ProbaController implements the CRUD actions for Proba model.
+ * FacultiesController implements the CRUD actions for Faculties model.
  */
-class ProbaController extends Controller
+class FacultiesController extends Controller
 {
     /**
      * @inheritDoc
@@ -33,14 +33,14 @@ class ProbaController extends Controller
     }
 
     /**
-     * Lists all Proba models.
+     * Lists all Faculties models.
      *
      * @return string
      */
     public function actionIndex()
     {
-        $searchModel = new ProbaSearch();
-        $dataProvider = $searchModel->search ($this->request->queryParams);
+        $searchModel = new FacultiesSearch();
+        $dataProvider = $searchModel->search($this->request->queryParams);
 
         return $this->render('index', [
             'searchModel' => $searchModel,
@@ -49,30 +49,30 @@ class ProbaController extends Controller
     }
 
     /**
-     * Displays a single Proba model.
-     * @param int $ad Ad
+     * Displays a single Faculties model.
+     * @param int $ID ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($ad)
+    public function actionView($ID)
     {
         return $this->render('view', [
-            'model' => $this->findModel($ad),
+            'model' => $this->findModel($ID),
         ]);
     }
 
     /**
-     * Creates a new Proba model.
+     * Creates a new Faculties model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
     public function actionCreate()
     {
-        $model = new Proba();
+        $model = new Faculties();
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
-                return $this->redirect(['view', 'ad' => $model->ad]);
+                return $this->redirect(['view', 'ID' => $model->ID]);
             }
         } else {
             $model->loadDefaultValues();
@@ -84,18 +84,18 @@ class ProbaController extends Controller
     }
 
     /**
-     * Updates an existing Proba model.
+     * Updates an existing Faculties model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param int $ad Ad
+     * @param int $ID ID
      * @return string|\yii\web\Response
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionUpdate($ad)
+    public function actionUpdate($ID)
     {
-        $model = $this->findModel($ad);
+        $model = $this->findModel($ID);
 
         if ($this->request->isPost && $model->load($this->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'ad' => $model->ad]);
+            return $this->redirect(['view', 'ID' => $model->ID]);
         }
 
         return $this->render('update', [
@@ -104,46 +104,41 @@ class ProbaController extends Controller
     }
 
     /**
-     * Deletes an existing Proba model.
+     * Deletes an existing Faculties model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param int $ad Ad
+     * @param int $ID ID
      * @return \yii\web\Response
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($ad)
+    public function actionDelete($ID)
     {
-        $this->findModel($ad)->delete();
+        $this->findModel($ID)->delete();
 
         return $this->redirect(['index']);
     }
 
     /**
-     * Finds the Proba model based on its primary key value.
+     * Finds the Faculties model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param int $ad Ad
-     * @return Proba the loaded model
+     * @param int $ID ID
+     * @return Faculties the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($ad)
+    protected function findModel($ID)
     {
-        if (($model = Proba::findOne(['ad' => $ad])) !== null) {
+        if (($model = Faculties::findOne(['ID' => $ID])) !== null) {
             return $model;
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
-
-
     public function actionIndexb($button)
     {
-        $filterModel = new ProbaSearch();
+        $filterModel = new FacultiesSearch();
 
         // define filter condition by button press
-        if ($button === 'FESB') {
-            $condition = 'ad=55';
-        } elseif ($button === 'FGAG') {
-            $condition = '';
-        }
+        $condition = ['LIKE','HOME_UNIVERSITY',$button];
+        
         // get data provider
         $dataProvider = $filterModel->filter($this->request->queryParams, $condition);
 
@@ -152,6 +147,4 @@ class ProbaController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
-
 }
-
