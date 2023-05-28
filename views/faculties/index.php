@@ -32,7 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             //'ID',
-            'HOME_UNIVERSITY',
+            //'HOME_UNIVERSITY',
             'COUNTRY',
             'UNIVERSITY_OF_OUTGOING_MOBILITY',
             'ERASMUS_ID_CODE',
