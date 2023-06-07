@@ -42,7 +42,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Opportunities', 'url' => ['/site/opportunities']],
-            ['label' => 'Forum', 'url' => ['/site/forum']],
+            ['label' => 'Forum', 'url' => ['/article/index']],
             [
                 'label' => 'Register',
                 'url' => ['/register/create'],
