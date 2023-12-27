@@ -45,6 +45,17 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
     /**
      * {@inheritdoc}
      */
+    public function beforeSave($insert)
+{
+    if (parent::beforeSave($insert)) {
+        if ($this->isNewRecord || $this->isAttributeChanged('password')) {
+            $this->password = Yii::$app->security->generatePasswordHash($this->password);
+        }
+        return true;
+    }
+    return false;
+}
+
     public function attributeLabels()
     {
         return [
@@ -81,7 +92,9 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
     public static function findByUsername ($username){
         return self::findOne(['username'=>$username]);
     }
-    public function validatePassword($password){
-        return $this->password===$password;
+    public function validatePassword($password)
+    {
+        return Yii::$app->security->validatePassword($password, $this->password);
     }
+    
 }

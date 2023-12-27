@@ -49,12 +49,14 @@ class LoginForm extends Model
     {
         if (!$this->hasErrors()) {
             $user = $this->getUser();
-
+    
+            // Here you call the validatePassword method from your Register model
             if (!$user || !$user->validatePassword($this->password)) {
                 $this->addError($attribute, 'Incorrect username or password.');
             }
         }
     }
+    
     //This method checks if the username and password entered by the user are correct. It does this by retrieving the User object corresponding to the entered username from the database and checking if the password matches the one stored in the database. If the username or password is incorrect, an error message is added to the $attribute input field.
 
     /**
