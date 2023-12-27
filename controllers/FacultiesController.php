@@ -23,6 +23,7 @@ class FacultiesController extends Controller
     public function behaviors()
     {
         return [
+            //restrictions for non-admin users
             'access' => [
                 'class' => AccessControl::className(),
                 'rules' => [
