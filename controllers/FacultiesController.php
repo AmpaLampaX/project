@@ -8,6 +8,9 @@ use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
+// ... other use statements ...
+
 
 /**
  * FacultiesController implements the CRUD actions for Faculties model.
@@ -19,18 +22,43 @@ class FacultiesController extends Controller
      */
     public function behaviors()
     {
-        return array_merge(
-            parent::behaviors(),
-            [
-                'verbs' => [
-                    'class' => VerbFilter::className(),
-                    'actions' => [
-                        'delete' => ['POST'],
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    // Rules for guests (not logged in users)
+                    [
+                        'actions' => ['index', 'view'], // Specify which actions are allowed
+                        'allow' => true,
+                        'roles' => ['?'], // ? means guest users
+                    ],
+                    // Rules for all authenticated users
+                    [
+                        'actions' => ['index', 'view'], // They can view and index
+                        'allow' => true,
+                        'roles' => ['@'], // @ means any authenticated user
+                    ],
+                    // Admin-specific rules
+                    [
+                        'actions' => ['create', 'update', 'delete'], // Restricting critical actions to admin
+                        'allow' => true,
+                        'roles' => ['@'], // Must be an authenticated user
+                        'matchCallback' => function ($rule, $action) {
+                            // Check if the user is not a guest and if the getIsAdmin method returns true
+                            return !Yii::$app->user->isGuest && Yii::$app->user->identity->getIsAdmin();
+                        }
                     ],
                 ],
-            ]
-        );
-    }
+            ],
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                    'delete' => ['POST'],
+                ],
+            ],
+        ]
+        ;
+}
 
     /**
      * Lists all Faculties models.
