@@ -1,5 +1,6 @@
-<?php
 
+<?php
+//create and updat of faculties model
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 

@@ -1,5 +1,5 @@
 <?php
-
+// this is what we see when we choose faculty
 use app\models\Faculties;
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -35,16 +35,16 @@ $this->params['breadcrumbs'][] = $this->title;
             //'HOME_UNIVERSITY',
             'COUNTRY',
             'UNIVERSITY_OF_OUTGOING_MOBILITY',
-            'ERASMUS_ID_CODE',
-            'CONTACT',
+            //'ERASMUS_ID_CODE',
+            //'CONTACT',
             'FIELD_OF_STUDY',
             'BACHELOR_PROGRAM',
             'MASTER_PROGRAM',
             'PhD',
-            'NUMBER_OF_STUDENTS',
-            'MOBILITY_DURATION',
-            'WINTER_DEADLINE',
-            'SUMMER_DEADLINE',
+            //'NUMBER_OF_STUDENTS',
+            //'MOBILITY_DURATION',
+           // 'WINTER_DEADLINE',
+            //'SUMMER_DEADLINE',
             [
                 'class' => ActionColumn::className(),
                 'urlCreator' => function ($action, Faculties $model, $key, $index, $column) {

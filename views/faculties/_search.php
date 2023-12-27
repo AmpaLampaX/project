@@ -28,23 +28,23 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'ERASMUS_ID_CODE') ?>
 
-    <?php // echo $form->field($model, 'CONTACT') ?>
+    <?= $form->field($model, 'CONTACT') ?>
 
-    <?php // echo $form->field($model, 'FIELD_OF_STUDY') ?>
+    <?= $form->field($model, 'FIELD_OF_STUDY') ?>
 
-    <?php // echo $form->field($model, 'BACHELOR_PROGRAM') ?>
+    <?= $form->field($model, 'BACHELOR_PROGRAM') ?>
 
-    <?php // echo $form->field($model, 'MASTER_PROGRAM') ?>
+    <?= $form->field($model, 'MASTER_PROGRAM') ?>
 
-    <?php // echo $form->field($model, 'PhD') ?>
+    <?= $form->field($model, 'PhD') ?>
 
-    <?php // echo $form->field($model, 'NUMBER_OF_STUDENTS') ?>
+    <?=  $form->field($model, 'NUMBER_OF_STUDENTS') ?>
 
-    <?php // echo $form->field($model, 'MOBILITY_DURATION') ?>
+    <?= $form->field($model, 'MOBILITY_DURATION') ?>
 
-    <?php // echo $form->field($model, 'WINTER_DEADLINE') ?>
+    <?= $form->field($model, 'WINTER_DEADLINE') ?>
 
-    <?php // echo $form->field($model, 'SUMMER_DEADLINE') ?>
+    <?= $form->field($model, 'SUMMER_DEADLINE') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
