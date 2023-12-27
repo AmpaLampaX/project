@@ -45,17 +45,27 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
     /**
      * {@inheritdoc}
      */
-    public function beforeSave($insert)
-{
-    if (parent::beforeSave($insert)) {
-        if ($this->isNewRecord || $this->isAttributeChanged('password')) {
-            $this->password = Yii::$app->security->generatePasswordHash($this->password);
-        }
-        return true;
-    }
-    return false;
-}
-
+   
+//hash, authkey and accessToken
+     public function beforeSave($insert)
+     {
+         if (parent::beforeSave($insert)) {
+             // Hash the password and generate authKey only when the record is new or the password has changed
+             if ($this->isNewRecord || $this->isAttributeChanged('password')) {
+                 $this->password = Yii::$app->security->generatePasswordHash($this->password);
+                 $this->authKey = Yii::$app->security->generateRandomString();
+             }
+             
+             // Generate accessToken only when the record is new
+             if ($this->isNewRecord) {
+                 $this->accessToken = Yii::$app->security->generateRandomString(40); // Generate a longer string for access tokens
+             }
+             
+             return true; // This should be the last statement in this block
+         }
+         return false;
+     }
+     
     public function attributeLabels()
     {
         return [
@@ -86,9 +96,11 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
         return self::findOne($id);
 
     }
-    public static function findIdentityByAccessToken($token, $type=null){
-        throw new NotSupportedException();
-    }
+    public static function findIdentityByAccessToken($token, $type = null)
+{
+    return static::findOne(['accessToken' => $token]);
+}
+
     public static function findByUsername ($username){
         return self::findOne(['username'=>$username]);
     }
