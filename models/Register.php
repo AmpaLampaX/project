@@ -39,6 +39,13 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
             [['id', 'email', 'password'], 'string', 'max' => 20],
             [['firstName', 'lastName', 'username', 'authKey'], 'string', 'max' => 20],
             [['id'], 'unique'],
+            ['username', 'unique', 'message' => 'This username has already been taken.'],
+
+            ['email', 'email', 'message' => 'Please enter a valid email address.'],
+            ['email', 'match', 'pattern' => '/@fesb\\.hr$/', 'message' => 'It is necessary to enter the official email of the faculty where you are studying.'],
+            ['password', 'string', 'min' => 8, 'message' => 'Password must be at least 8 characters long.'],
+            ['password', 'match', 'pattern' => '/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/', 'message' => 'Password must include at least one lowercase letter, one uppercase letter, one number, and one special character.'],
+
         ];
     }
 
