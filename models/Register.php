@@ -45,11 +45,11 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
     /**
      * {@inheritdoc}
      */
-    public $isAdmin;
-    public function getIsAdmin()
-    {
-        return $this->isAdmin == 1; 
+
+    public function getIsAdmin() {
+        return $this->isAdmin == 1; // Returns true if isAdmin is 1
     }
+    
     
 //hash, authkey and accessToken
      public function beforeSave($insert)

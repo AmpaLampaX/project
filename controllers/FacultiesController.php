@@ -25,7 +25,7 @@ class FacultiesController extends Controller
         return [
             //restrictions for non-admin users
             'access' => [
-                'class' => AccessControl::className(),
+                'class' => AccessControl::class,
                 'rules' => [
                     // Rules for guests (not logged in users)
                     [
@@ -35,7 +35,7 @@ class FacultiesController extends Controller
                     ],
                     // Rules for all authenticated users
                     [
-                        'actions' => ['index', 'view'], // They can view and index
+                        'actions' => ['index', 'view','indexb'], // They can view and index
                         'allow' => true,
                         'roles' => ['@'], // @ means any authenticated user
                     ],
@@ -45,14 +45,14 @@ class FacultiesController extends Controller
                         'allow' => true,
                         'roles' => ['@'], // Must be an authenticated user
                         'matchCallback' => function ($rule, $action) {
-                            // Check if the user is not a guest and if the getIsAdmin method returns true
                             return !Yii::$app->user->isGuest && Yii::$app->user->identity->getIsAdmin();
                         }
+                        
                     ],
                 ],
             ],
             'verbs' => [
-                'class' => VerbFilter::className(),
+                'class' => VerbFilter::class,
                 'actions' => [
                     'delete' => ['POST'],
                 ],
