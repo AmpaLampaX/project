@@ -39,27 +39,29 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Opportunities', 'url' => ['/site/opportunities']],
             ['label' => 'Forum', 'url' => ['/article/index']],
-            [
-                'label' => 'Register',
-                'url' => ['/register/create'],
-            ],
-            // this code is used to display a "Login" link if the user is a guest and a "Logout" link if the user is not a guest
-            Yii::$app->user->isGuest
-                ? ['label' => 'Login', 'url' => ['/site/login']]
-                : '<li class="nav-item">'
-                    . Html::beginForm(['/site/logout'])
-                    . Html::submitButton(
-                        'Logout (' . Yii::$app->user->identity->username . ')',
-                        ['class' => 'nav-link btn btn-link logout']
-                    )
-                    . Html::endForm()
-                    . '</li>'
-        ]
+            Yii::$app->user->isGuest ? (
+                ['label' => 'Register', 'url' => ['/register/create']]
+            ) : (
+                ['label' => 'Profile', 'url' => ['/site/profile']] // Add Profile link
+            ),
+            Yii::$app->user->isGuest ? (
+                ['label' => 'Login', 'url' => ['/site/login']]
+            ) : (
+                '<li class="nav-item">'
+                . Html::beginForm(['/site/logout'], 'post', ['class' => 'form-inline'])
+                . Html::submitButton(
+                    'Logout (' . Html::encode(Yii::$app->user->identity->username) . ')',
+                    ['class' => 'btn btn-link logout', 'style' => 'color: white;']
+                )
+                . Html::endForm()
+                . '</li>'
+            )
+        ],
     ]);
+    
     NavBar::end();
     ?>
 </header>

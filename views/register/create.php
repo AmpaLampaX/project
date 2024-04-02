@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /** @var yii\web\View $this */
 /** @var app\models\Register $model */
 
-$this->title = 'Create Register';
+$this->title = 'Register';
 $this->params['breadcrumbs'][] = ['label' => 'Registers', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

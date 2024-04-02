@@ -14,17 +14,18 @@ class SiteController extends Controller
     /**
      * {@inheritdoc}
      */
+    
     public function behaviors()
     {
         return [
             'access' => [
                 'class' => AccessControl::class,
-                'only' => ['logout'],
+                'only' => ['logout', 'profile'], // Include 'profile' in the list of actions
                 'rules' => [
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout', 'profile'], // Add 'profile' here too
                         'allow' => true,
-                        'roles' => ['@'],
+                        'roles' => ['@'], // '@' indicates authenticated users
                     ],
                 ],
             ],
@@ -32,10 +33,12 @@ class SiteController extends Controller
                 'class' => VerbFilter::class,
                 'actions' => [
                     'logout' => ['post'],
+                    // No need to add 'profile' here unless you want to restrict it to specific request methods
                 ],
             ],
         ];
     }
+    
 
     /**
      * {@inheritdoc}
@@ -114,6 +117,15 @@ class SiteController extends Controller
     {
         return $this->render('forum');
     }
-   
+    public function actionProfile()
+    {
+        $model = Yii::$app->user->identity; // Assuming 'identityClass' is set to 'app\models\Register' in your config
+    
+        return $this->render('profile', [
+            'model' => $model,
+        ]);
+    }
+    
+    
 
 }
