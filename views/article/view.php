@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\DetailView;
 use app\models\Article;
-
+use app\models\ArticleLike;
 
 /** @var yii\web\View $this */
 /** @var app\models\Article $model */
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 // Assuming you have a method in your Article model to check if the current user has liked the Article
 // and another method to count likes. If not, you'll need to implement these.
-$hasLiked = $model->hasUserLiked(Yii::$app->user->id);
+$hasLiked = $model->hasUserLiked();
 $likesCount = $model->getLikesCount();
 
 ?>
@@ -30,15 +30,19 @@ $likesCount = $model->getLikesCount();
     </p>
     
     <!-- Displaying the like button and like count -->
-    <p>
-        <?= Html::button($hasLiked ? 'Unlike' : 'Like', [
-            'class' => 'like-btn btn btn-default',
-            'data-id' => $model->id,
-            'data-liked' => $hasLiked ? '1' : '0',
-        ]) ?>
-        <span class="likes-count"><?= $likesCount ?> Likes</span>
-    </p>
+<!-- Displaying the like button and like count -->
+<?php echo $model->getEncodedBody(); ?>
 
+<p>
+    <?= Html::a($hasLiked ? 'Unlike' : 'Like',
+        [$hasLiked ? 'unlike' : 'like', 'id' => $model->id], [ 
+        'class' => 'like-btn btn btn-default',
+        'data-id' => $model->id,
+        'data-liked' => $hasLiked ? '1' : '0',
+    ]) ?>
+    <span class="likes-count"><?= $likesCount ?> Likes</span>
+</p>
+    
     <?php  if (!Yii::$app->user->isGuest):?>
         <p>
             <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
@@ -49,40 +53,14 @@ $likesCount = $model->getLikesCount();
                     'method' => 'post',
                 ],
             ]) ?>
-        </p>
+        </p>     
+
     <?php endif; ?>
        
-    <div> 
-        <?php echo $model->getEncodedBody(); ?>
-
-    </div>
+    
 
 </div>
 
-<script>
-$(document).ready(function() {
-    $('.like-btn').click(function() {
-        var button = $(this);
-        var ArticleId = button.data('id');
-        var hasLiked = button.data('liked') == '1';
-        var url = hasLiked ? '<?= Url::to(['Article/unlike']) ?>' : '<?= Url::to(['Article/like']) ?>';
+<?php
+// At the end of your view file, before the closing PHP tag
 
-        $.ajax({
-            url: url,
-            type: 'POST',
-            data: { id: ArticleId, _csrf: yii.getCsrfToken() },
-            success: function(response) {
-                if(response.success) {
-                    button.text(hasLiked ? 'Like' : 'Unlike').data('liked', hasLiked ? '0' : '1');
-                    $('.likes-count').text(response.likesCount + ' Likes'); // Update the likes count
-                } else {
-                    alert(response.message);
-                }
-            },
-            error: function() {
-                alert('Error processing your request');
-            }
-        });
-    });
-});
-</script>

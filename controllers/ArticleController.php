@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use Yii;
 use app\models\Article;
 use app\models\ArticleSearch;
 use app\models\ArticleLike;
@@ -156,6 +157,7 @@ class ArticleController extends Controller
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
     public function actionLike($id)
     {
         Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
@@ -167,22 +169,20 @@ class ArticleController extends Controller
         $Article = $this->findModel($id); // Ensure you have a method to safely find an Article by ID
         $userId = Yii::$app->user->id;
     
-        $existingLike = ArticleLike::findOne(['Article_id' => $id, 'user_id' => $userId]);
-        if ($existingLike) {
-            // Optionally, you could remove the like if it already exists, effectively making this a "toggle like" action
-            return ['success' => false, 'message' => 'You have already liked this Article.'];
-        }
-    
         $like = new ArticleLike();
-        $like->Article_id = $id;
+        $like->article_id = $id;
         $like->user_id = $userId;
         $like->created_at = time();
-    
-        if ($like->save()) {
-            // Return the new like count to update the UI accordingly
-            return ['success' => true, 'likesCount' => $Article->getLikesCount()];
-        } else {
-            return ['success' => false, 'message' => 'An error occurred while liking the Article.'];
-        }
+        $like->save();
+        
+        return $this->redirect(Yii::$app->request->referrer);
     }
+    public function actionUnlike($id)
+    {
+        $like = ArticleLike::find()->where(['user_id' => Yii::$app->user->id, 'article_id' => $id])->one();
+        $like->delete();
+
+        return $this->redirect(Yii::$app->request->referrer);
+    }
+
 }

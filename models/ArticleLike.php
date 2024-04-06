@@ -8,11 +8,11 @@ use Yii;
  * This is the model class for table "Article_like".
  *
  * @property int $id
- * @property int $Article_id
+ * @property int $article_id
  * @property int $user_id
  * @property string $created_at
  *
- * @property Article $Article
+ * @property Article $article
  * @property Register $user
  */
 class ArticleLike extends \yii\db\ActiveRecord
@@ -22,7 +22,7 @@ class ArticleLike extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'Article_like';
+        return 'article_like';
     }
 
     /**
@@ -31,11 +31,11 @@ class ArticleLike extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Article_id', 'user_id'], 'required'],
-            [['Article_id', 'user_id'], 'integer'],
+            [['article_id', 'user_id'], 'required'],
+            [['article_id', 'user_id'], 'integer'],
             [['created_at'], 'safe'],
-            [['Article_id', 'user_id'], 'unique', 'targetAttribute' => ['Article_id', 'user_id']],
-            [['Article_id'], 'exist', 'skipOnError' => true, 'targetClass' => Article::class, 'targetAttribute' => ['Article_id' => 'id']],
+            [['article_id', 'user_id'], 'unique', 'targetAttribute' => ['article_id', 'user_id']],
+            [['article_id'], 'exist', 'skipOnError' => true, 'targetClass' => Article::class, 'targetAttribute' => ['article_id' => 'id']],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => Register::class, 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
@@ -47,7 +47,7 @@ class ArticleLike extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'Article_id' => 'Article ID',
+            'article_id' => 'Article ID',
             'user_id' => 'User ID',
             'created_at' => 'Created At',
         ];
@@ -60,7 +60,7 @@ class ArticleLike extends \yii\db\ActiveRecord
      */
     public function getArticle()
     {
-        return $this->hasOne(Article::class, ['id' => 'Article_id']);
+        return $this->hasOne(Article::class, ['id' => 'article_id']);
     }
 
     /**

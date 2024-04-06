@@ -7,6 +7,7 @@ use yii\behaviors\BlameableBehavior;
 use yii\behaviors\SluggableBehavior;
 use yii\behaviors\TimestampBehavior;
 use yii\helpers\Html;
+use app\models\ArticleLike;
 
 
 /**
@@ -90,13 +91,24 @@ public function behaviors()
     {
         return Html::encode($this->body);
     }
+    
     public function getLikes()
     {
         return $this->hasMany(ArticleLike::className(), ['article_id' => 'id']);
     }
+
     public function getLikesCount()
     {
         return $this->getLikes()->count();
+    }
+
+    public function hasUserLiked()
+    {
+        
+        if(ArticleLike::find()->where(['user_id' => Yii::$app->user->id, 'article_id' => $this->id])->exists()){
+            return 1;
+        }
+        return 0;
     }
 
 }
