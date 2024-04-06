@@ -10,7 +10,7 @@ use yii\helpers\Html;
 
 
 /**
- * This is the model class for table "article".
+ * This is the model class for table "Article".
  *
  * @property int $id
  * @property string $title
@@ -90,4 +90,13 @@ public function behaviors()
     {
         return Html::encode($this->body);
     }
+    public function getLikes()
+    {
+        return $this->hasMany(ArticleLike::className(), ['article_id' => 'id']);
+    }
+    public function getLikesCount()
+    {
+        return $this->getLikes()->count();
+    }
+
 }
