@@ -1,6 +1,6 @@
 <?php
 
-use app\models\article;
+use app\models\Article;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <?php if (!Yii::$app->user->isGuest): 
-//only person who is loged in can write an article ?>
+//only person who is loged in can write an Article ?>
     <p>
         <?= Html::a('Create Article', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
