@@ -71,10 +71,8 @@ class RegisterController extends Controller
         $model = new Register();
 
         if ($this->request->isPost) {
-            Yii::error('ifdgfhgkjljjhgfd');
 
            if ($model->load($this->request->post())){
-            Yii::error('pocetak');
             $model->authKey = Yii::$app->security->generateRandomString(19);
             $model->id = Yii::$app->security->generateRandomString(1);
 

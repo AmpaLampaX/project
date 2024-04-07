@@ -1,49 +1,44 @@
 <?php
 
+use app\models\Register;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use yii\widgets\DetailView;
-use app\models\Article;
-use app\models\ArticleLike;
+use yii\widgets\ActiveForm;
+use app\models\ArticleComment; // Make sure to use your ArticleComment model
 
 /** @var yii\web\View $this */
 /** @var app\models\Article $model */
+/** @var app\models\ArticleComment $commentModel */ // Ensure this is passed from the controller
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Articles', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 
-// Assuming you have a method in your Article model to check if the current user has liked the Article
-// and another method to count likes. If not, you'll need to implement these.
 $hasLiked = $model->hasUserLiked();
 $likesCount = $model->getLikesCount();
-
 ?>
 <div class="article-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
     <p class="text-muted">
-    <small>Created At: <b><?php echo Yii::$app->formatter->asRelativeTime($model->created_at) ?> </b>
-    By: <b> <?php echo $model->createdBy->username ?></b></small>
+        <small>Created At: <b><?= Yii::$app->formatter->asRelativeTime($model->created_at) ?></b>
+        By: <b><?= $model->createdBy->username ?></b></small>
     </p>
     
-    <!-- Displaying the like button and like count -->
-<!-- Displaying the like button and like count -->
-<?php echo $model->getEncodedBody(); ?>
+    <?php echo $model->getEncodedBody(); ?>
 
-<p>
-    <?= Html::a($hasLiked ? 'Unlike' : 'Like',
-        [$hasLiked ? 'unlike' : 'like', 'id' => $model->id], [ 
-        'class' => 'like-btn btn btn-default',
-        'data-id' => $model->id,
-        'data-liked' => $hasLiked ? '1' : '0',
-    ]) ?>
-    <span class="likes-count"><?= $likesCount ?> Likes</span>
-</p>
-    
-    <?php  if (!Yii::$app->user->isGuest):?>
+    <p>
+        <?= Html::a($hasLiked ? 'Unlike' : 'Like',
+            [$hasLiked ? 'unlike' : 'like', 'id' => $model->id], [
+            'class' => 'like-btn btn btn-default',
+            'data-id' => $model->id,
+            'data-liked' => $hasLiked ? '1' : '0',
+        ]) ?>
+        <span class="likes-count"><?= $likesCount ?> Likes</span>
+    </p>
+
+    <?php if (Yii::$app->user->id == $model->created_by): ?>
         <p>
             <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
             <?= Html::a('Delete', ['delete', 'id' => $model->id], [
@@ -53,14 +48,52 @@ $likesCount = $model->getLikesCount();
                     'method' => 'post',
                 ],
             ]) ?>
-        </p>     
-
+        </p>
     <?php endif; ?>
-       
-    
+
+    <!-- Comment Form -->
+    <?php if (!Yii::$app->user->isGuest): // Show comment form only to logged-in users ?>
+        <div class="comment-form">
+            <h3>Leave a Comment</h3>
+            <?php $form = ActiveForm::begin([
+                'action' => ['article/comment', 'articleId' => $model->id ], 
+                'method' => 'post',
+            ]); ?>
+
+            <?php
+                $commentModel->article_id = $model->id;
+                $commentModel->user_id = Yii::$app->user;
+            ?> 
+
+            <?= $form->field($commentModel, 'comment')->textarea(['rows' => 4])->label(false) ?>
+
+            <div class="form-group">
+                <?= Html::submitButton('Submit Comment', ['class' => 'btn btn-primary']) ?>
+            </div>
+
+            <?php ActiveForm::end(); ?>
+        </div>
+    <?php endif; ?>
+
+    <!-- Display Comments -->
+    <div class="comments">
+        <h2>Comments</h2>
+        <?php 
+            $allComments = $model->getComments();
+            if ($allComments) {
+                foreach ($allComments as $currentComment): // Adjust relation/method name as needed 
+                        echo "<div class='comments'>";
+                        echo "<p>" . Html::encode($currentComment->comment) . "</p>";
+                        echo "<p class='text-muted'>Posted by " . 
+                            Html::encode(Register::find()->where(['id' => $currentComment->user_id])->one()->username) . 
+                            " on " . Yii::$app->formatter->asDatetime($currentComment->created_at). "</p>";
+                        echo "</div>";
+                endforeach;
+            } else {
+                echo "<p>No comments yet.</p>";
+            }
+        ?>
+
+    </div>
 
 </div>
-
-<?php
-// At the end of your view file, before the closing PHP tag
-

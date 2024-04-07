@@ -13,6 +13,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
 
+
 /**
  * ArticleController implements the CRUD actions for Article model.
  */
@@ -32,6 +33,11 @@ class ArticleController extends Controller
                 'delete' => ['POST'],
                 // You can add more actions here if needed
             ],
+        ];
+        $behaviors['access']['rules'][] = [
+            'actions' => ['comment'], // Add 'comment' action
+            'allow' => true,
+            'roles' => ['@'], // '@' means authenticated users
         ];
     
         // Add or modify the 'access' behavior
@@ -79,12 +85,17 @@ class ArticleController extends Controller
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
      */
+
     public function actionView($id)
-    {
-        return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
-    }
+{
+    $commentModel = new ArticleComment();
+
+    return $this->render('view', [
+        'model' => $this->findModel($id),
+        'commentModel' => $commentModel, 
+    ]);
+}
+
 
     /**
      * Creates a new Article model.
@@ -184,5 +195,22 @@ class ArticleController extends Controller
 
         return $this->redirect(Yii::$app->request->referrer);
     }
+    public function actionComment($articleId)
+    {
+        $model = new ArticleComment();
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->article_id = $articleId;
+            $model->user_id = Yii::$app->user->id; // Assuming you have user authentication in place
+            if ($model->save()) {
+                Yii::$app->session->setFlash('success', 'Your comment has been posted.');
+            } else {
+                Yii::$app->session->setFlash('error', 'There was a problem posting your comment.');
+            }
+        }
+
+        return $this->redirect(['view', 'id' => $articleId]);
+    }
+
 
 }

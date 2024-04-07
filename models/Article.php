@@ -104,11 +104,11 @@ public function behaviors()
 
     public function hasUserLiked()
     {
-        
-        if(ArticleLike::find()->where(['user_id' => Yii::$app->user->id, 'article_id' => $this->id])->exists()){
-            return 1;
-        }
-        return 0;
+        return ArticleLike::find()->where(['user_id' => Yii::$app->user->id, 'article_id' => $this->id])->all();
     }
 
+    public function getComments()
+    {
+        return ArticleComment::find()->where(['article_id' => $this->id])->all();
+    }
 }
