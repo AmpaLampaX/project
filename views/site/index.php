@@ -26,7 +26,7 @@ $this->title = 'My Yii Application';
                     you gain access to exclusive resources, personalized advice, and a community of prospective and former Erasmus students eager to share their experiences. Registration is quick, easy, and your gateway 
                     to an enriching Erasmus exchange. Don't wait to discover what's possible – join our community today and start shaping your future.</p>
 
-                <p><a class="btn btn-outline-secondary" href="http://www.yiiframework.com/doc/"> Join the Erasmus Elite &raquo;</a></p>
+                <p><a class="btn btn-outline-secondary" href="http://localhost/index.php?r=register%2Fcreate"> Join the Erasmus Elite &raquo;</a></p>
             </div>
             <div class="col-lg-4 mb-3">
                 <h2>Explore Your Horizons</h2>
@@ -35,7 +35,7 @@ $this->title = 'My Yii Application';
                     opportunities abroad. Whether you dream of studying in a specific country or are exploring the academic offerings of different institutions, our intuitive search feature assists you in finding exactly 
                     what you need. Delve into the possibilities and take the first step toward an unforgettable educational experience. Click below to start exploring Erasmus opportunities tailored to your interests.</p>
 
-                <p><a class="btn btn-outline-secondary" href="http://www.yiiframework.com/forum/">Adventure Launcher &raquo;</a></p>
+                <p><a class="btn btn-outline-secondary" href="http://localhost/index.php?r=site%2Fopportunities">Adventure Launcher &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Dive Into Discussions</h2>
