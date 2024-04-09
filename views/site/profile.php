@@ -50,7 +50,7 @@ $this->title = 'Upload Photo';
 
 <?php $form = ActiveForm::begin([
     'method' => 'post',
-    'action' => ['site/upload-photo'], // Adjust based on your controller/action
+    'action' => ['register/upload-photo'], // Adjust based on your controller/action
     'options' => ['enctype' => 'multipart/form-data'],
 ]); ?>
 
