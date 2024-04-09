@@ -23,6 +23,8 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
     /**
      * {@inheritdoc}
      */
+    public $photoFile;
+
     public static function tableName()
     {
         return 'Register';
@@ -40,7 +42,7 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
             [['firstName', 'lastName', 'username', 'authKey'], 'string', 'max' => 20],
             [['id'], 'unique'],
             ['username', 'unique', 'message' => 'This username has already been taken.'],
-
+            [['photoFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg, jpeg', 'maxSize' => 1024 * 1024 * 1], // Allow 1MB files
             ['email', 'email', 'message' => 'Please enter a valid email address.'],
             ['email', 'match', 'pattern' => '/@fesb\\.hr$/', 'message' => 'It is necessary to enter the official email of the faculty where you are studying.'],
             ['password', 'string', 'min' => 8, 'message' => 'Password must be at least 8 characters long.'],
@@ -70,10 +72,10 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
              
              // Generate accessToken only when the record is new
              if ($this->isNewRecord) {
-                 $this->accessToken = Yii::$app->security->generateRandomString(40); // Generate a longer string for access tokens
+                 $this->accessToken = Yii::$app->security->generateRandomString(40); 
              }
              
-             return true; // This should be the last statement in this block
+             return true; 
          }
          return false;
      }

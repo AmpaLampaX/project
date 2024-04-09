@@ -8,6 +8,7 @@ use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * RegisterController implements the CRUD actions for Register model.
@@ -142,4 +143,32 @@ class RegisterController extends Controller
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
+    public function actionUploadPhoto()
+    {
+        $userId = Yii::$app->user->id;
+        $model = new Register();
+
+        $model->photoFile = UploadedFile::getInstance($model, 'photoFile'); // This should match your input name in the view
+
+        if ($model->photoFile) {
+            $filePath = 'uploads/User_photos/' . $userId . '.' . $model->photoFile->extension;
+
+           
+            if (!file_exists('uploads/User_photos/')) {
+                mkdir('uploads/User_photos/', 0777, true);
+            }
+
+            if ($model->photoFile->saveAs($filePath)) {
+                Yii::$app->session->setFlash('success', 'Photo uploaded successfully.');
+               
+            } else {
+                Yii::$app->session->setFlash('error', 'There was an error uploading your photo.');
+            }
+        }
+
+        return $this->redirect(Yii::$app->request->referrer);
+    }
+    
+
 }
