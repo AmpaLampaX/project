@@ -7,8 +7,7 @@ use app\models\Article;
 
 /** @var $model \app\models\Article */
 
-// Assuming you have methods in your Article model to check if the current user has liked the Article
-// and another method to count likes. If not, you'll need to implement these.
+
 $likesCount = $model->getLikesCount();
 ?>
 <div>
@@ -21,8 +20,10 @@ $likesCount = $model->getLikesCount();
     </div>
 
     <div>
-        <!-- Displaying just the likes count for simplicity. You could also add a like button if desired. -->
+        <!-- Displaying number of likes-->
         <small><?= $likesCount ?> Likes</small>
+        <small><?= $model->getCommentsCount() ?> Comments</small>
+
     </div>
     
     <hr>

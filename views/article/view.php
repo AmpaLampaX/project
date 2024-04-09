@@ -4,11 +4,11 @@ use app\models\Register;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\ActiveForm;
-use app\models\ArticleComment; // Make sure to use your ArticleComment model
+use app\models\ArticleComment; 
 
 /** @var yii\web\View $this */
 /** @var app\models\Article $model */
-/** @var app\models\ArticleComment $commentModel */ // Ensure this is passed from the controller
+/** @var app\models\ArticleComment $commentModel */ 
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Articles', 'url' => ['index']];

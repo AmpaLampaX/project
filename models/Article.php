@@ -106,9 +106,14 @@ public function behaviors()
     {
         return ArticleLike::find()->where(['user_id' => Yii::$app->user->id, 'article_id' => $this->id])->all();
     }
-
     public function getComments()
     {
         return ArticleComment::find()->where(['article_id' => $this->id])->all();
     }
+    
+    public function getCommentsCount()
+    {
+        return $this->hasMany(ArticleComment::className(), ['article_id' => 'id'])->count();
+    }
+
 }
