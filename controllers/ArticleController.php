@@ -45,7 +45,8 @@ class ArticleController extends Controller
                     'actions' => ['like', 'unlike'],
                     'allow' => true,
                     'roles' => ['@'], 
-                
+                ],
+
                 [
                     'actions' => ['delete'],
                     'allow' => true,
@@ -53,7 +54,6 @@ class ArticleController extends Controller
                 ],
             ],
         ];
-    
         return $behaviors;
     }
     
