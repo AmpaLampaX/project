@@ -56,7 +56,7 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
      */
 
     public function getIsAdmin() {
-        return $this->isAdmin == 1; // Returns true if isAdmin is 1
+        return $this->isAdmin == 1; 
     }
     
     

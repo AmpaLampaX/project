@@ -45,7 +45,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             Yii::$app->user->isGuest ? (
                 ['label' => 'Register', 'url' => ['/register/create']]
             ) : (
-                ['label' => 'Profile', 'url' => ['/site/profile']] // Add Profile link
+                ['label' => 'Profile', 'url' => ['/site/profile']] 
             ),
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]

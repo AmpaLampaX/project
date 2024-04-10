@@ -25,7 +25,6 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
     </div>
 
-    <!-- Placeholder for dynamic content -->
     <div id="grid-container"></div>
 </div>
 

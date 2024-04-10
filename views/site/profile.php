@@ -9,7 +9,7 @@ use yii\widgets\ActiveForm;
 $this->title = 'My Profile';
 $this->params['breadcrumbs'][] = $this->title;
 
-// Add your CSS for the photo and form
+
 $this->registerCss("
     .site-profile {
         background-color: #f0f8ff; /* Light blue background */

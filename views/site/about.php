@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        Ovo ćemo zadržati i pisuckat nešto o stranici i rasmusu I guess
+        Što raditi s ovim??
     </p>
 
    <code><?= __FILE__ ?></code> 

@@ -14,9 +14,7 @@ use yii\filters\AccessControl;
 
 
 
-/**
- * ArticleController implements the CRUD actions for Article model.
- */
+
 class ArticleController extends Controller
 {
     /**
@@ -26,35 +24,32 @@ class ArticleController extends Controller
     {
         $behaviors = parent::behaviors();
     
-        // Add or modify the 'verbs' behavior
         $behaviors['verbs'] = [
             'class' => VerbFilter::className(),
             'actions' => [
                 'delete' => ['POST'],
-                // You can add more actions here if needed
             ],
         ];
         $behaviors['access']['rules'][] = [
-            'actions' => ['comment'], // Add 'comment' action
+            'actions' => ['comment'], 
             'allow' => true,
             'roles' => ['@'], // '@' means authenticated users
         ];
     
-        // Add or modify the 'access' behavior
+    
         $behaviors['access'] = [
             'class' => AccessControl::className(),
-            'only' => ['like', 'unlike', 'delete'], // Ensure 'delete' is also controlled for access
+            'only' => ['like', 'unlike', 'delete'], 
             'rules' => [
                 [
                     'actions' => ['like', 'unlike'],
                     'allow' => true,
-                    'roles' => ['@'], // '@' means authenticated users
-                ],
-                // If 'delete' action should be restricted to authenticated users as well
+                    'roles' => ['@'], 
+                
                 [
                     'actions' => ['delete'],
                     'allow' => true,
-                    'roles' => ['@'], // Adjust or add more roles as needed
+                    'roles' => ['@'], 
                 ],
             ],
         ];
@@ -177,7 +172,7 @@ class ArticleController extends Controller
             return ['success' => false, 'message' => 'You must be logged in to like an Article.'];
         }
     
-        $Article = $this->findModel($id); // Ensure you have a method to safely find an Article by ID
+        $Article = $this->findModel($id); 
         $userId = Yii::$app->user->id;
     
         $like = new ArticleLike();
@@ -201,7 +196,7 @@ class ArticleController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
             $model->article_id = $articleId;
-            $model->user_id = Yii::$app->user->id; // Assuming you have user authentication in place
+            $model->user_id = Yii::$app->user->id; 
             if ($model->save()) {
                 Yii::$app->session->setFlash('success', 'Your comment has been posted.');
             } else {

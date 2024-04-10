@@ -149,7 +149,7 @@ class RegisterController extends Controller
         $userId = Yii::$app->user->id;
         $model = new Register();
 
-        $model->photoFile = UploadedFile::getInstance($model, 'photoFile'); // This should match your input name in the view
+        $model->photoFile = UploadedFile::getInstance($model, 'photoFile'); 
 
         if ($model->photoFile) {
             $filePath = 'uploads/User_photos/' . $userId . '.' . $model->photoFile->extension;

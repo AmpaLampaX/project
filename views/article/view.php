@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 $hasLiked = $model->hasUserLiked();
 $likesCount = $model->getLikesCount();
-$commentsCount = $model->getCommentsCount(); // Ensure you have this method in your Article model.
+$commentsCount = $model->getCommentsCount(); 
 ?>
 
 <div class="article-view">
