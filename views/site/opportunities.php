@@ -1,6 +1,6 @@
 <?php
-/** @var yii\web\View $this */
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 $this->title = 'Opportunities';
 $this->params['breadcrumbs'][] = $this->title;
@@ -10,7 +10,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>Select the faculty for which you want to explore opportunities:</p>
 
     <div class="card">
-        <div class="card-body">
+        <div class="card-body faculty-grid">
             <?php
             $faculties = [
                 'FESB' => 'FESB', 'FGAG' => 'FGAG', 'FF' => 'FF', 'KBF' => 'KBF',
@@ -19,7 +19,15 @@ $this->params['breadcrumbs'][] = $this->title;
                 'SOSS' => 'SOSS', 'SOZS' => 'SOZS', 'MARITIME' => 'MARITIME', 'UMAS' => 'UMAS'
             ];
             foreach ($faculties as $code => $name) {
-                echo Html::button($name, ['class' => 'btn btn-outline-primary faculty-button', 'id' => $code, 'data-faculty' => $code]) . " ";
+                $imgUrl = Url::to("@web/faculties_photos/{$code}.png"); 
+                echo Html::beginTag('div', ['class' => 'faculty-card']);
+                echo Html::img($imgUrl, ['alt' => $name, 'class' => 'faculty-image']);
+                echo Html::button($name, [
+                    'class' => 'btn btn-primary faculty-button',
+                    'id' => $code,
+                    'data-faculty' => $code,
+                ]);
+                echo Html::endTag('div');
             }
             ?>
         </div>
@@ -30,11 +38,33 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <?php
 $this->registerCss("
+    .faculty-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .faculty-card {
+        margin: 10px;
+        text-align: center;
+    }
+    .faculty-image {
+        max-width: 200px; 
+        height: auto;
+        margin-bottom: 5px;
+    }
     .faculty-button {
-        margin: 5px;
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        border: none;
+        background: none;
+        color: #007bff;
+        padding: 0;
+        font-weight: bold;
     }
     .card-body {
-        text-align: center; /* Center the buttons */
+        text-align: center; // Center the buttons
     }
 ");
 
