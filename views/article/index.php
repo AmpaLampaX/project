@@ -22,7 +22,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <?php if (!Yii::$app->user->isGuest): 
 //only person who is loged in can write an Article ?>
     <p>
-        <?= Html::a('Create Article', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Article', ['create'], ['class' => 'btn btn-primary']) ?>
     </p>
 <?php endif; ?> 
         
