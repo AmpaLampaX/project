@@ -9,7 +9,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1 class="page-title"><?= Html::encode($this->title) ?></h1>
     <p class="page-description">Explore the diverse academic opportunities available at each faculty:</p>
 
-
     <div class="card">
         <div class="card-body faculty-grid">
             <?php
@@ -23,19 +22,20 @@ $this->params['breadcrumbs'][] = $this->title;
                 $imgUrl = Url::to("@web/faculties_photos/{$code}.png"); 
                 echo Html::beginTag('div', ['class' => 'faculty-card']);
                 echo Html::img($imgUrl, ['alt' => $name, 'class' => 'faculty-image']);
-                echo Html::button($name, [
-                    'class' => 'btn btn-primary faculty-button',
-                    'id' => $code,
-                    'data-faculty' => $code,
-                ]);
+                
+                // Begin form
+                echo Html::beginForm(Url::to(['faculties/indexb']), 'get', ['target' => '_self']);
+                echo Html::hiddenInput('button', $code);
+                echo Html::submitButton($name, ['class' => 'btn btn-primary faculty-button']);
+                echo Html::endForm();
+                
                 echo Html::endTag('div');
             }
             ?>
         </div>
     </div>
-
-    <div id="grid-container"></div>
 </div>
+
 
 <?php
 $this->registerCss("
@@ -96,18 +96,4 @@ $this->registerCss("
 }
 ");
 
-
-
-$this->registerJs("
-    $(document).on('click', '.faculty-button', function() {
-        var facultyCode = $(this).data('faculty');
-        $.ajax({
-            url: '/index.php?r=faculties/indexb',
-            data: {button: facultyCode},
-            success: function(response) {
-                $('#grid-container').html(response);
-            }
-        });
-    });
-");
 ?>
