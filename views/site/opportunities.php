@@ -4,10 +4,13 @@ use yii\helpers\Url;
 
 $this->title = 'Opportunities';
 $this->params['breadcrumbs'][] = $this->title;
+$this->registerCssFile('@web/css/buttons.css');
 ?>
 <div class="site-opportunities">
-    <h1 class="page-title"><?= Html::encode($this->title) ?></h1>
-    <p class="page-description">Explore the diverse academic opportunities available at each faculty:</p>
+    <div class="jumbotron text-center bg-transparent mt-5 mb-5">
+        <h1 class="page-title"><?= Html::encode($this->title) ?></h1>
+        <p class="page-description">Explore the diverse academic opportunities available at each faculty:</p>
+    </div>
 
     <div class="card">
         <div class="card-body faculty-grid">
@@ -26,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 // Begin form
                 echo Html::beginForm(Url::to(['faculties/indexb']), 'get', ['target' => '_self']);
                 echo Html::hiddenInput('button', $code);
-                echo Html::submitButton($name, ['class' => 'btn btn-primary faculty-button']);
+                echo Html::submitButton($name, ['class' => 'btn button-custom']);
                 echo Html::endForm();
                 
                 echo Html::endTag('div');
@@ -36,64 +39,82 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
 </div>
 
-
 <?php
 $this->registerCss("
 .site-opportunities {
-    background-color: #f0f8ff; /* Slightly adjusted background color for better contrast */
+    background: #4793AF; /* Keep the main theme color as the page background */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
 }
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5); /* More transparency for the overlay */
+    padding: 20px;
+    border-radius: 8px;
+}
+
 .page-title {
-    font-size: 2.5em; /* Larger font size */
-    color: #0056b3; /* Theme color */
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Subtle text shadow for depth */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Stylish, readable font */
-    margin-bottom: 20px;
+    color: #FFC470;
+    font-size: 4em; /* Larger for impact */
+    font-weight: bold;
+    text-shadow: 3px 3px 6px #333;
 }
+
 .page-description {
-    font-size: 1.2em;
-    color: #333;
-    text-align: center;
-    margin-bottom: 30px; /* More space below the description */
-    font-family: 'Arial', sans-serif;
+    color: #FFF;
+    font-size: 1.5em; /* Larger for readability */
+    margin-bottom: 40px; /* More space */
+    text-shadow: 1px 1px 3px #333;
 }
+
 .faculty-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 20px; /* Add gap for consistent spacing */
 }
+
 .faculty-card {
-    margin: 10px;
+    flex-basis: calc(25% - 20px); /* Adjust the width for 4 items per line accounting for the gap */
+    margin-bottom: 20px; /* Consistent margin at the bottom */
     text-align: center;
     transition: transform 0.3s ease-in-out;
+    background: linear-gradient(145deg, #f7fafd, #dfe7ee); /* Subtle gradient for cards */
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This will push the button to the bottom */
+    height: 100%; /* Ensures that all cards are the same height */
 }
+
 .faculty-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Deeper shadow for hover effect */
 }
+
 .faculty-image {
     width: 100%;
     height: auto;
-    max-width: 200px;
+    max-width: 180px; /* Slightly smaller images */
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin: 10px auto; /* Center image horizontally */
 }
-.faculty-button {
-    width: 100%;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 0;
-    border-radius: 4px;
-    border: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-.faculty-button:hover {
-    background-color: #0056b3;
-}
-");
 
+.button-custom {
+    color: #FFF;
+    background-color: #4793AF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: auto; /* Pushes the button to the bottom */
+    width: 100%; /* Ensures button stretches to card width */
+}
+
+.button-custom:hover {
+    background-color: #FFC470;
+    color: #FFF;
+}
+
+");
 ?>
