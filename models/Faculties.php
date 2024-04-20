@@ -71,7 +71,7 @@ class Faculties extends \yii\db\ActiveRecord
             'FIELD_OF_STUDY' => 'Field Of Study',
             'BACHELOR_PROGRAM' => 'Bachelor Program',
             'MASTER_PROGRAM' => 'Master Program',
-            'PhD' => 'Ph D',
+            'PhD' => 'PhD',
             'NUMBER_OF_STUDENTS' => 'Number Of Students',
             'MOBILITY_DURATION' => 'Mobility Duration',
             'WINTER_DEADLINE' => 'Winter Deadline',
