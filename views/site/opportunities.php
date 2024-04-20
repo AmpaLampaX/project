@@ -22,7 +22,7 @@ $this->registerCssFile('@web/css/buttons.css');
                 'SOSS' => 'SOSS', 'SOZS' => 'SOZS', 'MARITIME' => 'MARITIME', 'UMAS' => 'UMAS'
             ];
             foreach ($faculties as $code => $name) {
-                $imgUrl = Url::to("@web/faculties_photos/{$code}.png"); 
+                $imgUrl = Url::to("@web/faculties/{$code}.png"); 
                 echo Html::beginTag('div', ['class' => 'faculty-card']);
                 echo Html::img($imgUrl, ['alt' => $name, 'class' => 'faculty-image']);
                 
