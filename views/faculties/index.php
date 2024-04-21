@@ -1,5 +1,5 @@
+
 <?php
-// this is what we see when we choose faculty
 use app\models\Faculties;
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -11,6 +11,38 @@ use yii\grid\GridView;
 
 $this->title = 'Faculties';
 $this->params['breadcrumbs'][] = $this->title;
+
+// Register your custom CSS
+$this->registerCss("
+    .faculties-index {
+        background-color: #f5f5f5; /* Light background */
+    }
+    h1 {
+        color: #4793AF; /* title */
+    }
+    .grid-view th {
+        background-color: #4793AF; /* headers */
+        color: #ffffff;
+    }
+    .grid-view td {
+        color: #333; /* Dark gray - text */
+    }
+
+    .grid-view a {
+        color: #8B322C; /* Links color */
+    }
+    .grid-view a:hover {
+        color: #DD5746; /* Links hover color */
+    }
+    .button-custom{
+        background-color: #FFC470; 
+        border-color: #8B322C; 
+    }
+    .button-custom:hover{
+        background-color: #DD5746; 
+        border-color: #4793AF;
+    }
+");
 ?>
 <div class="faculties-index">
 
@@ -18,20 +50,18 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?php if (!Yii::$app->user->isGuest && Yii::$app->user->identity->getIsAdmin()): ?>
         <p>
-            <?= Html::a('Create Faculties', ['create'], ['class' => 'btn btn-success']) ?>
+            <?= Html::a('Create Faculties', ['create'], ['class' => 'btn button-custom']) ?>
         </p>
     <?php endif; ?>
-
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
-        'options'=>['style'=>'white-space:wrap;'],
+        'options' => ['class' => 'grid-view', 'style' => 'white-space:wrap;'],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            //'ID',
+                        //'ID',
             //'HOME_UNIVERSITY',
             'COUNTRY',
             'UNIVERSITY_OF_OUTGOING_MOBILITY',
@@ -45,6 +75,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'MOBILITY_DURATION',
            // 'WINTER_DEADLINE',
             //'SUMMER_DEADLINE',
+
             [
                 'class' => ActionColumn::className(),
                 'urlCreator' => function ($action, Faculties $model, $key, $index, $column) {
@@ -55,6 +86,5 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
     ]); ?>
 
- 
-
 </div>
+

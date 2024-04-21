@@ -42,28 +42,28 @@ $this->registerCssFile('@web/css/buttons.css');
 <?php
 $this->registerCss("
 .site-opportunities {
-    background: #4793AF; /* Keep the main theme color as the page background */
+    background: #4793AF; 
     padding: 20px;
     border-radius: 8px;
 }
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.5); /* More transparency for the overlay */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 8px;
 }
 
 .page-title {
     color: #FFC470;
-    font-size: 4em; /* Larger for impact */
+    font-size: 4em; 
     font-weight: bold;
     text-shadow: 3px 3px 6px #333;
 }
 
 .page-description {
     color: #FFF;
-    font-size: 1.5em; /* Larger for readability */
-    margin-bottom: 40px; /* More space */
+    font-size: 1.5em;
+    margin-bottom: 40px;
     text-shadow: 1px 1px 3px #333;
 }
 
@@ -71,34 +71,34 @@ $this->registerCss("
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 20px; /* Add gap for consistent spacing */
+    gap: 20px; 
 }
 
 .faculty-card {
-    flex-basis: calc(25% - 20px); /* Adjust the width for 4 items per line accounting for the gap */
-    margin-bottom: 20px; /* Consistent margin at the bottom */
+    flex-basis: calc(25% - 20px); 
+    margin-bottom: 20px; 
     text-align: center;
     transition: transform 0.3s ease-in-out;
-    background: linear-gradient(145deg, #f7fafd, #dfe7ee); /* Subtle gradient for cards */
+    background: linear-gradient(145deg, #f7fafd, #dfe7ee); 
     padding: 10px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* This will push the button to the bottom */
-    height: 100%; /* Ensures that all cards are the same height */
+    justify-content: space-between; 
+    height: 100%; 
 }
 
 .faculty-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Deeper shadow for hover effect */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
 }
 
 .faculty-image {
     width: 100%;
     height: auto;
-    max-width: 180px; /* Slightly smaller images */
+    max-width: 180px; 
     border-radius: 5px;
-    margin: 10px auto; /* Center image horizontally */
+    margin: 10px auto; 
 }
 
 .button-custom {
@@ -107,8 +107,8 @@ $this->registerCss("
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
-    margin-top: auto; /* Pushes the button to the bottom */
-    width: 100%; /* Ensures button stretches to card width */
+    margin-top: auto;
+    width: 100%; 
 }
 
 .button-custom:hover {
