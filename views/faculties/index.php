@@ -1,10 +1,10 @@
-
 <?php
 use app\models\Faculties;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
+
 /** @var yii\web\View $this */
 /** @var app\models\FacultiesSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
@@ -12,7 +12,6 @@ use yii\grid\GridView;
 $this->title = 'Faculties';
 $this->params['breadcrumbs'][] = $this->title;
 
-// Register your custom CSS
 $this->registerCss("
     .faculties-index {
         background-color: #f5f5f5; /* Light background */
@@ -34,11 +33,11 @@ $this->registerCss("
     .grid-view a:hover {
         color: #DD5746; /* Links hover color */
     }
-    .button-custom{
+    .button-custom {
         background-color: #FFC470; 
         border-color: #8B322C; 
     }
-    .button-custom:hover{
+    .button-custom:hover {
         background-color: #DD5746; 
         border-color: #4793AF;
     }
@@ -57,11 +56,11 @@ $this->registerCss("
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
-        'options' => ['class' => 'grid-view', 'style' => 'white-space:wrap;'],
+        'options' => ['class' => 'grid-view', 'style' => 'white-space: wrap;'],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-                        //'ID',
+            //'ID',
             //'HOME_UNIVERSITY',
             'COUNTRY',
             'UNIVERSITY_OF_OUTGOING_MOBILITY',
@@ -73,7 +72,7 @@ $this->registerCss("
             'PhD',
             //'NUMBER_OF_STUDENTS',
             //'MOBILITY_DURATION',
-           // 'WINTER_DEADLINE',
+            //'WINTER_DEADLINE',
             //'SUMMER_DEADLINE',
 
             [
@@ -81,10 +80,33 @@ $this->registerCss("
                 'urlCreator' => function ($action, Faculties $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'ID' => $model->ID]);
                 },
-                'visible' => !Yii::$app->user->isGuest && Yii::$app->user->identity->getIsAdmin() // Only visible to admins
+                'template' => '{view} {update} {delete} {create-article}',
+                'buttons' => [
+                    'view' => function ($url, $model, $key) {
+                        return Html::a('<span class="fas fa-eye"></span>', $url, [
+                            'title' => Yii::t('app', 'View'),
+                        ]);
+                    },
+                    'update' => function ($url, $model, $key) {
+                        return Html::a('<span class="fas fa-pencil-alt"></span>', $url, [
+                            'title' => Yii::t('app', 'Update'),
+                        ]);
+                    },
+                    'delete' => function ($url, $model, $key) {
+                        return Html::a('<span class="fas fa-trash"></span>', $url, [
+                            'title' => Yii::t('app', 'Delete'),
+                            'data-confirm' => Yii::t('yii', 'Are you sure you want to delete this item?'),
+                            'data-method' => 'post',
+                        ]);
+                    },
+                    'create-article' => function ($url, $model, $key) {
+                        return Html::a('<span class="fas fa-plus-circle"></span>', Url::to(['article/create', 'university_id' => $model->ID, 'university_name' => $model->UNIVERSITY_OF_OUTGOING_MOBILITY]), [
+                            'title' => Yii::t('app', 'Create Article'),
+                        ]);
+                    },
+                ],
             ],
         ],
     ]); ?>
 
 </div>
-

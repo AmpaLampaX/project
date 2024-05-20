@@ -97,22 +97,40 @@ class ArticleController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
-    public function actionCreate()
-    {
-        $model = new Article();
+    public function actionCreate($university_id = null, $university_name = null)
+{
+    $model = new Article();
 
-        if ($this->request->isPost) {
-            if ($model->load($this->request->post()) && $model->save()) {
+    if ($university_id !== null && $university_name !== null) {
+        $model->university_id = $university_id;
+        $model->slug = $university_name;
+    }
+
+    if ($this->request->isPost) {
+        if ($model->load($this->request->post())) {
+            // Provjerite ako je `university_id` prazan i postavite ga na null
+            if (empty($model->university_id)) {
+                $model->university_id = null;
+            }
+            if ($model->save()) {
                 return $this->redirect(['view', 'id' => $model->id]);
             }
-        } else {
-            $model->loadDefaultValues();
         }
-
-        return $this->render('create', [
-            'model' => $model,
-        ]);
+    } else {
+        $model->loadDefaultValues();
     }
+
+    return $this->render('create', [
+        'model' => $model,
+    ]);
+}
+
+    
+
+
+    
+    
+    
 
     /**
      * Updates an existing Article model.
@@ -164,6 +182,7 @@ class ArticleController extends Controller
         throw new NotFoundHttpException('The requested page does not exist.');
     }
 
+    
     public function actionLike($id)
     {
         Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;

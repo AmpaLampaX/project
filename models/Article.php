@@ -1,14 +1,11 @@
 <?php
-
 namespace app\models;
 
 use Yii;
 use yii\behaviors\BlameableBehavior;
-use yii\behaviors\SluggableBehavior;
 use yii\behaviors\TimestampBehavior;
 use yii\helpers\Html;
 use app\models\ArticleLike;
-
 
 /**
  * This is the model class for table "Article".
@@ -20,6 +17,7 @@ use app\models\ArticleLike;
  * @property int|null $created_at
  * @property int|null $updated_at
  * @property string|null $created_by
+ * @property int|null $university_id
  *
  * @property Register $createdBy
  */
@@ -32,20 +30,18 @@ class Article extends \yii\db\ActiveRecord
     {
         return 'article';
     }
-public function behaviors()
-{
-    return[
-        TimestampBehavior::class,
-        [
-            'class'=>BlameableBehavior::class,
-            'updatedByAttribute'=>false
-        ],
-        [
-        'class'=>SluggableBehavior::class,
-        'attribute'=>'title'
-        ],
-    ];
-}
+
+    public function behaviors()
+    {
+        return [
+            TimestampBehavior::class,
+            [
+                'class' => BlameableBehavior::class,
+                'updatedByAttribute' => false
+            ],
+        ];
+    }
+
     /**
      * {@inheritdoc}
      */
@@ -54,10 +50,11 @@ public function behaviors()
         return [
             [['title', 'body'], 'required'],
             [['body'], 'string'],
-            [['created_at', 'updated_at'], 'integer'],
+            [['created_at', 'updated_at', 'university_id'], 'integer'],
             [['title', 'slug'], 'string', 'max' => 1024],
             [['created_by'], 'string', 'max' => 20],
             [['created_by'], 'exist', 'skipOnError' => true, 'targetClass' => Register::class, 'targetAttribute' => ['created_by' => 'id']],
+            [['university_id'], 'default', 'value' => null], // Dodano pravilo
         ];
     }
 
@@ -74,6 +71,7 @@ public function behaviors()
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
             'created_by' => 'Created By',
+            'university_id' => 'University ID',
         ];
     }
 
@@ -106,6 +104,7 @@ public function behaviors()
     {
         return ArticleLike::find()->where(['user_id' => Yii::$app->user->id, 'article_id' => $this->id])->all();
     }
+
     public function getComments()
     {
         return ArticleComment::find()->where(['article_id' => $this->id])->all();
@@ -115,5 +114,4 @@ public function behaviors()
     {
         return $this->hasMany(ArticleComment::className(), ['article_id' => 'id'])->count();
     }
-
 }

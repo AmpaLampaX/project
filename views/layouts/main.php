@@ -1,5 +1,4 @@
 <?php
-
 /** @var yii\web\View $this */
 /** @var string $content */
 
@@ -24,6 +23,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <html lang="<?= Yii::$app->language ?>" class="h-100">
 <head>
     <title><?= Html::encode($this->title) ?></title>
+    <!-- Uključivanje Font Awesome biblioteke -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <?php $this->head() ?>
 </head>
 <body class="d-flex flex-column h-100">
