@@ -1,5 +1,4 @@
 <?php
-
 namespace app\models;
 
 use yii\base\Model;
@@ -51,10 +50,10 @@ class ArticleSearch extends Article
         $this->load($params);
 
         if (!$this->validate()) {
-
             return $dataProvider;
         }
 
+        // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
             'created_at' => $this->created_at,

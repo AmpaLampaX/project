@@ -2,10 +2,9 @@
 
 use app\models\Article;
 use yii\helpers\Html;
-use yii\helpers\Url;
-use yii\grid\ActionColumn;
-use yii\grid\GridView;
+use yii\widgets\ActiveForm;
 use yii\widgets\ListView;
+use yii\helpers\Url;
 
 /** @var yii\web\View $this */
 /** @var app\models\ArticleSearch $searchModel */
@@ -18,23 +17,40 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
+    <?php if (!Yii::$app->user->isGuest): ?>
+        <p>
+            <?= Html::a('Create Article', ['create'], ['class' => 'btn btn-primary']) ?>
+        </p>
+    <?php endif; ?>
 
-<?php if (!Yii::$app->user->isGuest): 
-//only person who is loged in can write an Article ?>
-    <p>
-        <?= Html::a('Create Article', ['create'], ['class' => 'btn btn-primary']) ?>
-    </p>
-<?php endif; ?> 
-        
+    <div class="article-search">
+        <?php $form = ActiveForm::begin([
+            'action' => ['index'],
+            'method' => 'get',
+            'id' => 'article-search-form'
+        ]); ?>
 
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+        <?= $form->field($searchModel, 'slug')->textInput(['placeholder' => 'Search by slug'])->label(false) ?>
+        <?= $form->field($searchModel, 'slug')->dropDownList([
+            'roommates' => 'Roommates',
+            'housing' => 'Housing',
+            'study-tips' => 'Study Tips',
+            'city-life' => 'City Life',
+            'food' => 'Food',
+            'travel' => 'Travel',
+        ], ['prompt' => 'Select a slug'])->label(false) ?>
+
+        <div class="form-group">
+            <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
+            <?= Html::a('Reset', ['index'], ['class' => 'btn btn-outline-secondary']) ?>
+        </div>
+
+        <?php ActiveForm::end(); ?>
+    </div>
 
     <?= ListView::widget([
         'dataProvider' => $dataProvider,
-    //    'filterModel' => $searchModel,
-        'itemView'=>'_aritcle_item'
-
+        'itemView' => '_article_item',
     ]); ?>
-
 
 </div>
