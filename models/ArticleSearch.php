@@ -10,6 +10,8 @@ use app\models\Article;
  */
 class ArticleSearch extends Article
 {
+    public $slug_dropdown;
+
     /**
      * {@inheritdoc}
      */
@@ -17,7 +19,7 @@ class ArticleSearch extends Article
     {
         return [
             [['id', 'created_at', 'updated_at'], 'integer'],
-            [['title', 'slug', 'body', 'created_by'], 'safe'],
+            [['title', 'slug', 'slug_dropdown', 'body', 'created_by'], 'safe'],
         ];
     }
 
@@ -41,8 +43,6 @@ class ArticleSearch extends Article
     {
         $query = Article::find();
 
-        // conditions that should always apply here
-
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
@@ -60,10 +60,14 @@ class ArticleSearch extends Article
             'updated_at' => $this->updated_at,
         ]);
 
+        // Combined filter for slug text input and dropdown
         $query->andFilterWhere(['like', 'title', $this->title])
-            ->andFilterWhere(['like', 'slug', $this->slug])
-            ->andFilterWhere(['like', 'body', $this->body])
-            ->andFilterWhere(['like', 'created_by', $this->created_by]);
+              ->andFilterWhere(['like', 'body', $this->body])
+              ->andFilterWhere(['like', 'created_by', $this->created_by])
+              ->andFilterWhere(['or',
+                  ['like', 'slug', $this->slug],
+                  ['slug' => $this->slug_dropdown],
+              ]);
 
         return $dataProvider;
     }

@@ -31,13 +31,27 @@ $this->params['breadcrumbs'][] = $this->title;
         ]); ?>
 
         <?= $form->field($searchModel, 'slug')->textInput(['placeholder' => 'Search by slug'])->label(false) ?>
-        <?= $form->field($searchModel, 'slug')->dropDownList([
+        <?= $form->field($searchModel, 'slug_dropdown')->dropDownList([
             'roommates' => 'Roommates',
             'housing' => 'Housing',
             'study-tips' => 'Study Tips',
             'city-life' => 'City Life',
             'food' => 'Food',
             'travel' => 'Travel',
+            'language-learning' => 'Language Learning',
+            'cultural-exchange' => 'Cultural Exchange',
+            'part-time-jobs' => 'Part-Time Jobs',
+            'scholarships' => 'Scholarships',
+            'university-life' => 'University Life',
+            'events' => 'Events',
+            'volunteering' => 'Volunteering',
+            'internships' => 'Internships',
+            'healthcare' => 'Healthcare',
+            'public-transport' => 'Public Transport',
+            'nightlife' => 'Nightlife',
+            'student-groups' => 'Student Groups',
+            'sports-activities' => 'Sports Activities',
+            'academic-advice' => 'Academic Advice',
         ], ['prompt' => 'Select a slug'])->label(false) ?>
 
         <div class="form-group">

@@ -63,16 +63,20 @@ class ArticleController extends Controller
      *
      * @return string
      */
-    public function actionIndex()
-    {
-        $searchModel = new ArticleSearch();
-        $dataProvider = $searchModel->search($this->request->queryParams);
+public function actionIndex()
+{
+    $searchModel = new ArticleSearch();
+    $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-        return $this->render('index', [
-            'searchModel' => $searchModel,
-            'dataProvider' => $dataProvider,
-        ]);
-    }
+    Yii::debug($searchModel->attributes, 'ArticleSearch attributes');
+    Yii::debug($dataProvider->query->createCommand()->getRawSql(), 'ArticleSearch SQL');
+
+    return $this->render('index', [
+        'searchModel' => $searchModel,
+        'dataProvider' => $dataProvider,
+    ]);
+}
+
 
     /**
      * Displays a single Article model.
