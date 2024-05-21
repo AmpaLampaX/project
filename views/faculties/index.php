@@ -12,6 +12,7 @@ use yii\grid\GridView;
 $this->title = 'Faculties';
 $this->params['breadcrumbs'][] = $this->title;
 
+// Register your custom CSS
 $this->registerCss("
     .faculties-index {
         background-color: #f5f5f5; /* Light background */
@@ -40,6 +41,12 @@ $this->registerCss("
     .button-custom:hover {
         background-color: #DD5746; 
         border-color: #4793AF;
+    }
+    .faculties-index .grid-view .action-column {
+        white-space: nowrap;
+    }
+    .faculties-index .grid-view .action-column a {
+        margin-right: 5px;
     }
 ");
 ?>
@@ -80,7 +87,7 @@ $this->registerCss("
                 'urlCreator' => function ($action, Faculties $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'ID' => $model->ID]);
                 },
-                'template' => '{view} {update} {delete} {create-article}',
+                'template' => '{view} {update} {delete} {create-article} {view-articles}',
                 'buttons' => [
                     'view' => function ($url, $model, $key) {
                         return Html::a('<span class="fas fa-eye"></span>', $url, [
@@ -88,20 +95,31 @@ $this->registerCss("
                         ]);
                     },
                     'update' => function ($url, $model, $key) {
-                        return Html::a('<span class="fas fa-pencil-alt"></span>', $url, [
-                            'title' => Yii::t('app', 'Update'),
-                        ]);
+                        if (Yii::$app->user->identity->getIsAdmin()) {
+                            return Html::a('<span class="fas fa-pencil-alt"></span>', $url, [
+                                'title' => Yii::t('app', 'Update'),
+                            ]);
+                        }
+                        return '';
                     },
                     'delete' => function ($url, $model, $key) {
-                        return Html::a('<span class="fas fa-trash"></span>', $url, [
-                            'title' => Yii::t('app', 'Delete'),
-                            'data-confirm' => Yii::t('yii', 'Are you sure you want to delete this item?'),
-                            'data-method' => 'post',
-                        ]);
+                        if (Yii::$app->user->identity->getIsAdmin()) {
+                            return Html::a('<span class="fas fa-trash"></span>', $url, [
+                                'title' => Yii::t('app', 'Delete'),
+                                'data-confirm' => Yii::t('yii', 'Are you sure you want to delete this item?'),
+                                'data-method' => 'post',
+                            ]);
+                        }
+                        return '';
                     },
                     'create-article' => function ($url, $model, $key) {
                         return Html::a('<span class="fas fa-plus-circle"></span>', Url::to(['article/create', 'university_id' => $model->ID, 'university_name' => $model->UNIVERSITY_OF_OUTGOING_MOBILITY]), [
                             'title' => Yii::t('app', 'Create Article'),
+                        ]);
+                    },
+                    'view-articles' => function ($url, $model, $key) {
+                        return Html::a('<span class="fas fa-book"></span>', Url::to(['article/articles-by-university', 'slug' => $model->UNIVERSITY_OF_OUTGOING_MOBILITY]), [
+                            'title' => Yii::t('app', 'View Articles'),
                         ]);
                     },
                 ],

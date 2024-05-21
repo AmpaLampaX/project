@@ -124,6 +124,19 @@ class ArticleController extends Controller
         'model' => $model,
     ]);
 }
+public function actionArticlesByUniversity($slug)
+{
+    $searchModel = new ArticleSearch();
+    $dataProvider = $searchModel->search([
+        'ArticleSearch' => ['slug' => $slug]
+    ]);
+
+    return $this->render('index', [
+        'searchModel' => $searchModel,
+        'dataProvider' => $dataProvider,
+    ]);
+}
+
 
     
 
