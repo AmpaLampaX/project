@@ -61,13 +61,17 @@ class ArticleSearch extends Article
         ]);
 
         // Combined filter for slug text input and dropdown
+        if ($this->slug) {
+            $query->andFilterWhere(['like', 'slug', $this->slug]);
+        }
+
+        if ($this->slug_dropdown) {
+            $query->andFilterWhere(['like', 'slug', $this->slug_dropdown]);
+        }
+
         $query->andFilterWhere(['like', 'title', $this->title])
               ->andFilterWhere(['like', 'body', $this->body])
-              ->andFilterWhere(['like', 'created_by', $this->created_by])
-              ->andFilterWhere(['or',
-                  ['like', 'slug', $this->slug],
-                  ['slug' => $this->slug_dropdown],
-              ]);
+              ->andFilterWhere(['like', 'created_by', $this->created_by]);
 
         return $dataProvider;
     }
