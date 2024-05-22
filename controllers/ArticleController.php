@@ -104,7 +104,7 @@ public function actionIndex()
     public function actionCreate($university_id = null, $university_name = null)
     {
         $model = new Article();
-    
+        
         if ($university_id !== null && $university_name !== null) {
             $model->university_id = $university_id;
             $model->slug = $university_name;
@@ -112,24 +112,20 @@ public function actionIndex()
     
         if (Yii::$app->request->isPost) {
             if ($model->load(Yii::$app->request->post())) {
-                // Provjerite ako je `university_id` prazan i postavite ga na null
                 if (empty($model->university_id)) {
                     $model->university_id = null;
                 }
     
-                // Ako postoji ime fakulteta, dodajte ga u niz slugova
+                $slugs = [];
+    
                 if (!empty($model->university_id) && !empty($model->slug)) {
-                    $slugs = [$model->slug];
-                } else {
-                    $slugs = [];
+                    $slugs[] = $model->slug;
                 }
     
-                // Dodajte odabrane slugove iz forme
                 if (!empty($model->slugs)) {
                     $slugs = array_merge($slugs, $model->slugs);
                 }
     
-                // Spojite sve slugove u jedan string
                 $model->slug = implode(',', $slugs);
     
                 if ($model->save()) {
@@ -142,30 +138,48 @@ public function actionIndex()
     
         return $this->render('create', [
             'model' => $model,
+            'availableSlugs' => $this->getAvailableSlugs(),
         ]);
     }
     
-
-
-public function actionArticlesByUniversity($slug)
-{
-    $searchModel = new ArticleSearch();
-    $dataProvider = $searchModel->search([
-        'ArticleSearch' => ['slug' => $slug]
-    ]);
-
-    return $this->render('index', [
-        'searchModel' => $searchModel,
-        'dataProvider' => $dataProvider,
-    ]);
-}
-
-
+    private function getAvailableSlugs()
+    {
+        return [
+            'roommates' => 'Roommates',
+            'housing' => 'Housing',
+            'study-tips' => 'Study Tips',
+            'city-life' => 'City Life',
+            'food' => 'Food',
+            'travel' => 'Travel',
+            'language-learning' => 'Language Learning',
+            'cultural-exchange' => 'Cultural Exchange',
+            'part-time-jobs' => 'Part-Time Jobs',
+            'scholarships' => 'Scholarships',
+            'university-life' => 'University Life',
+            'events' => 'Events',
+            'volunteering' => 'Volunteering',
+            'internships' => 'Internships',
+            'healthcare' => 'Healthcare',
+            'public-transport' => 'Public Transport',
+            'nightlife' => 'Nightlife',
+            'student-groups' => 'Student Groups',
+            'sports-activities' => 'Sports Activities',
+            'academic-advice' => 'Academic Advice',
+        ];
+    }
     
-
-
+    public function actionArticlesByUniversity($slug)
+    {
+        $searchModel = new ArticleSearch();
+        $dataProvider = $searchModel->search([
+            'ArticleSearch' => ['slug' => $slug]
+        ]);
     
-    
+        return $this->render('index', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
     
 
     /**

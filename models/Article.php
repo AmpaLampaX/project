@@ -48,25 +48,22 @@ class Article extends \yii\db\ActiveRecord
      * {@inheritdoc}
      */
     public function rules()
-{
-    return [
-        [['title', 'body'], 'required'],
-        [['body'], 'string'],
-        [['created_at', 'updated_at', 'university_id'], 'integer'],
-        [['title', 'slug'], 'string', 'max' => 1024],
-        [['created_by'], 'string', 'max' => 20],
-        [['created_by'], 'exist', 'skipOnError' => true, 'targetClass' => Register::class, 'targetAttribute' => ['created_by' => 'id']],
-        [['slugs'], 'each', 'rule' => ['string']], // validation for multiple slugs
-        ['slugs', 'required', 'when' => function($model) {
-            return empty($model->slug);
-        }, 'whenClient' => "function (attribute, value) {
-            return $('#article-slug').val() === '';
-        }"]
-    ];
-}
-
-
-    
+    {
+        return [
+            [['title', 'body'], 'required'],
+            [['body'], 'string'],
+            [['created_at', 'updated_at', 'university_id'], 'integer'],
+            [['title', 'slug'], 'string', 'max' => 1024],
+            [['created_by'], 'string', 'max' => 20],
+            [['created_by'], 'exist', 'skipOnError' => true, 'targetClass' => Register::class, 'targetAttribute' => ['created_by' => 'id']],
+            [['slugs'], 'each', 'rule' => ['string']], // validation for multiple slugs
+            ['slugs', 'required', 'when' => function($model) {
+                return empty($model->slug);
+            }, 'whenClient' => "function (attribute, value) {
+                return $('#article-slug').val() === '';
+            }"]
+        ];
+    }
 
     /**
      * {@inheritdoc}
