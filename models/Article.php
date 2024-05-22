@@ -5,7 +5,6 @@ use Yii;
 use yii\behaviors\BlameableBehavior;
 use yii\behaviors\TimestampBehavior;
 use yii\helpers\Html;
-use app\models\ArticleLike;
 
 /**
  * This is the model class for table "Article".
@@ -17,12 +16,14 @@ use app\models\ArticleLike;
  * @property int|null $created_at
  * @property int|null $updated_at
  * @property string|null $created_by
- * @property int|null $university_id
+ * @property int $university_id
  *
  * @property Register $createdBy
  */
 class Article extends \yii\db\ActiveRecord
 {
+    public $slugs; // property for handling multiple slugs
+
     /**
      * {@inheritdoc}
      */
@@ -30,6 +31,7 @@ class Article extends \yii\db\ActiveRecord
     {
         return 'article';
     }
+    
 
     public function behaviors()
     {
@@ -46,17 +48,25 @@ class Article extends \yii\db\ActiveRecord
      * {@inheritdoc}
      */
     public function rules()
-    {
-        return [
-            [['title', 'body'], 'required'],
-            [['body'], 'string'],
-            [['created_at', 'updated_at', 'university_id'], 'integer'],
-            [['title', 'slug'], 'string', 'max' => 1024],
-            [['created_by'], 'string', 'max' => 20],
-            [['created_by'], 'exist', 'skipOnError' => true, 'targetClass' => Register::class, 'targetAttribute' => ['created_by' => 'id']],
-            [['university_id'], 'default', 'value' => null], // Dodano pravilo
-        ];
-    }
+{
+    return [
+        [['title', 'body'], 'required'],
+        [['body'], 'string'],
+        [['created_at', 'updated_at', 'university_id'], 'integer'],
+        [['title', 'slug'], 'string', 'max' => 1024],
+        [['created_by'], 'string', 'max' => 20],
+        [['created_by'], 'exist', 'skipOnError' => true, 'targetClass' => Register::class, 'targetAttribute' => ['created_by' => 'id']],
+        [['slugs'], 'each', 'rule' => ['string']], // validation for multiple slugs
+        ['slugs', 'required', 'when' => function($model) {
+            return empty($model->slug);
+        }, 'whenClient' => "function (attribute, value) {
+            return $('#article-slug').val() === '';
+        }"]
+    ];
+}
+
+
+    
 
     /**
      * {@inheritdoc}
@@ -67,6 +77,7 @@ class Article extends \yii\db\ActiveRecord
             'id' => 'ID',
             'title' => 'Title',
             'slug' => 'Slug',
+            'slugs' => 'Slugs',
             'body' => 'Body',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
@@ -92,7 +103,7 @@ class Article extends \yii\db\ActiveRecord
     
     public function getLikes()
     {
-        return $this->hasMany(ArticleLike::className(), ['article_id' => 'id']);
+        return $this->hasMany(ArticleLike::class, ['article_id' => 'id']);
     }
 
     public function getLikesCount()
@@ -102,16 +113,16 @@ class Article extends \yii\db\ActiveRecord
 
     public function hasUserLiked()
     {
-        return ArticleLike::find()->where(['user_id' => Yii::$app->user->id, 'article_id' => $this->id])->all();
+        return ArticleLike::find()->where(['user_id' => Yii::$app->user->id, 'article_id' => $this->id])->exists();
     }
 
     public function getComments()
     {
         return ArticleComment::find()->where(['article_id' => $this->id])->all();
     }
-    
+
     public function getCommentsCount()
     {
-        return $this->hasMany(ArticleComment::className(), ['article_id' => 'id'])->count();
+        return $this->hasMany(ArticleComment::class, ['article_id' => 'id'])->count();
     }
 }

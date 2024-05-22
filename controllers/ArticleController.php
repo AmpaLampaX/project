@@ -102,32 +102,51 @@ public function actionIndex()
      * @return string|\yii\web\Response
      */
     public function actionCreate($university_id = null, $university_name = null)
-{
-    $model = new Article();
-
-    if ($university_id !== null && $university_name !== null) {
-        $model->university_id = $university_id;
-        $model->slug = $university_name;
-    }
-
-    if ($this->request->isPost) {
-        if ($model->load($this->request->post())) {
-            // Provjerite ako je `university_id` prazan i postavite ga na null
-            if (empty($model->university_id)) {
-                $model->university_id = null;
-            }
-            if ($model->save()) {
-                return $this->redirect(['view', 'id' => $model->id]);
-            }
+    {
+        $model = new Article();
+    
+        if ($university_id !== null && $university_name !== null) {
+            $model->university_id = $university_id;
+            $model->slug = $university_name;
         }
-    } else {
-        $model->loadDefaultValues();
+    
+        if (Yii::$app->request->isPost) {
+            if ($model->load(Yii::$app->request->post())) {
+                // Provjerite ako je `university_id` prazan i postavite ga na null
+                if (empty($model->university_id)) {
+                    $model->university_id = null;
+                }
+    
+                // Ako postoji ime fakulteta, dodajte ga u niz slugova
+                if (!empty($model->university_id) && !empty($model->slug)) {
+                    $slugs = [$model->slug];
+                } else {
+                    $slugs = [];
+                }
+    
+                // Dodajte odabrane slugove iz forme
+                if (!empty($model->slugs)) {
+                    $slugs = array_merge($slugs, $model->slugs);
+                }
+    
+                // Spojite sve slugove u jedan string
+                $model->slug = implode(',', $slugs);
+    
+                if ($model->save()) {
+                    return $this->redirect(['view', 'id' => $model->id]);
+                }
+            }
+        } else {
+            $model->loadDefaultValues();
+        }
+    
+        return $this->render('create', [
+            'model' => $model,
+        ]);
     }
+    
 
-    return $this->render('create', [
-        'model' => $model,
-    ]);
-}
+
 public function actionArticlesByUniversity($slug)
 {
     $searchModel = new ArticleSearch();
