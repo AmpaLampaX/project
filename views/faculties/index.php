@@ -10,6 +10,7 @@ use yii\grid\GridView;
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
 $this->title = 'Faculties';
+$this->params['breadcrumbs'][] = ['label' => 'Opportunities', 'url' => ['site/opportunities']];
 $this->params['breadcrumbs'][] = $this->title;
 
 // Register your custom CSS
@@ -35,8 +36,9 @@ $this->registerCss("
         color: #DD5746; /* Links hover color */
     }
     .button-custom {
-        background-color: #FFC470; 
+        background-color: #8B322C; 
         border-color: #8B322C; 
+        color: #ffffff; /* Ensure the text color is white */
     }
     .button-custom:hover {
         background-color: #DD5746; 
@@ -56,7 +58,7 @@ $this->registerCss("
 
     <?php if (!Yii::$app->user->isGuest && Yii::$app->user->identity->getIsAdmin()): ?>
         <p>
-            <?= Html::a('Create Faculties', ['create'], ['class' => 'btn button-custom']) ?>
+            <?= Html::a('Add Facultie', ['create'], ['class' => 'btn button-custom']) ?>
         </p>
     <?php endif; ?>
 
