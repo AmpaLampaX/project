@@ -35,7 +35,6 @@ class RegisterController extends Controller
 
     /**
      * Lists all Register models.
-     *
      * @return string
      */
     public function actionIndex()
@@ -72,19 +71,8 @@ class RegisterController extends Controller
         $model = new Register();
 
         if ($this->request->isPost) {
-
-           if ($model->load($this->request->post())){
-            $model->authKey = Yii::$app->security->generateRandomString(19);
-            $model->id = Yii::$app->security->generateRandomString(1);
-
-            if($model->save()) {
-                Yii::error('kraj');
-                return $this->redirect(['view', 'id' => $model->id]);
-            }
-        }
-            else{
-                Yii::error('failed');
-            }
+            $model->load($this->request->post()) && $model->save();
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             $model->loadDefaultValues();
         }
@@ -144,24 +132,24 @@ class RegisterController extends Controller
         throw new NotFoundHttpException('The requested page does not exist.');
     }
 
+    /**
+     * Handles the photo upload functionality.
+     */
     public function actionUploadPhoto()
     {
         $userId = Yii::$app->user->id;
         $model = new Register();
-
-        $model->photoFile = UploadedFile::getInstance($model, 'photoFile'); 
-
+        $model->photoFile = UploadedFile::getInstance($model, 'photoFile');
+        
         if ($model->photoFile) {
             $filePath = 'uploads/User_photos/' . $userId . '.' . $model->photoFile->extension;
 
-           
             if (!file_exists('uploads/User_photos/')) {
                 mkdir('uploads/User_photos/', 0777, true);
             }
 
             if ($model->photoFile->saveAs($filePath)) {
                 Yii::$app->session->setFlash('success', 'Photo uploaded successfully.');
-               
             } else {
                 Yii::$app->session->setFlash('error', 'There was an error uploading your photo.');
             }
@@ -169,6 +157,33 @@ class RegisterController extends Controller
 
         return $this->redirect(Yii::$app->request->referrer);
     }
-    
 
+    /**
+     * Handles changing the existing photo.
+     */
+    public function actionChangePhoto()
+    {
+        return $this->actionUploadPhoto();  // Reuse the upload logic
+    }
+
+    /**
+     * Handles removing the existing photo.
+     */
+    public function actionRemovePhoto()
+    {
+        $userId = Yii::$app->user->id;
+        $filePath = 'uploads/User_photos/' . $userId . '.jpg';
+        
+        if (file_exists($filePath)) {
+            if (unlink($filePath)) {
+                Yii::$app->session->setFlash('success', 'Photo removed successfully.');
+            } else {
+                Yii::$app->session->setFlash('error', 'Error removing photo.');
+            }
+        } else {
+            Yii::$app->session->setFlash('error', 'No photo found to remove.');
+        }
+
+        return $this->redirect(Yii::$app->request->referrer);
+    }
 }
