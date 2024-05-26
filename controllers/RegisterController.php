@@ -37,16 +37,6 @@ class RegisterController extends Controller
      * Lists all Register models.
      * @return string
      */
-    public function actionIndex()
-    {
-        $searchModel = new RegisterSearch();
-        $dataProvider = $searchModel->search($this->request->queryParams);
-
-        return $this->render('index', [
-            'searchModel' => $searchModel,
-            'dataProvider' => $dataProvider,
-        ]);
-    }
 
     /**
      * Displays a single Register model.
