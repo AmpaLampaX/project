@@ -23,6 +23,7 @@ $this->registerCss("
         max-width: 600px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         text-align: center;
+        position: relative; /* For positioning the pencil icon */
     }
     .site-profile img {
         border-radius: 50%;
@@ -30,21 +31,32 @@ $this->registerCss("
         height: 150px;
         object-fit: cover;
         margin-bottom: 20px;
+        border: 3px solid #8B322C;
     }
     h1 {
         color: #8B322C;
+        margin-bottom: 20px;
     }
-    .profile-details, .photo-form-container {
-        background-color: #FFF8E1;
+    .profile-details {
+        background-color: #FFF;
         padding: 15px;
         border-radius: 10px;
-        margin: 30px 0;
+        margin: 20px 0;
+        text-align: left;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .profile-details p {
-        padding: 5px;
+        padding: 5px 10px;
         border-radius: 5px;
         font-size: 16px;
         margin: 10px 0;
+        background-color: #f9f9f9;
+        border-left: 5px solid #8B322C;
+    }
+    .profile-details p label {
+        font-weight: bold;
+        color: #8B322C;
+        margin-right: 10px;
     }
     .btn {
         background-color: #8B322C;
@@ -55,6 +67,7 @@ $this->registerCss("
         font-size: 16px;
         cursor: pointer;
         transition: background-color 0.3s;
+        margin: 5px;
     }
     .btn:hover {
         background-color: #DD5746;
@@ -62,13 +75,45 @@ $this->registerCss("
     .hidden {
         display: none;
     }
+    .edit-photo-toggle {
+        display: none;
+    }
+    .edit-photo-label {
+        display: inline-block;
+        cursor: pointer;
+        color: #8B322C;
+        font-size: 24px;
+        position: absolute; /* Positioning the pencil icon */
+        top: 20px; /* Adjust as necessary */
+        right: 20px; /* Adjust as necessary */
+    }
+    .edit-photo-label:before {
+        font-family: 'Font Awesome 5 Free'; /* Ensure Font Awesome is loaded */
+        content: '\\f303'; /* Unicode for pencil icon */
+        font-weight: 900;
+    }
+    .edit-photo-toggle:checked ~ .photo-form-container {
+        display: block;
+    }
+    .photo-form-container {
+        display: none;
+        background-color: #FFF;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 20px 0;
+        text-align: left;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .photo-form-container .form-group {
+        margin-bottom: 15px;
+    }
 ");
 
 $userId = Yii::$app->user->id;
 $defaultPhoto = Url::to('@web/uploads/User_photos/default_photo.jpg');
-$photoPath = Url::to('@web/uploads/User_photos/' . $userId . '.jpg');
-$userPhotoUrl = file_exists(Yii::getAlias('@webroot/uploads/User_photos/' . $userId . '.jpg')) ? $photoPath : $defaultPhoto;
-$isUploaded = file_exists(Yii::getAlias('@webroot/uploads/User_photos/' . $userId . '.jpg'));
+$userPhotoPath = Yii::getAlias('@webroot/uploads/User_photos/' . $userId . '.jpg');
+$userPhotoUrl = file_exists($userPhotoPath) ? Url::to('@web/uploads/User_photos/' . $userId . '.jpg') . '?t=' . time() : $defaultPhoto;
+$isUploaded = file_exists($userPhotoPath);
 ?>
 
 <div class="site-profile">
@@ -76,8 +121,11 @@ $isUploaded = file_exists(Yii::getAlias('@webroot/uploads/User_photos/' . $userI
 
     <?= Html::img($userPhotoUrl, ['alt' => 'Profile photo']) ?>
 
-    <?php if ($isUploaded): ?>
-        <div class="photo-form-container">
+    <input type="checkbox" id="edit-photo-toggle" class="edit-photo-toggle">
+    <label for="edit-photo-toggle" class="edit-photo-label"></label>
+
+    <div class="photo-form-container">
+        <?php if ($isUploaded): ?>
             <?php $form = ActiveForm::begin([
                 'method' => 'post',
                 'action' => ['register/change-photo'],
@@ -87,9 +135,7 @@ $isUploaded = file_exists(Yii::getAlias('@webroot/uploads/User_photos/' . $userI
             <?= Html::submitButton('Change Photo', ['class' => 'btn']) ?>
             <?= Html::a('Remove Photo', ['register/remove-photo'], ['class' => 'btn']) ?>
             <?php ActiveForm::end(); ?>
-        </div>
-    <?php else: ?>
-        <div class="photo-form-container">
+        <?php else: ?>
             <?php $form = ActiveForm::begin([
                 'method' => 'post',
                 'action' => ['register/upload-photo'],
@@ -98,14 +144,14 @@ $isUploaded = file_exists(Yii::getAlias('@webroot/uploads/User_photos/' . $userI
             <?= $form->field($model, 'photoFile')->fileInput(['class' => 'file-input']) ?>
             <?= Html::submitButton('Upload Photo', ['class' => 'btn']) ?>
             <?php ActiveForm::end(); ?>
-        </div>
-    <?php endif; ?>
+        <?php endif; ?>
+    </div>
 
     <div class="profile-details">
-        <p>First Name: <?= Html::encode($model->firstName) ?></p>
-        <p>Last Name: <?= Html::encode($model->lastName) ?></p>
-        <p>Username: <?= Html::encode($model->username) ?></p>
-        <p>Contact Number: <?= Html::encode($model->contactNumber) ?></p>
-        <p>Email: <?= Html::encode($model->email) ?></p>
+        <p><label>First Name:</label> <?= Html::encode($model->firstName) ?></p>
+        <p><label>Last Name:</label> <?= Html::encode($model->lastName) ?></p>
+        <p><label>Username:</label> <?= Html::encode($model->username) ?></p>
+        <p><label>Contact Number:</label> <?= Html::encode($model->contactNumber) ?></p>
+        <p><label>Email:</label> <?= Html::encode($model->email) ?></p>
     </div>
 </div>
