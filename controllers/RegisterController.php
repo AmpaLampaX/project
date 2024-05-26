@@ -65,18 +65,28 @@ class RegisterController extends Controller
      * Creates a new Register model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
-     */
+     */ 
     public function actionCreate()
     {
         $model = new Register();
 
         if ($this->request->isPost) {
-            $model->load($this->request->post()) && $model->save();
-            return $this->redirect(['view', 'id' => $model->id]);
+
+           if ($model->load($this->request->post())){
+            $model->authKey = Yii::$app->security->generateRandomString(19);
+            $model->id = Yii::$app->security->generateRandomString(1);
+
+            if($model->save()) {
+                Yii::error('kraj');
+                return $this->redirect(['view', 'id' => $model->id]);
+            }
+        }
+            else{
+                Yii::error('failed');
+            }
         } else {
             $model->loadDefaultValues();
         }
-
         return $this->render('create', [
             'model' => $model,
         ]);
