@@ -22,6 +22,17 @@ $config = [
         'user' => [
             'identityClass' => 'app\models\Register',
             'enableAutoLogin' => true,
+            'identityCookie' => [
+                'name' => '_identity',
+                'httpOnly' => true,
+            ],
+        ],
+        'session' => [
+            'class' => 'yii\web\Session',
+            'timeout' => 1440, // Timeout sesije u sekundama (24 minute)
+            'cookieParams' => [
+                'lifetime' => 0, // Kolačić traje samo dok je preglednik otvoren
+            ],
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',

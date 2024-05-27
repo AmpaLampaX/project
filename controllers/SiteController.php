@@ -1,6 +1,7 @@
 <?php
 
 namespace app\controllers;
+
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -10,24 +11,22 @@ use app\models\LoginForm;
 use app\models\Register;
 use yii\web\UploadedFile;
 
-
 class SiteController extends Controller
 {
     /**
      * {@inheritdoc}
      */
-    
     public function behaviors()
     {
         return [
             'access' => [
                 'class' => AccessControl::class,
-                'only' => ['logout', 'profile'], 
+                'only' => ['logout', 'profile'],
                 'rules' => [
                     [
-                        'actions' => ['logout', 'profile'], 
+                        'actions' => ['logout', 'profile'],
                         'allow' => true,
-                        'roles' => ['@'], 
+                        'roles' => ['@'],
                     ],
                 ],
             ],
@@ -39,7 +38,6 @@ class SiteController extends Controller
             ],
         ];
     }
-    
 
     /**
      * {@inheritdoc}
@@ -97,28 +95,25 @@ class SiteController extends Controller
     public function actionLogout()
     {
         Yii::$app->user->logout();
-
         return $this->goHome();
     }
-
 
     public function actionOpportunities()
     {
         return $this->render('opportunities');
     }
+
     public function actionForum()
     {
         return $this->render('forum');
     }
+
     public function actionProfile()
     {
-        $model = Yii::$app->user->identity; 
-    
+        $model = Yii::$app->user->identity;
+
         return $this->render('profile', [
             'model' => $model,
         ]);
     }
-    
-
-
 }

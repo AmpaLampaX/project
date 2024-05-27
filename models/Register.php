@@ -4,6 +4,7 @@ namespace app\models;
 use Yii;
 use yii\base\NotSupportedException;
 use yii\web\IdentityInterface;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "Register".
@@ -17,7 +18,7 @@ use yii\web\IdentityInterface;
  * @property string $password
  * @property string $authKey
  */
-class Register extends \yii\db\ActiveRecord implements IdentityInterface
+class Register extends ActiveRecord implements IdentityInterface
 {
     public $photoFile;
 
@@ -57,11 +58,6 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
                 $this->authKey = Yii::$app->security->generateRandomString();
             }
 
-            // Generate accessToken only when the record is new
-            if ($this->isNewRecord) {
-                $this->accessToken = Yii::$app->security->generateRandomString(40); // Generate a longer string for access tokens
-            }
-
             return true; // This should be the last statement in this block
         }
         return false;
@@ -81,36 +77,71 @@ class Register extends \yii\db\ActiveRecord implements IdentityInterface
         ];
     }
 
-    public function getAuthKey()
+    /**
+     * Finds an identity by the given ID.
+     *
+     * @param string|int $id the ID to be looked for
+     * @return IdentityInterface|null the identity object that matches the given ID.
+     */
+    public static function findIdentity($id)
     {
-        return $this->authKey;
+        return static::findOne($id);
     }
 
+    /**
+     * Finds an identity by the given token.
+     *
+     * @param string $token the token to be looked for
+     * @param mixed $type the type of the token. The value of this parameter depends on the implementation.
+     * @return IdentityInterface|null the identity object that matches the given token.
+     */
+    public static function findIdentityByAccessToken($token, $type = null)
+    {
+        return static::findOne(['accessToken' => $token]);
+    }
+
+    /**
+     * Finds user by username
+     *
+     * @param string $username
+     * @return static|null
+     */
+    public static function findByUsername($username)
+    {
+        return static::findOne(['username' => $username]);
+    }
+
+    /**
+     * @return int|string current user ID
+     */
     public function getId()
     {
         return $this->id;
     }
 
+    /**
+     * @return string current user auth key
+     */
+    public function getAuthKey()
+    {
+        return $this->authKey;
+    }
+
+    /**
+     * @param string $authKey
+     * @return bool if auth key is valid for current user
+     */
     public function validateAuthKey($authKey)
     {
         return $this->authKey === $authKey;
     }
 
-    public static function findIdentity($id)
-    {
-        return self::findOne($id);
-    }
-
-    public static function findIdentityByAccessToken($token, $type = null)
-    {
-        return self::findOne(['accessToken' => $token]);
-    }
-
-    public static function findByUsername($username)
-    {
-        return self::findOne(['username' => $username]);
-    }
-
+    /**
+     * Validates password
+     *
+     * @param string $password password to validate
+     * @return bool if password provided is valid for current user
+     */
     public function validatePassword($password)
     {
         return Yii::$app->security->validatePassword($password, $this->password);

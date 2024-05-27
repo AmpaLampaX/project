@@ -18,10 +18,6 @@ class LoginForm extends Model
     public $rememberMe = true;
 
     private $_user = false;
-    //This is a private property that is used to cache the User object returned from the database during the login process.
-
-
-
 
     /**
      * @return array the validation rules.
@@ -61,7 +57,8 @@ class LoginForm extends Model
     public function login()
     {
         if ($this->validate()) {
-            return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600*24*30 : 0);
+            $duration = $this->rememberMe ? 3600 * 24 * 30 : 0;
+            return Yii::$app->user->login($this->getUser(), $duration);
         }
         return false;
     }
