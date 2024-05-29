@@ -16,7 +16,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <div class="admin-buttons">
+    <?php if (!Yii::$app->user->isGuest && Yii::$app->user->identity->getIsAdmin()): ?>
+        <div class="admin-buttons">
         <?= Html::a('Update', ['update', 'ID' => $model->ID], ['class' => 'btn btn-primary']) ?>
         <?= Html::a('Delete', ['delete', 'ID' => $model->ID], [
             'class' => 'btn btn-danger',
@@ -26,6 +27,8 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]) ?>
     </div>
+    <?php endif; ?>
+
 
     <?= DetailView::widget([
         'model' => $model,
