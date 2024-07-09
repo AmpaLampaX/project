@@ -46,19 +46,19 @@ class Register extends ActiveRecord implements IdentityInterface
 
     public function getIsAdmin()
     {
-        return $this->isAdmin == 1; // Returns true if isAdmin is 1
+        return $this->isAdmin == 1; 
     }
 
     public function beforeSave($insert)
     {
         if (parent::beforeSave($insert)) {
-            // Hash the password and generate authKey only when the record is new or the password has changed
+            
             if ($this->isNewRecord || $this->isAttributeChanged('password')) {
                 $this->password = Yii::$app->security->generatePasswordHash($this->password);
                 $this->authKey = Yii::$app->security->generateRandomString();
             }
 
-            return true; // This should be the last statement in this block
+            return true; 
         }
         return false;
     }

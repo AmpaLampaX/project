@@ -13,8 +13,6 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
 
-
-
 class ArticleController extends Controller
 {
     /**

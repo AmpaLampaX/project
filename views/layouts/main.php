@@ -54,8 +54,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 . Html::beginForm(['/site/logout'], 'post', ['class' => 'form-inline'])
                 . Html::submitButton(
                     'Logout (' . Html::encode(Yii::$app->user->identity->username) . ')',
-                    ['class' => 'btn btn-link logout', 'style' => 'color: white;']
-                )
+                    ['class' => 'btn btn-link logout', 'style' => 'color: white;']   )
                 . Html::endForm()
                 . '</li>'
             )

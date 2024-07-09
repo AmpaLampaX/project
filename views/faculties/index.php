@@ -13,32 +13,31 @@ $this->title = 'Faculties';
 $this->params['breadcrumbs'][] = ['label' => 'Opportunities', 'url' => ['site/opportunities']];
 $this->params['breadcrumbs'][] = $this->title;
 
-// Register your custom CSS
 $this->registerCss("
     .faculties-index {
-        background-color: #f5f5f5; /* Light background */
+        background-color: #f5f5f5; 
     }
     h1 {
-        color: #4793AF; /* title */
+        color: #4793AF; 
     }
     .grid-view th {
-        background-color: #4793AF; /* headers */
+        background-color: #4793AF; 
         color: #ffffff;
     }
     .grid-view td {
-        color: #333; /* Dark gray - text */
+        color: #333; 
     }
 
     .grid-view a {
-        color: #8B322C; /* Links color */
+        color: #8B322C; 
     }
     .grid-view a:hover {
-        color: #DD5746; /* Links hover color */
+        color: #DD5746; 
     }
     .button-custom {
         background-color: #8B322C; 
         border-color: #8B322C; 
-        color: #ffffff; /* Ensure the text color is white */
+        color: #ffffff; 
     }
     .button-custom:hover {
         background-color: #DD5746; 

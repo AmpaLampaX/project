@@ -132,9 +132,6 @@ class RegisterController extends Controller
         throw new NotFoundHttpException('The requested page does not exist.');
     }
 
-    /**
-     * Handles the photo upload functionality.
-     */
     public function actionUploadPhoto()
     {
         $userId = Yii::$app->user->id;
@@ -157,18 +154,10 @@ class RegisterController extends Controller
 
         return $this->redirect(Yii::$app->request->referrer);
     }
-
-    /**
-     * Handles changing the existing photo.
-     */
     public function actionChangePhoto()
     {
         return $this->actionUploadPhoto();  // Reuse the upload logic
     }
-
-    /**
-     * Handles removing the existing photo.
-     */
     public function actionRemovePhoto()
     {
         $userId = Yii::$app->user->id;

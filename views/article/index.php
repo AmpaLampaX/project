@@ -22,12 +22,12 @@ $this->registerCss("
         color: #8B322C;
         font-weight: bold;
         margin-bottom: 20px;
-        font-size: 36px; /* Increased font size */
+        font-size: 36px; 
     }
     .article-search-wrapper {
         float: right;
-        margin-top: -70px; /* Adjust this value to move the filter section up or down */
-        margin-right: -15px; /* Adjust this value to move the filter section right or left */
+        margin-top: -70px; 
+        margin-right: -15px;
     }
     .article-search {
         background-color: #FFF8E1;

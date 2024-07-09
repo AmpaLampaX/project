@@ -27,23 +27,23 @@ class FacultiesController extends Controller
             'access' => [
                 'class' => AccessControl::class,
                 'rules' => [
-                    // Rules for guests (not logged in users)
+                    // Rules for guests
                     [
-                        'actions' => ['index', 'view'], // Specify which actions are allowed
+                        'actions' => ['index', 'view'], 
                         'allow' => true,
                         'roles' => ['?'], // ? means guest users
                     ],
                     // Rules for all authenticated users
                     [
-                        'actions' => ['index', 'view','indexb'], // They can view and index
+                        'actions' => ['index', 'view','indexb'], 
                         'allow' => true,
                         'roles' => ['@'], // @ means any authenticated user
                     ],
                     // Admin-specific rules
                     [
-                        'actions' => ['create', 'update', 'delete'], // Restricting critical actions to admin
+                        'actions' => ['create', 'update', 'delete'], 
                         'allow' => true,
-                        'roles' => ['@'], // Must be an authenticated user
+                        'roles' => ['@'], 
                         'matchCallback' => function ($rule, $action) {
                             return !Yii::$app->user->isGuest && Yii::$app->user->identity->getIsAdmin();
                         }
@@ -165,10 +165,8 @@ class FacultiesController extends Controller
     {
         $filterModel = new FacultiesSearch();
 
-        // define filter condition by button press
         $condition = ['LIKE','HOME_UNIVERSITY',$button];
         
-        // get data provider
         $dataProvider = $filterModel->filter($this->request->queryParams, $condition);
 
         return $this->render('index', [

@@ -42,8 +42,6 @@ class RegisterSearch extends Register
     {
         $query = Register::find();
 
-        // add conditions that should always apply here
-
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
@@ -53,8 +51,7 @@ class RegisterSearch extends Register
         if (!$this->validate()) {
             return $dataProvider;
         }
-
-        // grid filtering conditions
+        
         $query->andFilterWhere([
             'contactNumber' => $this->contactNumber,
         ]);

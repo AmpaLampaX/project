@@ -22,7 +22,7 @@ use yii\helpers\Html;
  */
 class Article extends \yii\db\ActiveRecord
 {
-    public $slugs; // property for handling multiple slugs
+    public $slugs; 
 
     /**
      * {@inheritdoc}
@@ -32,7 +32,6 @@ class Article extends \yii\db\ActiveRecord
         return 'article';
     }
     
-
     public function behaviors()
     {
         return [

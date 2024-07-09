@@ -69,14 +69,12 @@ $this->registerCss("
         <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
 
         <?php if ($model->university_id): ?>
-            <!-- Prikazujemo trenutno postavljeni slug samo ako je članak povezan s fakultetom -->
             <div class="form-group">
                 <?= Html::label('Slug', 'slugDisplay', ['class' => 'control-label']) ?>
                 <?= Html::textInput('slugDisplay', $model->slug, ['class' => 'form-control', 'readonly' => true]) ?>
             </div>
         <?php endif; ?>
 
-        <!-- Dodavanje dodatnih slugova -->
         <?= $form->field($model, 'slugs')->dropDownList($availableSlugs, [
             'multiple' => true, 
             'class' => 'form-control'

@@ -40,12 +40,12 @@ $this->registerCss("
         text-decoration: none;
     }
     .article-item-title {
-        color: #8B322C; /* Article titles color */
+        color: #8B322C; 
         font-weight: bold;
         font-size: 20px;
     }
     .article-title-link:hover .article-item-title {
-        color: #DD5746; /* Hover color for article titles */
+        color: #DD5746; 
     }
     .article-body {
         margin-top: 10px;

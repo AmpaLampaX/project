@@ -9,7 +9,6 @@ $this->title = 'Registration Successful';
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 
-// Register custom CSS for styling
 $this->registerCss("
     .register-success, .register-view {
         background-color: #f5f5f5;

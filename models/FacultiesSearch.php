@@ -44,8 +44,6 @@ class FacultiesSearch extends Faculties
         
         $query = Faculties::find();
 
-        // add conditions that should always apply here
-
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
@@ -56,7 +54,6 @@ class FacultiesSearch extends Faculties
             return $dataProvider;
         }
 
-        // grid filtering conditions
         $query->andFilterWhere([
             'ID' => $this->ID,
         ]);
@@ -82,8 +79,6 @@ class FacultiesSearch extends Faculties
         
         $query = Faculties::find()->where($condition);
 
-        // add conditions that should always apply here
-
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
@@ -91,12 +86,9 @@ class FacultiesSearch extends Faculties
         $this->load($params);
 
         if (!$this->validate()) {
-            // uncomment the following line if you do not want to return any records when validation fails
-            // $query->where('0=1');
             return $dataProvider;
         }
 
-        // grid filtering conditions
         $query->andFilterWhere([
             'ID' => $this->ID,
         ]);

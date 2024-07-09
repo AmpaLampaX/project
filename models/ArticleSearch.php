@@ -28,7 +28,6 @@ class ArticleSearch extends Article
      */
     public function scenarios()
     {
-        // bypass scenarios() implementation in the parent class
         return Model::scenarios();
     }
 

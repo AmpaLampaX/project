@@ -23,7 +23,7 @@ $this->registerCss("
         max-width: 600px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         text-align: center;
-        position: relative; /* For positioning the pencil icon */
+        position: relative; 
     }
     .site-profile img {
         border-radius: 50%;
@@ -83,13 +83,13 @@ $this->registerCss("
         cursor: pointer;
         color: #8B322C;
         font-size: 24px;
-        position: absolute; /* Positioning the pencil icon */
-        top: 20px; /* Adjust as necessary */
-        right: 20px; /* Adjust as necessary */
+        position: absolute; 
+        top: 20px;
+        right: 20px;
     }
     .edit-photo-label:before {
-        font-family: 'Font Awesome 5 Free'; /* Ensure Font Awesome is loaded */
-        content: '\\f303'; /* Unicode for pencil icon */
+        font-family: 'Font Awesome 5 Free';
+        content: '\\f303'; 
         font-weight: 900;
     }
     .edit-photo-toggle:checked ~ .photo-form-container {

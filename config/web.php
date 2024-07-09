@@ -13,7 +13,6 @@ $config = [
     ],
     'components' => [
         'request' => [
-            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'Ppza2ce3mEnvMZDdaqwuRKWYoWej2kty',
         ],
         'cache' => [
@@ -29,9 +28,9 @@ $config = [
         ],
         'session' => [
             'class' => 'yii\web\Session',
-            'timeout' => 1440, // Timeout sesije u sekundama (24 minute)
+            'timeout' => 1440,
             'cookieParams' => [
-                'lifetime' => 0, // Kolačić traje samo dok je preglednik otvoren
+                'lifetime' => 0, 
             ],
         ],
         'errorHandler' => [
@@ -70,15 +69,12 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
-        // uncomment the following to add your IP if you are not connecting from localhost.
-        //'allowedIPs' => ['127.0.0.1', '::1'],
     ];
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
-        // uncomment the following to add your IP if you are not connecting from localhost.
-        //'allowedIPs' => ['127.0.0.1', '::1'],
+
     ];
 }
 

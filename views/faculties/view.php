@@ -33,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            //'ID',
+ 
             [
                 'attribute' => 'HOME_UNIVERSITY',
                 'labelOptions' => ['style' => 'color:#8B322C'],
