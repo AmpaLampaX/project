@@ -31,7 +31,7 @@ class ArticleController extends Controller
         $behaviors['access']['rules'][] = [
             'actions' => ['comment'], 
             'allow' => true,
-            'roles' => ['@'], // '@' means authenticated users
+            'roles' => ['@'], 
         ];
     
     
